@@ -1,0 +1,26 @@
+Script started on 2024-11-08 01:48:57-06:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[Dprocess_p1_series[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[0m.L Averaging_stat_err.C 
+[0m[0mroot [1] .L Averaging_stat_err.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[Dprocess_p1_series[0m[38;5;83m[1m()
+[0mSeries | Mean p1     | Uncertainty
+-----------------------------------
+  1    | 1.33343 | 0.00150942
+  2    | 0.999261 | 0.00156117
+  3    | 0.809728 | 0.00107637
+  4    | 1.33307 | 0.000933898
+  5    | 1.00007 | 0.000851371
+  6    | 0.801184 | 0.000798682
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ exit
+[?2004lexit
+
+Script done on 2024-11-08 01:50:03-06:00 [COMMAND_EXIT_CODE="0"]

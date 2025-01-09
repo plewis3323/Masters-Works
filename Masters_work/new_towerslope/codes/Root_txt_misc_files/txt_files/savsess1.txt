@@ -1,0 +1,25 @@
+Script started on 2024-10-04 12:43:03-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_work/new_towerslope/codes[00m$ ls
+[?2004lMean_input.C                    Spectral_mill_events.root      l3all_oe.root:Zone.Identifier         savsess1.txt
+Part2_New_testslope.C           Spectral_mill_eventsH.root     later_testslope.C                     testslope.C
+RMS_inp.C                       Spectral_mill_eventsL.root     new_testslope.C                       tst.C
+Spectral_events_RMS_inp.root    Spectral_ten_mill_events.root  new_testslope_C.d
+Spectral_events_mean_inp.root   hi.txt                         [0m[01;32mnew_testslope_C.so[0m
+Spectral_five_mill_events.root  l3all_oe.root                  new_testslope_C_ACLiC_dict_rdict.pcm
+[?2004h]0;plewis@MSI: ~/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_work/new_towerslope/codes[00m$ root -b
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .x tst.C 
+[0mhi there
+[0mroot [1] .q
+[0m[?2004h]0;plewis@MSI: ~/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_work/new_towerslope/codes[00m$ exit
+[?2004lexit
+
+Script done on 2024-10-04 12:43:17-05:00 [COMMAND_EXIT_CODE="0"]

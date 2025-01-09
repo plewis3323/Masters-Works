@@ -1,0 +1,150 @@
+
+#include <TH1.h>
+#include <TGraph.h>
+#include <TGraphErrors.h>
+#include <TF1.h>
+#include <TFile.h>
+#include <TRandom.h>
+#include <TCanvas.h>
+#include <string>
+#include <iostream>
+using namespace std;
+
+TH1F *fitf_master = 0;
+TGraph *grff = 0;
+
+Double_t fitf(Double_t *x, Double_t *par) {
+    return par[0] * grff->Eval(x[0] * par[1]);
+}
+
+void testslope(int stats, double shift_factor, string f_1, string f_2) {
+  string f_e = ".pdf"; 
+
+    TCanvas *c1 = new TCanvas("c1");
+
+    int offset = 5;
+
+    TH1F *htally = new TH1F("htally", "", 2000, 0, 2);
+
+    int nhistobins = 400;
+
+    for (int k = 0; k < 16; k++) {
+        TF1 *myexp = new TF1("myexpNot", "[0]/([1]+x)^[2]", 0.3, 6);
+        myexp->SetParameters(1e8, 1.1, 6);
+
+        gRandom->SetSeed(9939 + offset + k);
+
+        TH1F *h1 = new TH1F("h1", "", nhistobins, 0, 10);
+
+        for (int i = 0; i < stats; i++) {
+            h1->Fill(myexp->GetRandom());
+        }
+
+        fitf_master = (TH1F *)h1->Clone("fmaster");
+
+        fitf_master->Smooth(2);
+
+        grff = new TGraph(fitf_master);
+
+        TH1F *h2 = new TH1F("h2", "", nhistobins, 0, 10);
+
+        gRandom->SetSeed(9939 + k);
+
+        for (int j = 0; j < stats / 7; j++) {
+            h2->Fill(myexp->GetRandom() * shift_factor);
+        }
+
+        float startFit = 0.5;
+        float endFit = 1.3;
+
+        int binsf = h1->FindBin(startFit);
+        int binef = h1->FindBin(endFit);
+
+        float amprat = h1->GetBinContent(binsf) / h2->GetBinContent(binsf);
+
+        TF1 *myexpo = new TF1("myexpo", fitf, 0.1, 10, 2);
+        myexpo->SetParameters(1e4, 1.0);
+
+        // First fit
+        h2->Fit("myexpo", "", "", 0.5, 1.2);
+
+        // Retrieve the fit function, set the parameter, and fit again
+        TF1 *f1fit = h2->GetFunction("myexpo");
+
+        // Shift values as specified
+        double shift_values[] = {0.7, 1.0};
+        for (double shift_value : shift_values) {
+            f1fit->SetParameter(1, shift_value);
+            // Second fit
+            h2->Fit("myexpo", "", "", 0.5, 1.2);
+
+            h1->SetLineColor(2);
+            h1->Draw("same");
+     ;
+
+            string savePath1 = f_1  + f_e;
+            c1->SaveAs(savePath1.c_str());
+
+            TF1 *ff2 = h2->GetFunction("myexpo");
+
+            float basep1 = 1.0;
+            float shiftp1 = ff2->GetParameter(1);
+
+            cout << "==== ratio is " << basep1 / shiftp1 << endl;
+            cout << "param 0 " << ff2->GetParameter(0) << endl;
+
+            htally->Fill(basep1 / shiftp1);
+        }
+    }
+
+    TCanvas *c2 = new TCanvas("c2tally");
+    htally->Draw();
+
+    string savePath2 = f_2 + f_e;
+    c2->SaveAs(savePath2.c_str());
+}
+
+void Run_Function() {
+    testslope(7e6,  0.5,  "R_trials_1",  "R_tally_trials_1");
+    testslope(7e6,  1.0,  "R_trials_2", "R_tally_trials_2");
+    testslope(7e6, 1.5, "R_trials_3", "R_tally_trials_3");
+    testslope(7e6, 2.0, "R_trials_4", "R_tally_trials_4");
+    testslope(7e6, 2.5, "R_trials_5", "R_tally_trials_5");
+    testslope(7e6, 3.0, "R_trials_6", "R_tally_trials_6");
+    testslope(7e6, 3.5, "R_trials_7", "R_tally_trials_7");
+}
+
+void Run_1() {
+    testslope(7e6,  0.1,  "R_trials_p1",  "R_tally_trials_p1");
+    testslope(7e6,  0.2, "R_trials_p2", "R_tally_trials_p2");
+    testslope(7e6, 0.3, "R_trials_p3", "R_tally_trials_p3");
+    testslope(7e6, 0.4, "R_trials_p4", "R_tally_trials_p4");
+    testslope(7e6, 0.5, "R_trials_p5", "R_tally_trials_p5");
+    testslope(7e6, 0.6, "R_trials_p6", "R_tally_trials_p6");
+    testslope(7e6, 0.7, "R_trials_p7", "R_tally_trials_p7");
+    testslope(7e6, 0.8, "R_trials_p8", "R_tally_trials_p8");
+    testslope(7e6, 0.9, "R_trials_p9", "R_tally_trials_p9");
+}
+
+void Run_2 () {
+    testslope(7e6, 0.7, "R_trials_v1", "R_tally_trials_v1");
+    testslope(7e6, 1.0, "R_trials_v2", "R_tally_trials_v2");
+    testslope(7e6, 1.3, "R_trials_v3", "R_tally_trials_v3");
+}
+
+void Run_3() {
+    testslope(7e6, 1.2, "Log_R_trials", "R_tally_1");
+}
+
+
+void Run_4() {
+  testslope(7e6, 0.7, "R_Trial_1"," R_tally_1");
+  testslope(7e6, 1.0, "R_Trial_2"," R_tally_2");
+}
+
+
+
+
+
+  
+  

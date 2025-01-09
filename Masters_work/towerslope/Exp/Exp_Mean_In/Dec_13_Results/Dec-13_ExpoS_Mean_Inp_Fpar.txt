@@ -1,0 +1,345 @@
+Script started on 2024-12-13 08:35:32-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L ExpoS_mean-Inp_plot.C 
+[0m[0mroot [1] .L ExpoS_mean-Inp_plot.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1.00156
+NDf                       =            1
+Edm                       =  4.03414e-19
+NCalls                    =           44
+p0                        =     0.967111   +/-   0.0141675   
+p1                        =    0.0318385   +/-   0.0127994   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =     0.357974
+NDf                       =            1
+Edm                       =   6.6932e-20
+NCalls                    =           44
+p0                        =     0.961717   +/-   0.0210475   
+p1                        =    0.0350787   +/-   0.0177449   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      2.34928
+NDf                       =            1
+Edm                       =  1.11592e-17
+NCalls                    =           44
+p0                        =     0.992219   +/-   0.00891303  
+p1                        =   0.00503685   +/-   0.00741084  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =     0.198055
+NDf                       =            1
+Edm                       =  3.11186e-18
+NCalls                    =           46
+p0                        =     0.999577   +/-   0.0041448   
+p1                        =  8.09903e-05   +/-   0.00388749  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      25.2373
+NDf                       =            1
+Edm                       =  2.38818e-19
+NCalls                    =           44
+p0                        =     0.976515   +/-   0.00449195  
+p1                        =    0.0195251   +/-   0.00419816  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =     0.346574
+NDf                       =            1
+Edm                       =  2.34281e-19
+NCalls                    =           43
+p0                        =     0.995949   +/-   0.00247528  
+p1                        =   0.00324215   +/-   0.00240019  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      100.598
+NDf                       =            1
+Edm                       =  3.74967e-17
+NCalls                    =           44
+p0                        =       0.9866   +/-   0.00136377  
+p1                        =    0.0112704   +/-   0.00125536  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =  1.81458e-19
+NDf                       =            1
+Edm                       =  1.81276e-19
+NCalls                    =           42
+p0                        =            1   +/-   0.000744135 
+p1                        =  2.63678e-14   +/-   0.000649429 
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ ls
+[?2004lAveraging_stat_err.C                     Expo_p1.C         Trial_Run2_testslope.C  testslopeExpDf.C
+Dec-13_ExpoS_Mean_Inp_Fpar.txt           Expo_shape.C      expo_RMS_inp.C          testslope_ExpDf.C
+Dec-13_Expo_Mean_Inp_plot.root           Fittings_Diff.C   expo_Stat_Err.C         tower_PolyDecay.C
+Dec-13_Expo_Mean_Inp_plot_combined.root  Funct_2_ExpD_1.C  expo_mean_inp.C         [0m[01;34mtxt_files[0m
+Expo-RMS_stat-err.C                      Funct_3_PolyD.C   [01;34mroot_files[0m
+ExpoS_mean-Inp_plot.C                    [01;34mMis_files[0m         testslope.C
+Expo_err-prop.C                          Towers_shift.C    testslope.h
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ mv *.root [7m/home/plewis/Master_w/Masters_work/towerslope/Exp/Exp_Mea[27m[7mn[27m[7m_In/Dec_13_Results[27m[A]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ [C[C[C[C[C[C[C[C[C[C/home/plewis/Master_w/Masters_work/towerslope/Exp/Exp_Mean_In/Dec_13_Results
+[?2004l[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ mv *.root /home/plewis/Master_w/Masters_work/towerslope/Exp/Exp_Mean_In/Dec_13_Results[A]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv *.root /home/plewis/Master_w/Masters_work/towerslope/Exp/Exp_Mean_In/Dec_13_Results[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /home/plewis/Master_w/Masters_work/towerslope/Exp/Exp_Mean_[1PIn/Dec_13_Results[A]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ [C[C[C[C[C[C[C[C /home/plewis/Master_w/Masters_work/towerslope/Exp/Exp_Mean_I[1Pn/Dec_13_Results[A]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ [C[C[C[C[C[C[C /home/plewis/Master_w/Masters_work/towerslope/Exp/Exp_Mean_In[1P/Dec_13_Results[A]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ [C[C[C[C[C[C /home/plewis/Master_w/Masters_work/towerslope/Exp/Exp_Mean_In/[1PDec_13_Results[A]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ [C[C[C[C[Ct /home/plewis/Master_w/Masters_work/towerslope/Exp/Exp_Mean_In/Dec_13_Results[A]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ [C[C[C[C[C[Cx /home/plewis/Master_w/Masters_work/towerslope/Exp/Exp_Mean_In/Dec_13_Results[A]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ [C[C[C[C[C[C[Ct /home/plewis/Master_w/Masters_work/towerslope/Exp/Exp_Mean_In/Dec_13_Results[A]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ [C[C[C[C[C[C[C[C
+
+[?2004l[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ ls
+[?2004lAveraging_stat_err.C   Expo_p1.C         Funct_3_PolyD.C         expo_RMS_inp.C   testslope.C        tower_PolyDecay.C
+Expo-RMS_stat-err.C    Expo_shape.C      [0m[01;34mMis_files[0m               expo_Stat_Err.C  testslope.h        [01;34mtxt_files[0m
+ExpoS_mean-Inp_plot.C  Fittings_Diff.C   Towers_shift.C          expo_mean_inp.C  testslopeExpDf.C
+Expo_err-prop.C        Funct_2_ExpD_1.C  Trial_Run2_testslope.C  [01;34mroot_files[0m       testslope_ExpDf.C
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ la
+[?2004l.testslope_ExpDf.C.swp  Expo_err-prop.C  Funct_2_ExpD_1.C  Trial_Run2_testslope.C  [0m[01;34mroot_files[0m        testslope_ExpDf.C
+Averaging_stat_err.C    Expo_p1.C        Funct_3_PolyD.C   expo_RMS_inp.C          testslope.C       tower_PolyDecay.C
+Expo-RMS_stat-err.C     Expo_shape.C     [01;34mMis_files[0m         expo_Stat_Err.C         testslope.h       [01;34mtxt_files[0m
+ExpoS_mean-Inp_plot.C   Fittings_Diff.C  Towers_shift.C    expo_mean_inp.C         testslopeExpDf.C
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ ls
+[?2004lAveraging_stat_err.C   Expo_p1.C         Funct_3_PolyD.C         expo_RMS_inp.C   testslope.C        tower_PolyDecay.C
+Expo-RMS_stat-err.C    Expo_shape.C      [0m[01;34mMis_files[0m               expo_Stat_Err.C  testslope.h        [01;34mtxt_files[0m
+ExpoS_mean-Inp_plot.C  Fittings_Diff.C   Towers_shift.C          expo_mean_inp.C  testslopeExpDf.C
+Expo_err-prop.C        Funct_2_ExpD_1.C  Trial_Run2_testslope.C  [01;34mroot_files[0m       testslope_ExpDf.C
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ touch[K[K[K[K[Ktouch[K[K[K[K[Ktouch ExpoS_RMS_inp.C
+[?2004l[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .L ExpoS_RMS_inp.C 
+[0m[0mroot [1] Run1[0m[38;5;83m[1m()
+[0m[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ ls
+[?2004lAveraging_stat_err.C       Expo_err-prop.C   Funct_3_PolyD.C         expo_Stat_Err.C  testslopeExpDf.C
+Dec-13_ExpoS_RMS_inp.root  Expo_p1.C         [0m[01;34mMis_files[0m               expo_mean_inp.C  testslope_ExpDf.C
+Expo-RMS_stat-err.C        Expo_shape.C      Towers_shift.C          [01;34mroot_files[0m       tower_PolyDecay.C
+ExpoS_RMS_inp.C            Fittings_Diff.C   Trial_Run2_testslope.C  testslope.C      [01;34mtxt_files[0m
+ExpoS_mean-Inp_plot.C      Funct_2_ExpD_1.C  expo_RMS_inp.C          testslope.h
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ mv *.root /home/[K[K[K[K[K[K[K [7m/home/plewis/Master_w/Masters_work/towerslope/Exp/Exp_RMS[27m[7m_[27m[7mIn/Dec_13_Results[27m[A]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ [C[C[C[C[C[C[C[C[C[C/home/plewis/Master_w/Masters_work/towerslope/Exp/Exp_RMS_In/Dec_13_Results
+[?2004l[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ ls
+[?2004lAveraging_stat_err.C   Expo_err-prop.C  Funct_2_ExpD_1.C  Trial_Run2_testslope.C  [0m[01;34mroot_files[0m        testslope_ExpDf.C
+Expo-RMS_stat-err.C    Expo_p1.C        Funct_3_PolyD.C   expo_RMS_inp.C          testslope.C       tower_PolyDecay.C
+ExpoS_RMS_inp.C        Expo_shape.C     [01;34mMis_files[0m         expo_Stat_Err.C         testslope.h       [01;34mtxt_files[0m
+ExpoS_mean-Inp_plot.C  Fittings_Diff.C  Towers_shift.C    expo_mean_inp.C         testslopeExpDf.C
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ lsmv *.root /home/plewis/Master_w/Masters_work/towerslope/Exp/Exp_RMS_In/Dec_13_Results[A]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Croot[K[K[K[Kgedit &
+[?2004l[1] 41990
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ 
+[?2004l[1]+  Done                    gedit
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ gedit &
+[?2004l[1] 42020
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ 
+[?2004l[1]+  Done                    gedit
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ gedit &
+[?2004l[1] 42060
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ gedit &
+[?2004l[2] 42095
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ ls
+[?2004lAveraging_stat_err.C   Expo_err-prop.C  Funct_2_ExpD_1.C  Trial_Run2_testslope.C  [0m[01;34mroot_files[0m        testslope_ExpDf.C
+Expo-RMS_stat-err.C    Expo_p1.C        Funct_3_PolyD.C   expo_RMS_inp.C          testslope.C       tower_PolyDecay.C
+ExpoS_RMS_inp.C        Expo_shape.C     [01;34mMis_files[0m         expo_Stat_Err.C         testslope.h       [01;34mtxt_files[0m
+ExpoS_mean-Inp_plot.C  Fittings_Diff.C  Towers_shift.C    expo_mean_inp.C         testslopeExpDf.C
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ touch ExpoS_RMS_SErr.C
+[?2004l[2]+  Done                    gedit
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ ld[Ks
+[?2004lAveraging_stat_err.C   Expo_err-prop.C   Funct_3_PolyD.C         expo_Stat_Err.C  testslopeExpDf.C
+Expo-RMS_stat-err.C    Expo_p1.C         [0m[01;34mMis_files[0m               expo_mean_inp.C  testslope_ExpDf.C
+ExpoS_RMS_SErr.C       Expo_shape.C      Towers_shift.C          [01;34mroot_files[0m       tower_PolyDecay.C
+ExpoS_RMS_inp.C        Fittings_Diff.C   Trial_Run2_testslope.C  testslope.C      [01;34mtxt_files[0m
+ExpoS_mean-Inp_plot.C  Funct_2_ExpD_1.C  expo_RMS_inp.C          testslope.h
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .L ExpoS
+[0mError in <TRint::ProcessLine>: macro ExpoS not found in path .:/snap/root-framework/936/usr/local/macros
+[0mroot [1] .L ExpoS_SE[D[K[D[K[D[K_RMS_SErr.C 
+[0m[0mroot [2] Run1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =   0.00659067
+NDf                       =           22
+Edm                       =  1.03526e-07
+NCalls                    =           25
+p0                        =      1.02737   +/-   0.971498    
+p1                        =   0.00637943   +/-   0.00600877  
+Info in <TCanvas::SaveAs>: ROOT file Expo_RMS_vs_P1staterr_12-5_iteration.root has been created
+Pearson Correlation Coefficient (r) for dataset 1: 0.216438
+Population Correlation Coefficient (rho): 0.216438
+Spearman Rank Correlation Coefficient (rho): 0.693913
+[0mroot [3] .q
+[0m[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L ExpoS_RMS_SErr.C 
+[0m[0mroot [1] Run1[0m[38;5;83m[1m()[D[D[0m([K[D[K[D[K2[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =  0.000887039
+NDf                       =           10
+Edm                       =  2.68676e-06
+NCalls                    =           25
+p0                        =     0.756612   +/-   0.618047    
+p1                        =   0.00584512   +/-   0.00490897  
+Info in <TCanvas::SaveAs>: ROOT file ExpoS_RMS_vs_P1staterr_LowR_iteration.root has been created
+Pearson Correlation Coefficient (r) for dataset 1: 0.403052
+Population Correlation Coefficient (rho): 0.403052
+Spearman Rank Correlation Coefficient (rho): 0.622378
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun2[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L ExpoS_RMS_SErr.C 
+[0m[0mroot [1] Run3[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =   0.00482075
+NDf                       =           10
+Edm                       =  1.52983e-28
+NCalls                    =           32
+p0                        =       6.6699   +/-   4.58241     
+p1                        =   -0.0102595   +/-   0.0167888   
+Info in <TCanvas::SaveAs>: ROOT file ExpoS_RMS_vs_P1staterr_HighR_iteration.root has been created
+Pearson Correlation Coefficient (r) for dataset 1: 0.418118
+Population Correlation Coefficient (rho): 0.418118
+Spearman Rank Correlation Coefficient (rho): 0.727273
+[0mroot [2] 
+[0m[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ ex[K[Kscript ExpO[K[KpoS0[K_Corr_fir[K[K[KFir[Kt_PAr.txt[C[1Pr.txtar.txt
+[?2004lScript started, output log file is 'ExpoS_Corr_Fit_Par.txt'.
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun3[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L ExpoS_RMS_SErr.C 
+[0m[0mroot [1] .L ExpoS_RMS_SErr.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun3[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L ExpoS_RMS_SErr.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun2[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L ExpoS_RMS_SErr.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =   0.00659067
+NDf                       =           22
+Edm                       =  1.03526e-07
+NCalls                    =           25
+p0                        =      1.02737   +/-   0.971498    
+p1                        =   0.00637943   +/-   0.00600877  
+Info in <TCanvas::SaveAs>: ROOT file Expo_RMS_vs_P1staterr_12-5_iteration.root has been created
+Pearson Correlation Coefficient (r) for dataset 1: 0.216438
+Population Correlation Coefficient (rho): 0.216438
+Spearman Rank Correlation Coefficient (rho): 0.693913
+[0mroot [2] Run1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L ExpoS_RMS_SErr.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[DRun1[0m[38;5;83m[1m()[K[D[D[0m([K[D[K[D[K[D[K[D[K[D[KRun2[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =  0.000887039
+NDf                       =           10
+Edm                       =  2.68676e-06
+NCalls                    =           25
+p0                        =     0.756612   +/-   0.618047    
+p1                        =   0.00584512   +/-   0.00490897  
+Info in <TCanvas::SaveAs>: ROOT file ExpoS_RMS_vs_P1staterr_LowR_iteration.root has been created
+Pearson Correlation Coefficient (r) for dataset 1: 0.403052
+Population Correlation Coefficient (rho): 0.403052
+Spearman Rank Correlation Coefficient (rho): 0.622378
+[0mroot [3] Run3[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =   0.00482075
+NDf                       =           10
+Edm                       =  1.52983e-28
+NCalls                    =           32
+p0                        =       6.6699   +/-   4.58241     
+p1                        =   -0.0102595   +/-   0.0167888   
+Info in <TCanvas::SaveAs>: ROOT file ExpoS_RMS_vs_P1staterr_HighR_iteration.root has been created
+Pearson Correlation Coefficient (r) for dataset 1: 0.418118
+Population Correlation Coefficient (rho): 0.418118
+Spearman Rank Correlation Coefficient (rho): 0.727273
+[0mroot [4] .q
+[0m[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ ls
+[?2004lAveraging_stat_err.C                         Expo_p1.C               expo_mean_inp.C
+Expo-RMS_stat-err.C                          Expo_shape.C            [0m[01;34mroot_files[0m
+ExpoS_Corr_Fit_Par.txt                       Fittings_Diff.C         testslope.C
+ExpoS_RMS_SErr.C                             Funct_2_ExpD_1.C        testslope.h
+ExpoS_RMS_inp.C                              Funct_3_PolyD.C         testslopeExpDf.C
+ExpoS_RMS_vs_P1staterr_HighR_iteration.root  [01;34mMis_files[0m               testslope_ExpDf.C
+ExpoS_RMS_vs_P1staterr_LowR_iteration.root   Towers_shift.C          tower_PolyDecay.C
+ExpoS_mean-Inp_plot.C                        Trial_Run2_testslope.C  [01;34mtxt_files[0m
+Expo_RMS_vs_P1staterr_12-5_iteration.root    expo_RMS_inp.C
+Expo_err-prop.C                              expo_Stat_Err.C
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ script Exp_RM[K[K[K-L3_RMS-Staterro_[K[K[Kror_coorPAr.txt
+[?2004lScript started, output log file is 'Exp-L3_RMS-Staterror_coorPAr.txt'.
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun3[0m[38;5;83m[1m()[D[D[D[D[D[D[0mRun2()[D[D[D[D[D[DRun1()[D[D[D[D[D[D.L ExpoS_RMS_SErr.C 
+[0mIn file included from input_line_8:1:
+[1m/home/plewis/Master_w/Masters_work/towerslope/codes/ExpoS_RMS_SErr.C:497:6: [0m[0;1;31merror: [0m[1mredefinition of 'Mill_Mean_input'[0m
+void Mill_Mean_input() {
+[0;1;32m     ^
+[0m[1m/home/plewis/Master_w/Masters_work/towerslope/codes/ExpoS_RMS_SErr.C:158:6: [0m[0;1;30mnote: [0mprevious definition is here[0m
+void Mill_Mean_input() {
+[0;1;32m     ^
+[0m[0mroot [1] .q
+[0m[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[D.L ExpoS_RMS_SErr.C 
+[0m[0mroot [1] Run4[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =     0.112769
+NDf                       =           46
+Edm                       =  1.74956e-25
+NCalls                    =           32
+p0                        =      2.25294   +/-   1.74062     
+p1                        =     0.022944   +/-   0.0129458   
+Info in <TCanvas::SaveAs>: ROOT file Expo-L3_RMS_vs_P1staterr_12-5_iteration.root has been created
+Pearson Correlation Co

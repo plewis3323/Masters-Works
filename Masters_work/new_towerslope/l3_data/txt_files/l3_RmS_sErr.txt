@@ -1,0 +1,35 @@
+Script started on 2024-11-08 08:34:18-06:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/new_towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .L[D[KL RMS_vs_Stat_err.C 
+[0m[0mroot [1] Run1([D[0m[38;5;83m[1m()
+[0mGraph 1: 1M Events (0.5-1.2 GeV)
+  Slope: -11.4454 Intercept: 0.0872934
+Graph 2: 1M Events (1.4-3.0 GeV)
+  Slope: 0.00912514 Intercept: 0.0475201
+Graph 3: 5M Events (0.5-1.2 GeV)
+  Slope: 1.63225 Intercept: 0.00560335
+Graph 4: 5M Events (1.4-3.0 GeV)
+  Slope: 4.45799 Intercept: 0.00810365
+Graph 5: 10M Events (0.5-1.2 GeV)
+  Slope: 0.829262 Intercept: 0.00335513
+Graph 6: 10M Events (1.4-3.0 GeV)
+  Slope: 3.96246 Intercept: 0.00581943
+Graph 7: 100M Events (0.5-1.2 GeV)
+  Slope: 0.47618 Intercept: 0.000989722
+Graph 8: 100M Events (1.4-3.0 GeV)
+  Slope: 1.99539 Intercept: 0.00291745
+Info in <TCanvas::SaveAs>: ROOT file l3_RMS_vs_staterr_stacked_fixed_ranges.root has been created
+[0mroot [2] .qq[D[K
+[0m[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/new_towerslope/codes[00m$ exit
+[?2004lexit
+
+Script done on 2024-11-08 08:34:48-06:00 [COMMAND_EXIT_CODE="0"]

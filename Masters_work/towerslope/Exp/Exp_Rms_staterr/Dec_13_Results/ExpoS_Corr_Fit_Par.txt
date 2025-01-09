@@ -1,0 +1,56 @@
+Script started on 2024-12-13 10:10:41-06:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun3[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L ExpoS_RMS_SErr.C 
+[0m[0mroot [1] .L ExpoS_RMS_SErr.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun3[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L ExpoS_RMS_SErr.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun2[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L ExpoS_RMS_SErr.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =   0.00659067
+NDf                       =           22
+Edm                       =  1.03526e-07
+NCalls                    =           25
+p0                        =      1.02737   +/-   0.971498    
+p1                        =   0.00637943   +/-   0.00600877  
+Info in <TCanvas::SaveAs>: ROOT file Expo_RMS_vs_P1staterr_12-5_iteration.root has been created
+Pearson Correlation Coefficient (r) for dataset 1: 0.216438
+Population Correlation Coefficient (rho): 0.216438
+Spearman Rank Correlation Coefficient (rho): 0.693913
+[0mroot [2] Run1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L ExpoS_RMS_SErr.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[DRun1[0m[38;5;83m[1m()[K[D[D[0m([K[D[K[D[K[D[K[D[K[D[KRun2[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =  0.000887039
+NDf                       =           10
+Edm                       =  2.68676e-06
+NCalls                    =           25
+p0                        =     0.756612   +/-   0.618047    
+p1                        =   0.00584512   +/-   0.00490897  
+Info in <TCanvas::SaveAs>: ROOT file ExpoS_RMS_vs_P1staterr_LowR_iteration.root has been created
+Pearson Correlation Coefficient (r) for dataset 1: 0.403052
+Population Correlation Coefficient (rho): 0.403052
+Spearman Rank Correlation Coefficient (rho): 0.622378
+[0mroot [3] Run3[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =   0.00482075
+NDf                       =           10
+Edm                       =  1.52983e-28
+NCalls                    =           32
+p0                        =       6.6699   +/-   4.58241     
+p1                        =   -0.0102595   +/-   0.0167888   
+Info in <TCanvas::SaveAs>: ROOT file ExpoS_RMS_vs_P1staterr_HighR_iteration.root has been created
+Pearson Correlation Coefficient (r) for dataset 1: 0.418118
+Population Correlation Coefficient (rho): 0.418118
+Spearman Rank Correlation Coefficient (rho): 0.727273
+[0mroot [4] .q
+[0m[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ exit
+[?2004lexit
+
+Script done on 2024-12-13 10:11:22-06:00 [COMMAND_EXIT_CODE="0"]

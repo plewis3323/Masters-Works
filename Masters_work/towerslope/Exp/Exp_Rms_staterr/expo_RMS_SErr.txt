@@ -1,0 +1,35 @@
+Script started on 2024-11-08 08:30:53-06:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Expo-RMS_stat-err.C 
+[0m[0mroot [1] .L Expo-RMS_stat-err.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0mGraph 1: 1M Events (0.5-1.2 GeV)
+  Slope: 0.675145 Intercept: 0.00256789
+Graph 2: 1M Events (1.4-3.0 GeV)
+  Slope: 3.61764 Intercept: 0.00485595
+Graph 3: 5M Events (0.5-1.2 GeV)
+  Slope: -7.30833 Intercept: 0.0178184
+Graph 4: 5M Events (1.4-3.0 GeV)
+  Slope: 0.632664 Intercept: 0.000694501
+Graph 5: 10M Events (0.5-1.2 GeV)
+  Slope: 0.522385 Intercept: 0.000771012
+Graph 6: 10M Events (1.4-3.0 GeV)
+  Slope: 0.618686 Intercept: 0.000539366
+Graph 7: 100M Events (0.5-1.2 GeV)
+  Slope: 0.461877 Intercept: 0.000236183
+Graph 8: 100M Events (1.4-3.0 GeV)
+  Slope: 0.412069 Intercept: 0.000133297
+Info in <TCanvas::SaveAs>: ROOT file Expo_RMS_vs_staterr_stacked_fixed_ranges.root has been created
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/towerslope/codes[00m$ exit
+[?2004lexit
+
+Script done on 2024-11-08 08:31:07-06:00 [COMMAND_EXIT_CODE="0"]

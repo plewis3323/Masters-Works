@@ -1,0 +1,203 @@
+---------------------------------------------------------------------------------------------------------------------
+
+                                Research Tasks: 12/4 to 12/15
+
+---------------------------------------------------------------------------------------------------------------------
+
+*1. Finish Rebinning studies:  ()
+A. l3_shapes (Mean, RMS, Staterror_logscale/Reg plot, RMS_staterror) ()
+B. Rhich_shapes (Mean, RMS, Staterror_logscale/Reg plot, RMS_staterror) ()
+C. Exponential_shapes (Mean, RMS, Staterror_logscale/Reg plot, RMS_staterror) ()
+
+** Side Notes save .txt files when needed **
+2.  l_3 studies:  ()
+A. RMS_Staterror plot with a trend on locus of points (Draw Region/best fit) (all statistics) 
+B. RMS_Staterror plot with a trend on locus of points (Draw Region/best fit) (all statistics_Low pt) 
+C. RMS_Staterror plot with a trend on locus of points (Draw Region/best fit) (all statistics_Low pt) (High and Low P_1's)
+D. RMS_Staterror plot with a trend on locus of points (Draw Region/best fit) (all statistics and energies) (Both l3 and Exp datas) 
+E. Research another correlation test and test it on RMS/staterror plot or another one genrally on l3. Look up how it could affect p1 measurements of this 
+F. Aswer question why RMS/Staterror tests matter and how it affects whole method.  (Try this) 
+G. For errors on logscales tally try to find distribution connections, chi-square, or any other affects on the p1 error's to adjust.  
+H.  Analyze results/Write down what's seen and notices (Latex/word document report) (Write problem/answer why to do this and properties) 
+A. RMS_Staterror plot with a trend on locus of points (Draw Region/best fit) (all statistics) (X)
+B. RMS_Staterror plot with a trend on locus of points (Draw Region/best fit) (all statistics_Low pt) (X)
+B1. RMS_Staterror plot with a trend on locus of points (Draw Region/best fit) (all statistics_High pt) (X)
+*C. RMS_Staterror plot with a trend on locus of points (Draw Region/best fit) (all statistics and energies) (Both l3 and Exp datas) ()
+D. Research another correlation test and test it on RMS/staterror plot or another one genrally on l3. Look up how it could affect p1 measurements of this (X)
+*E. Aswer question why RMS/Staterror tests matter and how it affects whole method.  (Try this) ()
+*F. For errors on x-logscales tally try to find distribution connections, chi-square, or any other affects on the p1 error's to adjust.  ()
+
+*3. Quick Redo Exponential Studies (Redo: all pt, 1 mill 10 mill 100 mill):  (X)
+A. RMS, Mean, Staterror_logscale/Reg, RMS_staterror plots
+
+*4. Analyze all Results (**important one to summarize **) in document form for presentation later. ()
+
+*5.  Make presentation for Grad_lab Monday talk on towerslope: (X)
+A. Read thesis intro/detector info on 3-main papers and sphenix design template
+B. Include important towerslope discussion/results of fall 2024 
+
+*6. Final Presentation (important details) encompassing Fall 2024 (** Use this to practice like Masters's Defense **) ()
+
+-------------------------------------------------------------------------------------------------------
+
+                                   1/9 - 1/19  Research tasks 
+                                   
+                                   
+-----------------------------------------------------------------------------------------------------
+
+
+*1. Finish Rebinning studies:  ()
+A. l3_shapes (Mean, RMS, Staterror_logscale/Reg plot, RMS_staterror) ()
+B. Rhich_shapes (Mean, RMS, Staterror_logscale/Reg plot, RMS_staterror) ()
+C. Exponential_shapes (Mean, RMS, Staterror_logscale/Reg plot, RMS_staterror) ()
+
+
+2. l3/exp test-Runs: () 
+A. Answer why p1 widths vary some fits, statistical tests () 
+B. For errors on x-logscales tally try to find distribution connections, chi-square, or any other affects on the p1 error's to adjust.  ()
+
+3. Read all thesis papers (JB, JF, MC, TD, Shyam) () 
+
+4. SPHENIX Design template 
+
+5. Start intial chapters (5-10 pages) () 
+
+6. Try PI-O codes and complation sequences () 
+
+7. Research presentation update () 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

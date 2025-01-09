@@ -1,0 +1,1483 @@
+Script started on Mon 11 Nov 2024 01:49:28 PM EST
+[?1034hbash sphnx03 codes $root
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.26/06                        https://root.cern |
+  | (c) 1995-2021, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 28 2022, 18:08:51                 |
+  | From tags/v6-26-06@v6-26-06                                      |
+  | With g++ (GCC) 12.1.0                                            |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q'       |
+   ------------------------------------------------------------------
+
+[0mroot [0] .L var_size_binning_tower.C 
+[0m[0mroot [1] Run1(100e6, "var_bin_100millz[D[KData.root"[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[0m[38;5;83m[1m([0m100e6, "var_bin_100millData.root"[0m[38;5;83m[1m)
+[0min 
+in 
+ FCN=21.6932 FROM MIGRAD    STATUS=CONVERGED      96 CALLS          97 TOTAL
+                     EDM=3.83944e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.72705e-01   1.15190e-03   2.96651e-07   4.76891e+00
+   2  p1           1.32453e+00   2.00957e-03   6.31584e-07  -3.03069e+00
+==== ratio is 0.754986
+param 0 0.272705
+Iteration 0: p_1shift = 1.32453 ± 0.00200957
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=7.28735 FROM MIGRAD    STATUS=CONVERGED      92 CALLS          93 TOTAL
+                     EDM=4.65003e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.71705e-01   1.15201e-03   1.78636e-07  -7.57789e-01
+   2  p1           1.32287e+00   2.01933e-03   6.30792e-07   4.32203e-01
+==== ratio is 0.755934
+param 0 0.271705
+Iteration 1: p_1shift = 1.32287 ± 0.00201933
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=37.6774 FROM MIGRAD    STATUS=CONVERGED     110 CALLS         111 TOTAL
+                     EDM=4.09243e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.72072e-01   1.24195e-03   3.86473e-07  -2.08801e-01
+   2  p1           1.32353e+00   2.18894e-03   6.81151e-07   1.22687e-01
+==== ratio is 0.755558
+param 0 0.272072
+Iteration 2: p_1shift = 1.32353 ± 0.00218894
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=14.1936 FROM MIGRAD    STATUS=CONVERGED      94 CALLS          95 TOTAL
+                     EDM=1.2186e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.71488e-01   1.10264e-03   2.41635e-07   3.83518e+00
+   2  p1           1.32223e+00   1.93241e-03   6.30491e-07  -2.13152e+00
+==== ratio is 0.756296
+param 0 0.271488
+Iteration 3: p_1shift = 1.32223 ± 0.00193241
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=11.4671 FROM MIGRAD    STATUS=CONVERGED      95 CALLS          96 TOTAL
+                     EDM=1.10079e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.75032e-01   1.38086e-03   2.21736e-07   9.40217e-01
+   2  p1           1.32849e+00   2.42443e-03   6.33472e-07  -7.20181e-01
+==== ratio is 0.752736
+param 0 0.275032
+Iteration 4: p_1shift = 1.32849 ± 0.00242443
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=23.6489 FROM MIGRAD    STATUS=CONVERGED      94 CALLS          95 TOTAL
+                     EDM=3.34941e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.77151e-01   1.34603e-03   3.14206e-07  -7.60728e-02
+   2  p1           1.33222e+00   2.34622e-03   6.35253e-07  -6.67935e-02
+==== ratio is 0.750626
+param 0 0.277151
+Iteration 5: p_1shift = 1.33222 ± 0.00234622
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=20.2638 FROM MIGRAD    STATUS=CONVERGED      93 CALLS          94 TOTAL
+                     EDM=1.03742e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.71726e-01   1.13055e-03   2.86134e-07   3.48095e+00
+   2  p1           1.32299e+00   1.96472e-03   6.30853e-07  -1.93502e+00
+==== ratio is 0.755861
+param 0 0.271726
+Iteration 6: p_1shift = 1.32299 ± 0.00196472
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=26.1691 FROM MIGRAD    STATUS=CONVERGED      98 CALLS          99 TOTAL
+                     EDM=1.16806e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.72064e-01   1.14057e-03   3.23937e-07   3.78015e+00
+   2  p1           1.32354e+00   1.99035e-03   6.31111e-07  -2.12922e+00
+==== ratio is 0.755552
+param 0 0.272064
+Iteration 7: p_1shift = 1.32354 ± 0.00199035
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=33.254 FROM MIGRAD    STATUS=CONVERGED      98 CALLS          99 TOTAL
+                     EDM=1.28201e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.71854e-01   1.13638e-03   3.63467e-07  -3.96162e+00
+   2  p1           1.32322e+00   1.98617e-03   6.34967e-07   2.27829e+00
+==== ratio is 0.755732
+param 0 0.271854
+Iteration 8: p_1shift = 1.32322 ± 0.00198617
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=18.6838 FROM MIGRAD    STATUS=CONVERGED      87 CALLS          88 TOTAL
+                     EDM=8.94238e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.73083e-01   1.10080e-03   2.76657e-07  -8.32360e-01
+   2  p1           1.32550e+00   1.89688e-03   6.32049e-07   4.36997e-01
+==== ratio is 0.75443
+param 0 0.273083
+Iteration 9: p_1shift = 1.3255 ± 0.00189688
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=14.1906 FROM MIGRAD    STATUS=CONVERGED     100 CALLS         101 TOTAL
+                     EDM=6.94208e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.73289e-01   1.07422e-03   2.43264e-07  -9.16901e-01
+   2  p1           1.32562e+00   1.85158e-03   6.32105e-07   5.21651e-01
+==== ratio is 0.754364
+param 0 0.273289
+Iteration 10: p_1shift = 1.32562 ± 0.00185158
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=10.0811 FROM MIGRAD    STATUS=CONVERGED      98 CALLS          99 TOTAL
+                     EDM=9.09815e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.72020e-01   1.17647e-03   2.06770e-07   1.05911e+00
+   2  p1           1.32333e+00   2.05408e-03   6.31011e-07  -5.99702e-01
+==== ratio is 0.755672
+param 0 0.27202
+Iteration 11: p_1shift = 1.32333 ± 0.00205408
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=12.3061 FROM MIGRAD    STATUS=CONVERGED     109 CALLS         110 TOTAL
+                     EDM=3.42361e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.73412e-01   1.16679e-03   2.27795e-07   1.61824e-03
+   2  p1           1.32577e+00   2.02472e-03   6.32178e-07  -5.01254e-03
+==== ratio is 0.754277
+param 0 0.273412
+Iteration 12: p_1shift = 1.32577 ± 0.00202472
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=30.9239 FROM MIGRAD    STATUS=CONVERGED      92 CALLS          93 TOTAL
+                     EDM=4.5248e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.76425e-01   1.34599e-03   3.56690e-07  -4.30973e-01
+   2  p1           1.33113e+00   2.32383e-03   6.34731e-07   2.81649e-01
+==== ratio is 0.751243
+param 0 0.276425
+Iteration 13: p_1shift = 1.33113 ± 0.00232383
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=20.4047 FROM MIGRAD    STATUS=CONVERGED     102 CALLS         103 TOTAL
+                     EDM=3.50704e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.72692e-01   1.18809e-03   2.88011e-07   2.07319e+00
+   2  p1           1.32439e+00   2.07067e-03   6.31517e-07  -1.19035e+00
+==== ratio is 0.755066
+param 0 0.272692
+Iteration 14: p_1shift = 1.32439 ± 0.00207067
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=41.8666 FROM MIGRAD    STATUS=CONVERGED      93 CALLS          94 TOTAL
+                     EDM=3.32781e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.71195e-01   1.10414e-03   4.05496e-07  -9.19365e-03
+   2  p1           1.32168e+00   1.92933e-03   7.08534e-07   1.85847e-02
+==== ratio is 0.756615
+param 0 0.271195
+Iteration 15: p_1shift = 1.32168 ± 0.00192933
+Warning in <TROOT::Append>: Replacing existing TH1: htally (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=17.5598 FROM MIGRAD    STATUS=FAILED        121 CALLS         122 TOTAL
+                     EDM=0.00100566    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.87410e-01   7.61404e-05   0.00000e+00   1.54719e+00
+   2  p1           9.81818e-01   6.37759e-05   0.00000e+00  -6.21901e+01
+==== ratio is 1.01852
+param 0 0.18741
+Iteration 0: p_1shift = 0.981818 ± 6.37759e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=19.8198 FROM MIGRAD    STATUS=CONVERGED     129 CALLS         130 TOTAL
+                     EDM=1.21335e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.86474e-01   5.73479e-04   1.59176e-07   1.35498e+00
+   2  p1           9.80071e-01   1.23301e-03   4.67334e-07  -1.01703e+00
+==== ratio is 1.02033
+param 0 0.186474
+Iteration 1: p_1shift = 0.980071 ± 0.00123301
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=8.81967 FROM MIGRAD    STATUS=CONVERGED     117 CALLS         118 TOTAL
+                     EDM=1.33686e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.85415e-01   5.74360e-04   1.08686e-07   3.82936e+00
+   2  p1           9.77651e-01   1.24447e-03   4.66180e-07  -2.10717e+00
+==== ratio is 1.02286
+param 0 0.185415
+Iteration 2: p_1shift = 0.977651 ± 0.00124447
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=16.686 FROM MIGRAD    STATUS=CONVERGED     126 CALLS         127 TOTAL
+                     EDM=7.29345e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.85551e-01   5.84064e-04   1.45962e-07  -1.64164e+01
+   2  p1           9.78035e-01   1.27142e-03   4.66364e-07   7.73047e+00
+==== ratio is 1.02246
+param 0 0.185551
+Iteration 3: p_1shift = 0.978035 ± 0.00127142
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=16.7788 FROM MIGRAD    STATUS=CONVERGED     145 CALLS         146 TOTAL
+                     EDM=8.26308e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.85966e-01   6.06253e-04   1.46655e-07   4.51058e-01
+   2  p1           9.78743e-01   1.31050e-03   4.66701e-07  -2.26224e-01
+==== ratio is 1.02172
+param 0 0.185966
+Iteration 4: p_1shift = 0.978743 ± 0.0013105
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=28.9112 FROM MIGRAD    STATUS=CONVERGED     126 CALLS         127 TOTAL
+                     EDM=7.2314e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.85173e-01   5.75845e-04   1.89366e-07  -1.07955e+01
+   2  p1           9.76876e-01   1.25935e-03   4.65811e-07   5.63518e+00
+==== ratio is 1.02367
+param 0 0.185173
+Iteration 5: p_1shift = 0.976876 ± 0.00125935
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=14.1337 FROM MIGRAD    STATUS=CONVERGED     120 CALLS         121 TOTAL
+                     EDM=6.45025e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.86584e-01   5.98569e-04   1.35762e-07   2.05609e+00
+   2  p1           9.80347e-01   1.28986e-03   4.67466e-07  -1.20140e+00
+==== ratio is 1.02005
+param 0 0.186584
+Iteration 6: p_1shift = 0.980347 ± 0.00128986
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=3.85521 FROM MIGRAD    STATUS=CONVERGED     117 CALLS         118 TOTAL
+                     EDM=3.30471e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.86907e-01   5.74021e-04   8.91241e-08   2.83082e+00
+   2  p1           9.80565e-01   1.22586e-03   4.67570e-07  -1.18613e+00
+==== ratio is 1.01982
+param 0 0.186907
+Iteration 7: p_1shift = 0.980565 ± 0.00122586
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=8.03435 FROM MIGRAD    STATUS=CONVERGED     122 CALLS         123 TOTAL
+                     EDM=1.10324e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.86371e-01   5.98851e-04   1.04764e-07   5.36848e-03
+   2  p1           9.79615e-01   1.28976e-03   4.67117e-07   1.15499e-03
+==== ratio is 1.02081
+param 0 0.186371
+Iteration 8: p_1shift = 0.979615 ± 0.00128976
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=21.0495 FROM MIGRAD    STATUS=CONVERGED     139 CALLS         140 TOTAL
+                     EDM=1.26889e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.85601e-01   5.99783e-04   1.62987e-07   1.25830e-02
+   2  p1           9.78100e-01   1.30837e-03   4.66394e-07  -6.73515e-03
+==== ratio is 1.02239
+param 0 0.185601
+Iteration 9: p_1shift = 0.9781 ± 0.00130837
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=31.7214 FROM MIGRAD    STATUS=CONVERGED     134 CALLS         135 TOTAL
+                     EDM=1.21184e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.87227e-01   6.14226e-04   2.00329e-07  -4.33700e+00
+   2  p1           9.81607e-01   1.31071e-03   4.68067e-07   2.30964e+00
+==== ratio is 1.01874
+param 0 0.187227
+Iteration 10: p_1shift = 0.981607 ± 0.00131071
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=22.5733 FROM MIGRAD    STATUS=CONVERGED     117 CALLS         118 TOTAL
+                     EDM=2.00906e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.85922e-01   6.01932e-04   1.68821e-07  -2.76426e+00
+   2  p1           9.78945e-01   1.30401e-03   4.66797e-07   1.29593e+00
+==== ratio is 1.02151
+param 0 0.185922
+Iteration 11: p_1shift = 0.978945 ± 0.00130401
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=23.5813 FROM MIGRAD    STATUS=CONVERGED     123 CALLS         124 TOTAL
+                     EDM=3.06494e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.85997e-01   5.89493e-04   1.72471e-07   1.08718e+00
+   2  p1           9.78816e-01   1.27394e-03   4.66736e-07  -4.90425e-01
+==== ratio is 1.02164
+param 0 0.185997
+Iteration 12: p_1shift = 0.978816 ± 0.00127394
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=9.86034 FROM MIGRAD    STATUS=CONVERGED     127 CALLS         128 TOTAL
+                     EDM=5.68193e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.85927e-01   5.58470e-04   1.14594e-07   4.66128e+00
+   2  p1           9.78772e-01   1.20604e-03   4.66715e-07  -2.09217e+00
+==== ratio is 1.02169
+param 0 0.185927
+Iteration 13: p_1shift = 0.978772 ± 0.00120604
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=9.47128 FROM MIGRAD    STATUS=CONVERGED     118 CALLS         119 TOTAL
+                     EDM=9.30043e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.86154e-01   5.68769e-04   1.12648e-07  -5.18987e-01
+   2  p1           9.79026e-01   1.22226e-03   4.66836e-07  -1.11958e-01
+==== ratio is 1.02142
+param 0 0.186154
+Iteration 14: p_1shift = 0.979026 ± 0.00122226
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=9.90891 FROM MIGRAD    STATUS=CONVERGED     133 CALLS         134 TOTAL
+                     EDM=2.64666e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.85931e-01   6.01743e-04   1.14865e-07  -8.80729e+00
+   2  p1           9.78734e-01   1.30073e-03   4.66697e-07   3.76238e+00
+==== ratio is 1.02173
+param 0 0.185931
+Iteration 15: p_1shift = 0.978734 ± 0.00130073
+Warning in <TROOT::Append>: Replacing existing TH1: htally (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=17.8207 FROM MIGRAD    STATUS=CONVERGED     155 CALLS         156 TOTAL
+                     EDM=6.15724e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.40343e-01   3.89278e-04   1.01135e-07   6.36017e-03
+   2  p1           7.75239e-01   1.00820e-03   3.69663e-07  -2.26273e-03
+==== ratio is 1.28992
+param 0 0.140343
+Iteration 0: p_1shift = 0.775239 ± 0.0010082
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=201866 FROM MIGRAD    STATUS=FAILED         59 CALLS          60 TOTAL
+                     EDM=628972    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           5.33273e-01   1.00000e+00   0.00000e+00  -2.67648e+05
+   2  p1           1.35624e+00   1.00000e+00  -0.00000e+00   9.08499e+05
+==== ratio is 0.737334
+param 0 0.533273
+Iteration 1: p_1shift = 1.35624 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=3.94324 FROM MIGRAD    STATUS=CONVERGED     161 CALLS         162 TOTAL
+                     EDM=1.79454e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.42251e-01   2.78128e-04   6.78304e-08   8.00313e-01
+   2  p1           7.79809e-01   7.65070e-04   3.71842e-07  -4.41093e-02
+==== ratio is 1.28236
+param 0 0.142251
+Iteration 2: p_1shift = 0.779809 ± 0.00076507
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=6.04068 FROM MIGRAD    STATUS=CONVERGED     174 CALLS         175 TOTAL
+                     EDM=3.30881e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.41935e-01   2.74032e-04   6.76797e-08   3.35474e+00
+   2  p1           7.79093e-01   7.56996e-04   3.71501e-07  -1.42305e-01
+==== ratio is 1.28354
+param 0 0.141935
+Iteration 3: p_1shift = 0.779093 ± 0.000756996
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=6.32204 FROM MIGRAD    STATUS=CONVERGED     160 CALLS         161 TOTAL
+                     EDM=1.23167e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.41918e-01   2.73546e-04   6.76719e-08   8.23105e+00
+   2  p1           7.78908e-01   7.56691e-04   3.71412e-07  -2.53592e+00
+==== ratio is 1.28385
+param 0 0.141918
+Iteration 4: p_1shift = 0.778908 ± 0.000756691
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=14520.9 FROM MIGRAD    STATUS=FAILED        128 CALLS         129 TOTAL
+                     EDM=88798.1    STRATEGY= 1  ERROR MATRIX UNCERTAINTY  97.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.78110e-01   1.00000e+00  -0.00000e+00   3.12353e+06
+   2  p1           8.54670e-01   1.00000e+00   0.00000e+00  -1.29561e+06
+==== ratio is 1.17004
+param 0 0.17811
+Iteration 5: p_1shift = 0.85467 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=4.53764 FROM MIGRAD    STATUS=CONVERGED     144 CALLS         145 TOTAL
+                     EDM=3.45707e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.42328e-01   2.74005e-04   6.78674e-08  -4.86761e-01
+   2  p1           7.80273e-01   7.51891e-04   3.72063e-07   1.59093e-01
+==== ratio is 1.2816
+param 0 0.142328
+Iteration 6: p_1shift = 0.780273 ± 0.000751891
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=12.3907 FROM MIGRAD    STATUS=CONVERGED     171 CALLS         172 TOTAL
+                     EDM=6.55758e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.42306e-01   2.75031e-04   8.64862e-08   2.92134e-02
+   2  p1           7.79917e-01   7.56605e-04   3.71894e-07   4.56688e-03
+==== ratio is 1.28219
+param 0 0.142306
+Iteration 7: p_1shift = 0.779917 ± 0.000756605
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=10.892 FROM MIGRAD    STATUS=CONVERGED     154 CALLS         155 TOTAL
+                     EDM=1.58774e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.42188e-01   2.78887e-04   8.14536e-08  -8.13543e-01
+   2  p1           7.79570e-01   7.67619e-04   3.71728e-07   3.43634e-01
+==== ratio is 1.28276
+param 0 0.142188
+Iteration 8: p_1shift = 0.77957 ± 0.000767619
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=5.65572 FROM MIGRAD    STATUS=CONVERGED     182 CALLS         183 TOTAL
+                     EDM=5.48106e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.41505e-01   2.57372e-04   6.74750e-08  -1.09806e+00
+   2  p1           7.77965e-01   6.88014e-04   3.70962e-07  -7.15398e-02
+==== ratio is 1.28541
+param 0 0.141505
+Iteration 9: p_1shift = 0.777965 ± 0.000688014
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=10.3586 FROM MIGRAD    STATUS=CONVERGED     160 CALLS         161 TOTAL
+                     EDM=6.07062e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.41987e-01   2.74842e-04   7.94932e-08  -1.89349e+00
+   2  p1           7.78949e-01   7.58665e-04   3.71432e-07   7.56264e-01
+==== ratio is 1.28378
+param 0 0.141987
+Iteration 10: p_1shift = 0.778949 ± 0.000758665
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=8.3774 FROM MIGRAD    STATUS=CONVERGED     166 CALLS         167 TOTAL
+                     EDM=6.43813e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.40683e-01   3.87296e-04   7.15702e-08   3.10515e-01
+   2  p1           7.76198e-01   9.95767e-04   3.70120e-07  -1.52646e-01
+==== ratio is 1.28833
+param 0 0.140683
+Iteration 11: p_1shift = 0.776198 ± 0.000995767
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=4.91716 FROM MIGRAD    STATUS=CONVERGED     168 CALLS         169 TOTAL
+                     EDM=2.30332e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.41469e-01   2.53645e-04   6.74577e-08   3.26041e-02
+   2  p1           7.77753e-01   6.79643e-04   3.70861e-07  -9.79226e-03
+==== ratio is 1.28576
+param 0 0.141469
+Iteration 12: p_1shift = 0.777753 ± 0.000679643
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=5.91922 FROM MIGRAD    STATUS=CONVERGED     167 CALLS         168 TOTAL
+                     EDM=1.83405e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.42152e-01   2.68041e-04   6.77831e-08   1.61116e-01
+   2  p1           7.79854e-01   7.35328e-04   3.71863e-07   2.02478e-01
+==== ratio is 1.28229
+param 0 0.142152
+Iteration 13: p_1shift = 0.779854 ± 0.000735328
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=20.3114 FROM MIGRAD    STATUS=CONVERGED     175 CALLS         176 TOTAL
+                     EDM=6.13233e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.39820e-01   3.87035e-04   1.07220e-07   3.51969e+00
+   2  p1           7.73967e-01   1.00781e-03   3.69056e-07  -1.64665e+00
+==== ratio is 1.29204
+param 0 0.13982
+Iteration 14: p_1shift = 0.773967 ± 0.00100781
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=6.5926 FROM MIGRAD    STATUS=CONVERGED     179 CALLS         180 TOTAL
+                     EDM=7.6892e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.42290e-01   2.76421e-04   6.78492e-08  -8.37107e-01
+   2  p1           7.79931e-01   7.58448e-04   3.71900e-07   4.54904e-01
+==== ratio is 1.28216
+param 0 0.14229
+Iteration 15: p_1shift = 0.779931 ± 0.000758448
+Warning in <TROOT::Append>: Replacing existing TH1: htally (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=29.8277 FROM MIGRAD    STATUS=FAILED        228 CALLS         229 TOTAL
+                     EDM=1.64265e-05    STRATEGY= 1  ERROR MATRIX UNCERTAINTY  76.3 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.19677e-01   5.30593e-04   0.00000e+00  -6.97183e+00
+   2  p1           1.38589e+00   1.35571e-04  -0.00000e+00   6.13679e+01
+==== ratio is 0.721557
+param 0 0.319677
+Iteration 0: p_1shift = 1.38589 ± 0.000135571
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=1.66675 FROM MIGRAD    STATUS=CONVERGED     124 CALLS         125 TOTAL
+                     EDM=1.82673e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.32216e-01   7.19803e-03   3.96308e-07  -1.98525e-02
+   2  p1           1.39770e+00   7.46854e-03   6.66476e-07   2.12795e-02
+==== ratio is 0.71546
+param 0 0.332216
+Iteration 1: p_1shift = 1.3977 ± 0.00746854
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=16.9983 FROM MIGRAD    STATUS=FAILED        177 CALLS         178 TOTAL
+                     EDM=0.0840322    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.19884e-01   4.86890e-04  -0.00000e+00   4.59352e+00
+   2  p1           1.38589e+00   9.24285e-05   0.00000e+00  -1.09333e+01
+==== ratio is 0.721557
+param 0 0.319884
+Iteration 2: p_1shift = 1.38589 ± 9.24285e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=240.487 FROM MIGRAD    STATUS=CONVERGED      95 CALLS          96 TOTAL
+                     EDM=2.44051e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.19067e-01   3.09212e-03   2.48939e-06   1.97828e-03
+   2  p1           1.26231e+00   4.61453e-03   3.71503e-06   1.38213e-02
+==== ratio is 0.792197
+param 0 0.219067
+Iteration 3: p_1shift = 1.26231 ± 0.00461453
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=51.5095 FROM MIGRAD    STATUS=CONVERGED     185 CALLS         186 TOTAL
+                     EDM=9.72371e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.84375e-01   4.41191e-04   1.50853e-06   2.93052e+00
+   2  p1           1.34718e+00   1.35261e-04   6.42386e-07   2.88087e+01
+==== ratio is 0.74229
+param 0 0.284375
+Iteration 4: p_1shift = 1.34718 ± 0.000135261
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=2.56823 FROM MIGRAD    STATUS=FAILED        143 CALLS         144 TOTAL
+                     EDM=1.52229e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.27445e-01   5.12592e-04  -0.00000e+00   3.98816e+00
+   2  p1           1.39332e+00   1.53349e-04   0.00000e+00  -7.70130e+00
+==== ratio is 0.717712
+param 0 0.327445
+Iteration 5: p_1shift = 1.39332 ± 0.000153349
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=43.9112 FROM MIGRAD    STATUS=FAILED        168 CALLS         169 TOTAL
+                     EDM=0.38087    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.69337e-01   4.32542e-04   0.00000e+00  -6.94233e+00
+   2  p1           1.32886e+00   1.85009e-04   0.00000e+00  -3.25409e+02
+==== ratio is 0.752525
+param 0 0.269337
+Iteration 6: p_1shift = 1.32886 ± 0.000185009
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=7.64781 FROM MIGRAD    STATUS=CONVERGED     146 CALLS         147 TOTAL
+                     EDM=4.55442e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.16199e-01   4.77702e-04   6.81470e-07   1.96700e+00
+   2  p1           1.38255e+00   5.83913e-05   6.59251e-07  -5.23220e+00
+==== ratio is 0.723301
+param 0 0.316199
+Iteration 7: p_1shift = 1.38255 ± 5.83913e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=58.8026 FROM MIGRAD    STATUS=FAILED        153 CALLS         154 TOTAL
+                     EDM=0.000347727    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.65191e-01   4.03114e-04   0.00000e+00   4.20665e-01
+   2  p1           1.32344e+00   8.94422e-05   0.00000e+00  -6.96955e+01
+==== ratio is 0.755605
+param 0 0.265191
+Iteration 8: p_1shift = 1.32344 ± 8.94422e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=4.51899 FROM MIGRAD    STATUS=CONVERGED     116 CALLS         117 TOTAL
+                     EDM=1.03616e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.16299e-01   5.84152e-03   5.44219e-07   2.62048e+00
+   2  p1           1.38208e+00   6.13219e-03   6.59026e-07  -2.60647e+00
+==== ratio is 0.723549
+param 0 0.316299
+Iteration 9: p_1shift = 1.38208 ± 0.00613219
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=17.0387 FROM MIGRAD    STATUS=FAILED        141 CALLS         142 TOTAL
+                     EDM=5.75653e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.25581e-01   5.07314e-04  -0.00000e+00   3.16251e+00
+   2  p1           1.39150e+00   1.15791e-04   0.00000e+00  -1.34313e+01
+==== ratio is 0.718649
+param 0 0.325581
+Iteration 10: p_1shift = 1.3915 ± 0.000115791
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=9.33915 FROM MIGRAD    STATUS=CONVERGED     123 CALLS         124 TOTAL
+                     EDM=6.92934e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.15551e-01   5.00820e-03   7.42143e-07  -7.41082e-01
+   2  p1           1.38053e+00   5.24683e-03   7.77499e-07   4.90014e-01
+==== ratio is 0.724361
+param 0 0.315551
+Iteration 11: p_1shift = 1.38053 ± 0.00524683
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=65.0532 FROM MIGRAD    STATUS=CONVERGED     122 CALLS         123 TOTAL
+                     EDM=1.05001e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.82540e-01   4.10086e-03   1.67889e-06  -6.14529e-01
+   2  p1           1.34361e+00   4.58823e-03   1.87839e-06   4.64073e-01
+==== ratio is 0.744263
+param 0 0.28254
+Iteration 12: p_1shift = 1.34361 ± 0.00458823
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=4.50288 FROM MIGRAD    STATUS=FAILED        285 CALLS         286 TOTAL
+                     EDM=0.00976303    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.53181e-01   6.71375e-04   0.00000e+00   6.37591e+00
+   2  p1           1.41909e+00   4.01709e-04   0.00000e+00  -4.53681e+01
+==== ratio is 0.704678
+param 0 0.353181
+Iteration 13: p_1shift = 1.41909 ± 0.000401709
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=9.44876 FROM MIGRAD    STATUS=FAILED        209 CALLS         210 TOTAL
+                     EDM=8.28343e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.43722e-01   5.60620e-04   0.00000e+00  -1.21672e+00
+   2  p1           1.40940e+00   1.57313e-04  -0.00000e+00   7.42558e+00
+==== ratio is 0.709524
+param 0 0.343722
+Iteration 14: p_1shift = 1.4094 ± 0.000157313
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=2.07352 FROM MIGRAD    STATUS=CONVERGED     139 CALLS         140 TOTAL
+                     EDM=1.69254e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.46630e-01   7.61919e-03   4.44468e-07   6.02554e-02
+   2  p1           1.41200e+00   7.58217e-03   6.73292e-07  -6.68784e-02
+==== ratio is 0.708217
+param 0 0.34663
+Iteration 15: p_1shift = 1.412 ± 0.00758217
+Warning in <TROOT::Append>: Replacing existing TH1: htally (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=18.1842 FROM MIGRAD    STATUS=CONVERGED     119 CALLS         120 TOTAL
+                     EDM=7.30809e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.28635e-01   2.43163e-03   4.92471e-07  -1.62309e+00
+   2  p1           1.04091e+00   2.99562e-03   6.06304e-07   1.33863e+00
+==== ratio is 0.9607
+param 0 0.228635
+Iteration 0: p_1shift = 1.04091 ± 0.00299562
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=7.56561 FROM MIGRAD    STATUS=CONVERGED     139 CALLS         140 TOTAL
+                     EDM=3.3764e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.13406e-01   2.50361e-03   3.06930e-07   2.20493e-01
+   2  p1           1.02150e+00   3.18757e-03   4.87087e-07  -1.51475e-01
+==== ratio is 0.978956
+param 0 0.213406
+Iteration 1: p_1shift = 1.0215 ± 0.00318757
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=8.91613 FROM MIGRAD    STATUS=CONVERGED     148 CALLS         149 TOTAL
+                     EDM=1.35567e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.14604e-01   2.04506e-03   3.32305e-07   1.88006e-01
+   2  p1           1.02355e+00   2.51958e-03   4.88069e-07  -1.64668e-01
+==== ratio is 0.976988
+param 0 0.214604
+Iteration 2: p_1shift = 1.02355 ± 0.00251958
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=3.95932 FROM MIGRAD    STATUS=CONVERGED     147 CALLS         148 TOTAL
+                     EDM=5.07162e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.10919e-01   3.02753e-03   2.30794e-07   5.67834e-01
+   2  p1           1.01742e+00   3.89214e-03   4.85144e-07  -3.64864e-01
+==== ratio is 0.982877
+param 0 0.210919
+Iteration 3: p_1shift = 1.01742 ± 0.00389214
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=1296.55 FROM MIGRAD    STATUS=FAILED         71 CALLS          72 TOTAL
+                     EDM=246.646    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.60699e-01   1.00000e+00   0.00000e+00  -6.62653e+04
+   2  p1           1.17556e+00   1.00274e+00  -0.00000e+00   9.62886e+04
+==== ratio is 0.850656
+param 0 0.360699
+Iteration 4: p_1shift = 1.17556 ± 1.00274
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=0.0890625 FROM MIGRAD    STATUS=CONVERGED     167 CALLS         168 TOTAL
+                     EDM=1.06776e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.17879e-01   2.85048e-03   1.11758e-07  -1.60589e+00
+   2  p1           1.02728e+00   3.60022e-03   4.89846e-07   1.18459e+00
+==== ratio is 0.973443
+param 0 0.217879
+Iteration 5: p_1shift = 1.02728 ± 0.00360022
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=1364.73 FROM MIGRAD    STATUS=FAILED         64 CALLS          65 TOTAL
+                     EDM=2840.15    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.82109e-01   1.00000e+00   0.00000e+00  -7.54442e+03
+   2  p1           1.18958e+00   1.00000e+00  -0.00000e+00   3.02280e+04
+==== ratio is 0.840633
+param 0 0.382109
+Iteration 6: p_1shift = 1.18958 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=113.625 FROM MIGRAD    STATUS=FAILED        159 CALLS         160 TOTAL
+                     EDM=0.0291342    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.54504e-01   2.62197e-04  -0.00000e+00  -4.27177e+00
+   2  p1           1.07054e+00   5.33825e-05  -0.00000e+00   1.45293e+02
+==== ratio is 0.934109
+param 0 0.254504
+Iteration 7: p_1shift = 1.07054 ± 5.33825e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=2.81771 FROM MIGRAD    STATUS=CONVERGED     109 CALLS         110 TOTAL
+                     EDM=4.23594e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.16992e-01   2.70513e-03   2.08294e-07   1.13103e-02
+   2  p1           1.02581e+00   3.39986e-03   4.89144e-07  -6.36176e-03
+==== ratio is 0.974841
+param 0 0.216992
+Iteration 8: p_1shift = 1.02581 ± 0.00339986
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=16.473 FROM MIGRAD    STATUS=CONVERGED     179 CALLS         180 TOTAL
+                     EDM=2.11184e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.24310e-01   3.24512e-03   4.60836e-07   2.90494e-01
+   2  p1           1.03518e+00   3.91211e-03   5.55537e-07  -1.90596e-01
+==== ratio is 0.966014
+param 0 0.22431
+Iteration 9: p_1shift = 1.03518 ± 0.00391211
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=1597.2 FROM MIGRAD    STATUS=FAILED         58 CALLS          59 TOTAL
+                     EDM=2292.99    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.90763e-01   1.00000e+00  -0.00000e+00   5.03854e+03
+   2  p1           1.19548e+00   1.00000e+00  -0.00000e+00   1.34110e+04
+==== ratio is 0.836482
+param 0 0.390763
+Iteration 10: p_1shift = 1.19548 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=2299.56 FROM MIGRAD    STATUS=FAILED         59 CALLS          60 TOTAL
+                     EDM=2627.88    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           4.47673e-01   1.00000e+00   0.00000e+00  -3.20253e+03
+   2  p1           1.23719e+00   1.00000e+00  -0.00000e+00   2.54969e+04
+==== ratio is 0.808283
+param 0 0.447673
+Iteration 11: p_1shift = 1.23719 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=34.2069 FROM MIGRAD    STATUS=FAILED        172 CALLS         173 TOTAL
+                     EDM=1.23954e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.09125e-01   2.13901e-04   0.00000e+00  -1.11000e+01
+   2  p1           1.01566e+00   3.99053e-05   0.00000e+00  -1.55393e+01
+==== ratio is 0.984582
+param 0 0.209125
+Iteration 12: p_1shift = 1.01566 ± 3.99053e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=14.2257 FROM MIGRAD    STATUS=CONVERGED     148 CALLS         149 TOTAL
+                     EDM=1.72061e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.13586e-01   2.23099e-03   4.09586e-07   1.07499e-01
+   2  p1           1.02117e+00   2.89544e-03   5.31582e-07  -1.01066e-01
+==== ratio is 0.979265
+param 0 0.213586
+Iteration 13: p_1shift = 1.02117 ± 0.00289544
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=1642.58 FROM MIGRAD    STATUS=FAILED         58 CALLS          59 TOTAL
+                     EDM=2294.05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           4.02056e-01   1.00000e+00   0.00000e+00  -2.11642e+03
+   2  p1           1.20433e+00   1.00000e+00  -0.00000e+00   2.28976e+04
+==== ratio is 0.830339
+param 0 0.402056
+Iteration 14: p_1shift = 1.20433 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=19.4956 FROM MIGRAD    STATUS=CONVERGED     156 CALLS         157 TOTAL
+                     EDM=2.2841e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.18078e-01   3.22152e-03   4.85301e-07   8.64953e-01
+   2  p1           1.02744e+00   4.07118e-03   6.13101e-07  -6.58735e-01
+==== ratio is 0.973296
+param 0 0.218078
+Iteration 15: p_1shift = 1.02744 ± 0.00407118
+Warning in <TROOT::Append>: Replacing existing TH1: htally (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=12668.4 FROM MIGRAD    STATUS=FAILED         77 CALLS          78 TOTAL
+                     EDM=4306.84    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           4.94592e-01   1.00000e+00   0.00000e+00  -1.11956e+05
+   2  p1           1.11196e+00   1.00002e+00  -0.00000e+00   2.62020e+05
+==== ratio is 0.899311
+param 0 0.494592
+Iteration 0: p_1shift = 1.11196 ± 1.00002
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=36.2388 FROM MIGRAD    STATUS=CONVERGED     184 CALLS         185 TOTAL
+                     EDM=2.10093e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.57383e-01   1.19567e-03   3.60015e-07  -7.59493e-02
+   2  p1           8.06795e-01   1.79143e-03   5.39393e-07   6.06640e-02
+==== ratio is 1.23947
+param 0 0.157383
+Iteration 1: p_1shift = 0.806795 ± 0.00179143
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=5.89448 FROM MIGRAD    STATUS=CONVERGED     205 CALLS         206 TOTAL
+                     EDM=3.69375e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.60184e-01   1.55262e-03   1.57661e-07   6.83052e-01
+   2  p1           8.10940e-01   2.27158e-03   3.86686e-07  -4.57404e-01
+==== ratio is 1.23314
+param 0 0.160184
+Iteration 2: p_1shift = 0.81094 ± 0.00227158
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=2.10377 FROM MIGRAD    STATUS=CONVERGED     145 CALLS         146 TOTAL
+                     EDM=1.02851e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.59404e-01   1.48446e-03   1.05220e-07   8.52361e-03
+   2  p1           8.09510e-01   2.20319e-03   3.86004e-07   1.48569e-02
+==== ratio is 1.23532
+param 0 0.159404
+Iteration 3: p_1shift = 0.80951 ± 0.00220319
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=16.2945 FROM MIGRAD    STATUS=CONVERGED     179 CALLS         180 TOTAL
+                     EDM=4.28168e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.58208e-01   1.26421e-03   2.46633e-07   1.09130e+00
+   2  p1           8.07755e-01   1.87933e-03   3.85168e-07  -8.69539e-01
+==== ratio is 1.238
+param 0 0.158208
+Iteration 4: p_1shift = 0.807755 ± 0.00187933
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=19941.8 FROM MIGRAD    STATUS=FAILED         59 CALLS          60 TOTAL
+                     EDM=29028.9    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           7.29245e-01   1.00000e+00   0.00000e+00  -1.39670e+04
+   2  p1           1.22514e+00   1.00001e+00  -0.00000e+00   1.24434e+05
+==== ratio is 0.816236
+param 0 0.729245
+Iteration 5: p_1shift = 1.22514 ± 1.00001
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=17052.6 FROM MIGRAD    STATUS=FAILED         58 CALLS          59 TOTAL
+                     EDM=17385.5    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           6.69467e-01   1.00000e+00   0.00000e+00  -1.37708e+04
+   2  p1           1.19786e+00   1.00000e+00  -0.00000e+00   1.03804e+05
+==== ratio is 0.834825
+param 0 0.669467
+Iteration 6: p_1shift = 1.19786 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=13.7017 FROM MIGRAD    STATUS=CONVERGED     172 CALLS         173 TOTAL
+                     EDM=1.4236e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.60821e-01   1.25829e-03   2.31256e-07   4.21667e-01
+   2  p1           8.11703e-01   1.83836e-03   3.87050e-07  -2.80914e-01
+==== ratio is 1.23198
+param 0 0.160821
+Iteration 7: p_1shift = 0.811703 ± 0.00183836
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=6.68685 FROM MIGRAD    STATUS=CONVERGED     185 CALLS         186 TOTAL
+                     EDM=1.01392e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.59641e-01   1.65027e-03   1.65970e-07  -1.02034e+00
+   2  p1           8.10136e-01   2.48906e-03   3.86303e-07   7.01962e-01
+==== ratio is 1.23436
+param 0 0.159641
+Iteration 8: p_1shift = 0.810136 ± 0.00248906
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=10.9765 FROM MIGRAD    STATUS=CONVERGED     140 CALLS         141 TOTAL
+                     EDM=5.91786e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.59182e-01   1.16919e-03   2.06467e-07  -4.37744e-01
+   2  p1           8.09247e-01   1.71117e-03   3.85879e-07   3.52823e-01
+==== ratio is 1.23572
+param 0 0.159182
+Iteration 9: p_1shift = 0.809247 ± 0.00171117
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=16465 FROM MIGRAD    STATUS=FAILED         58 CALLS          59 TOTAL
+                     EDM=22955.1    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           6.42896e-01   1.00000e+00   0.00000e+00  -1.78559e+04
+   2  p1           1.18635e+00   1.00002e+00  -0.00000e+00   1.25779e+05
+==== ratio is 0.842923
+param 0 0.642896
+Iteration 10: p_1shift = 1.18635 ± 1.00002
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=19769.7 FROM MIGRAD    STATUS=FAILED         59 CALLS          60 TOTAL
+                     EDM=13660.1    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           7.42556e-01   1.00000e+00   0.00000e+00  -6.50787e+03
+   2  p1           1.22932e+00   1.00001e+00  -0.00000e+00   7.65538e+04
+==== ratio is 0.81346
+param 0 0.742556
+Iteration 11: p_1shift = 1.22932 ± 1.00001
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=6.3756 FROM MIGRAD    STATUS=CONVERGED     181 CALLS         182 TOTAL
+                     EDM=2.026e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.55992e-01   1.59804e-03   1.58853e-07   9.36948e-01
+   2  p1           8.04613e-01   2.35902e-03   3.83669e-07  -7.03751e-01
+==== ratio is 1.24283
+param 0 0.155992
+Iteration 12: p_1shift = 0.804613 ± 0.00235902
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=5.37283 FROM MIGRAD    STATUS=CONVERGED     182 CALLS         183 TOTAL
+                     EDM=1.22852e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.57529e-01   1.40140e-03   1.49054e-07   5.31083e-02
+   2  p1           8.06756e-01   2.10999e-03   3.84691e-07  -2.83648e-02
+==== ratio is 1.23953
+param 0 0.157529
+Iteration 13: p_1shift = 0.806756 ± 0.00210999
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=18367.9 FROM MIGRAD    STATUS=FAILED         58 CALLS          59 TOTAL
+                     EDM=7025.52    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           6.95039e-01   1.00000e+00   0.00000e+00  -4.74605e+03
+   2  p1           1.20888e+00   1.00000e+00  -0.00000e+00   5.70919e+04
+==== ratio is 0.827213
+param 0 0.695039
+Iteration 14: p_1shift = 1.20888 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+ FCN=5.38547 FROM MIGRAD    STATUS=CONVERGED     164 CALLS         165 TOTAL
+                     EDM=1.49902e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.57973e-01   1.16278e-03   1.49601e-07  -8.29494e-02
+   2  p1           8.07466e-01   1.75099e-03   3.85030e-07   8.55224e-02
+==== ratio is 1.23844
+param 0 0.157973
+Iteration 15: p_1shift = 0.807466 ± 0.00175099
+[0mroot [2] .q
+[0mbash sphnx03 codes $exit
+exit
+
+Script done on Mon 11 Nov 2024 02:05:50 PM EST

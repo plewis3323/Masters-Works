@@ -1,0 +1,1504 @@
+Script started on Tue 05 Nov 2024 06:43:41 PM EST
+[?1034hbash sphnx03 codes $root
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.26/06                        https://root.cern |
+  | (c) 1995-2021, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 28 2022, 18:08:51                 |
+  | From tags/v6-26-06@v6-26-06                                      |
+  | With g++ (GCC) 12.1.0                                            |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q'       |
+   ------------------------------------------------------------------
+
+[0mroot [0] .L l3
+[0m[38;5;207ml3_reorganize.C
+l3_shape_code.C
+l3_shape_code_C.d
+l3all_oe.root[K
+[0m[0mroot [0] .L l3_shape_code
+[0m[38;5;207ml3_shape_code.C[K
+l3_shape_code_C.d[K
+[0m[0mroot [0] .L l3_shape_code.C
+[0m[0mroot [1] hum[D[Kn_mill_low[0m[38;5;83m[1m()
+[0m FCN=14.6793 FROM MIGRAD    STATUS=CONVERGED      84 CALLS          85 TOTAL
+                     EDM=6.16783e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.95779e-01   6.21625e-03   1.34358e-06  -3.29262e-02
+   2  p1           9.98151e-01   2.72884e-03   5.89810e-07   6.47705e-02
+ FCN=29.7945 FROM MIGRAD    STATUS=CONVERGED      73 CALLS          74 TOTAL
+                     EDM=4.63293e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.90559e-01   4.01494e-03   1.15198e-06   8.26989e-03
+   2  p1           1.33392e+00   1.13569e-02   3.25854e-06  -1.13773e-02
+Iteration 0: p_1shift = 1.33392 ± 0.0113569
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=13.0881 FROM MIGRAD    STATUS=FAILED        103 CALLS         104 TOTAL
+                     EDM=0.000389614    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00031e+00   7.62886e-04   0.00000e+00  -4.69001e+00
+   2  p1           1.00000e+00   1.45249e-04   0.00000e+00  -4.06206e+00
+ FCN=17.8703 FROM MIGRAD    STATUS=CONVERGED     206 CALLS         207 TOTAL
+                     EDM=2.51175e-06    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   9.1 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.88316e-01   4.53796e-04   0.00000e+00  -8.15628e-01
+   2  p1           1.32558e+00   1.08382e-04  -0.00000e+00   1.33496e+01
+Iteration 1: p_1shift = 1.32558 ± 0.000108382
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=13.2814 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=5.88266e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00147e+00   5.85129e-03   1.29043e-06  -2.77537e-02
+   2  p1           1.00068e+00   2.78908e-03   6.15087e-07   1.80593e-01
+ FCN=42.4596 FROM MIGRAD    STATUS=CONVERGED     106 CALLS         107 TOTAL
+                     EDM=9.55501e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   0.5 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.84397e-01   4.06517e-03   2.04534e-07  -1.00677e+00
+   2  p1           1.31578e+00   1.18317e-02   5.85232e-07   1.85267e-01
+Iteration 2: p_1shift = 1.31578 ± 0.0118317
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=17.7856 FROM MIGRAD    STATUS=FAILED        128 CALLS         129 TOTAL
+                     EDM=0.000193462    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99821e-01   7.38478e-04   0.00000e+00  -4.81361e+00
+   2  p1           1.00000e+00   7.93339e-05   0.00000e+00  -7.42993e+01
+ FCN=28.763 FROM MIGRAD    STATUS=CONVERGED     197 CALLS         198 TOTAL
+                     EDM=1.37921e-06    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   6.9 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.95605e-01   4.98323e-04  -0.00000e+00  -1.84002e-03
+   2  p1           1.34568e+00   2.36024e-04  -0.00000e+00   7.34101e+00
+Iteration 3: p_1shift = 1.34568 ± 0.000236024
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=16.0643 FROM MIGRAD    STATUS=CONVERGED      87 CALLS          88 TOTAL
+                     EDM=2.41033e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.96837e-01   6.61151e-03   1.40438e-06   5.12994e-03
+   2  p1           9.98643e-01   2.89632e-03   6.15228e-07  -1.37008e-02
+ FCN=26.4721 FROM MIGRAD    STATUS=CONVERGED      71 CALLS          72 TOTAL
+                     EDM=1.12259e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.89403e-01   4.51861e-03   1.08135e-06  -2.95954e-01
+   2  p1           1.33006e+00   1.30480e-02   3.12217e-06   2.16478e-01
+Iteration 4: p_1shift = 1.33006 ± 0.013048
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=13.6683 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=6.63654e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00237e+00   5.84374e-03   1.30818e-06  -4.86058e-02
+   2  p1           1.00110e+00   2.77568e-03   6.21350e-07   2.32278e-01
+ FCN=29.8216 FROM MIGRAD    STATUS=CONVERGED     159 CALLS         160 TOTAL
+                     EDM=2.90697e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.93444e-01   4.34041e-04   0.00000e+00  -3.69624e-01
+   2  p1           1.34146e+00   1.33453e-04   0.00000e+00  -2.53942e+01
+Iteration 5: p_1shift = 1.34146 ± 0.000133453
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=15.5337 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=1.05531e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00066e+00   5.85166e-03   1.38811e-06  -3.34689e-02
+   2  p1           1.00034e+00   2.78293e-03   6.60144e-07   2.34740e-01
+ FCN=23.3403 FROM MIGRAD    STATUS=CONVERGED      78 CALLS          79 TOTAL
+                     EDM=1.27943e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.89820e-01   4.27810e-03   1.02004e-06  -3.00122e-01
+   2  p1           1.33044e+00   1.22264e-02   2.91506e-06   1.12445e-01
+Iteration 6: p_1shift = 1.33044 ± 0.0122264
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=12.73 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=4.10599e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00235e+00   5.75183e-03   1.26584e-06  -4.20232e-02
+   2  p1           1.00108e+00   2.73211e-03   6.01260e-07   1.92148e-01
+ FCN=30.9376 FROM MIGRAD    STATUS=CONVERGED      74 CALLS          75 TOTAL
+                     EDM=8.57578e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.90898e-01   4.52605e-03   1.17647e-06   9.49706e-01
+   2  p1           1.33480e+00   1.28175e-02   3.32777e-06  -3.26990e-01
+Iteration 7: p_1shift = 1.3348 ± 0.0128175
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=8.50959 FROM MIGRAD    STATUS=FAILED         89 CALLS          90 TOTAL
+                     EDM=2.45565e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00015e+00   7.52204e-04   0.00000e+00  -3.90912e+00
+   2  p1           1.00000e+00   1.04495e-04  -0.00000e+00   1.63027e+01
+ FCN=12.4429 FROM MIGRAD    STATUS=CONVERGED     274 CALLS         275 TOTAL
+                     EDM=7.02087e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY  13.8 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.88462e-01   3.69778e-04   3.07721e-07  -8.81107e-01
+   2  p1           1.32558e+00   3.10770e-04  -1.55359e-07   8.05205e+00
+Iteration 8: p_1shift = 1.32558 ± 0.00031077
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=18.8416 FROM MIGRAD    STATUS=FAILED        102 CALLS         103 TOTAL
+                     EDM=1.2351e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00015e+00   7.27188e-04   0.00000e+00  -2.81699e+00
+   2  p1           1.00000e+00   8.38103e-05  -0.00000e+00   1.43613e+01
+ FCN=24.9019 FROM MIGRAD    STATUS=CONVERGED     137 CALLS         138 TOTAL
+                     EDM=9.26772e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.87060e-01   3.76847e-03   1.03863e-06  -2.82903e-01
+   2  p1           1.32572e+00   1.07935e-02   2.97628e-06   1.04412e-01
+Iteration 9: p_1shift = 1.32572 ± 0.0107935
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=14.6652 FROM MIGRAD    STATUS=CONVERGED      86 CALLS          87 TOTAL
+                     EDM=3.75868e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99468e-01   6.40117e-03   1.34905e-06  -1.14362e-01
+   2  p1           9.99873e-01   2.78514e-03   5.87177e-07   2.49140e-01
+ FCN=28.506 FROM MIGRAD    STATUS=CONVERGED     238 CALLS         239 TOTAL
+                     EDM=1.71319e-06    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   3.3 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.92741e-01   4.21968e-04   0.00000e+00  -1.48137e+00
+   2  p1           1.33803e+00   2.12252e-04  -0.00000e+00   1.50693e+01
+Iteration 10: p_1shift = 1.33803 ± 0.000212252
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=17.6906 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=4.22586e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00188e+00   6.00559e-03   1.47701e-06  -4.62687e-02
+   2  p1           1.00083e+00   2.86206e-03   7.03880e-07   1.97371e-01
+ FCN=31.0642 FROM MIGRAD    STATUS=CONVERGED     174 CALLS         175 TOTAL
+                     EDM=5.81428e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   3.3 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.86861e-01   4.26374e-04  -7.17050e-07   1.57262e+00
+   2  p1           1.32099e+00   2.84011e-04  -2.79723e-07   4.96768e+00
+Iteration 11: p_1shift = 1.32099 ± 0.000284011
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=22.179 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=4.4667e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00185e+00   5.70661e-03   1.64487e-06  -7.35064e-02
+   2  p1           1.00075e+00   2.71247e-03   7.81824e-07   2.62026e-01
+ FCN=35.4243 FROM MIGRAD    STATUS=CONVERGED      75 CALLS          76 TOTAL
+                     EDM=5.01924e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.96062e-01   4.31105e-03   1.28757e-06  -8.25101e-01
+   2  p1           1.34781e+00   1.19585e-02   3.57307e-06   2.17748e-01
+Iteration 12: p_1shift = 1.34781 ± 0.0119585
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=15.4056 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=3.79927e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00170e+00   5.82438e-03   1.38405e-06  -4.66187e-02
+   2  p1           1.00082e+00   2.76554e-03   6.57162e-07   1.96445e-01
+ FCN=22.4195 FROM MIGRAD    STATUS=CONVERGED      76 CALLS          77 TOTAL
+                     EDM=1.79634e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.90060e-01   4.21604e-03   1.00306e-06   4.42457e-01
+   2  p1           1.33273e+00   1.20040e-02   2.85459e-06  -1.52458e-01
+Iteration 13: p_1shift = 1.33273 ± 0.012004
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=17.4089 FROM MIGRAD    STATUS=FAILED        115 CALLS         116 TOTAL
+                     EDM=0.00086712    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99563e-01   1.10308e-03  -0.00000e+00   3.33391e+00
+   2  p1           1.00000e+00   3.73748e-04  -0.00000e+00   8.02543e+01
+ FCN=36.8329 FROM MIGRAD    STATUS=CONVERGED     132 CALLS         133 TOTAL
+                     EDM=1.21784e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.89765e-01   4.45129e-03   1.27126e-06   3.19628e-03
+   2  p1           1.33055e+00   1.27281e-02   3.63505e-06  -1.17387e-03
+Iteration 14: p_1shift = 1.33055 ± 0.0127281
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=16.3227 FROM MIGRAD    STATUS=CONVERGED      85 CALLS          86 TOTAL
+                     EDM=2.73607e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.98704e-01   6.49104e-03   1.41784e-06   3.26656e-02
+   2  p1           9.99390e-01   2.82532e-03   6.17145e-07  -9.95218e-02
+ FCN=44.1695 FROM MIGRAD    STATUS=CONVERGED      71 CALLS          72 TOTAL
+                     EDM=1.21405e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.89296e-01   4.05789e-03   1.38842e-06   1.07848e-01
+   2  p1           1.33034e+00   1.16969e-02   4.00202e-06   4.73536e-03
+Iteration 15: p_1shift = 1.33034 ± 0.0116969
+ FCN=14.6793 FROM MIGRAD    STATUS=CONVERGED      84 CALLS          85 TOTAL
+                     EDM=6.16783e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.95779e-01   6.21625e-03   1.34358e-06  -3.29262e-02
+   2  p1           9.98151e-01   2.72884e-03   5.89810e-07   6.47705e-02
+ FCN=31.1991 FROM MIGRAD    STATUS=CONVERGED      99 CALLS         100 TOTAL
+                     EDM=2.54084e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.43270e-01   2.12923e-03   7.33863e-07  -1.59068e+00
+   2  p1           1.00250e+00   7.06232e-03   2.43354e-06   3.94424e-01
+Iteration 0: p_1shift = 1.0025 ± 0.00706232
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=13.0881 FROM MIGRAD    STATUS=FAILED        103 CALLS         104 TOTAL
+                     EDM=0.000389614    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00031e+00   7.62886e-04   0.00000e+00  -4.69001e+00
+   2  p1           1.00000e+00   1.45249e-04   0.00000e+00  -4.06206e+00
+ FCN=17.2718 FROM MIGRAD    STATUS=CONVERGED      45 CALLS          46 TOTAL
+                     EDM=8.62716e-09    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.7 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.44449e-01   2.18658e-03   5.43689e-06  -2.28184e-01
+   2  p1           1.00396e+00   7.16255e-03   1.81066e-05   4.47657e-02
+Iteration 1: p_1shift = 1.00396 ± 0.00716255
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=13.2814 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=5.88266e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00147e+00   5.85129e-03   1.29043e-06  -2.77537e-02
+   2  p1           1.00068e+00   2.78908e-03   6.15087e-07   1.80593e-01
+ FCN=35.571 FROM MIGRAD    STATUS=CONVERGED     115 CALLS         116 TOTAL
+                     EDM=7.30501e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.41305e-01   2.43773e-03   7.70967e-07   6.18941e-02
+   2  p1           9.95271e-01   7.60326e-03   2.40465e-06  -1.51743e-02
+Iteration 2: p_1shift = 0.995271 ± 0.00760326
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=17.7856 FROM MIGRAD    STATUS=FAILED        128 CALLS         129 TOTAL
+                     EDM=0.000193462    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99821e-01   7.38478e-04   0.00000e+00  -4.81361e+00
+   2  p1           1.00000e+00   7.93339e-05   0.00000e+00  -7.42993e+01
+ FCN=25.4749 FROM MIGRAD    STATUS=CONVERGED      50 CALLS          51 TOTAL
+                     EDM=5.2976e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   6.8 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.42348e-01   2.38524e-03  -3.14458e-05   3.22547e+00
+   2  p1           9.97014e-01   7.32504e-03  -1.09992e-04  -9.09812e-01
+Iteration 3: p_1shift = 0.997014 ± 0.00732504
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=16.0643 FROM MIGRAD    STATUS=CONVERGED      87 CALLS          88 TOTAL
+                     EDM=2.41033e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.96837e-01   6.61151e-03   1.40438e-06   5.12994e-03
+   2  p1           9.98643e-01   2.89632e-03   6.15228e-07  -1.37008e-02
+ FCN=18.6352 FROM MIGRAD    STATUS=CONVERGED      93 CALLS          94 TOTAL
+                     EDM=1.01407e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.38808e-01   2.50094e-03   5.54965e-07  -3.95878e+00
+   2  p1           9.86976e-01   8.07928e-03   1.79193e-06   1.34260e+00
+Iteration 4: p_1shift = 0.986976 ± 0.00807928
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=13.6683 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=6.63654e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00237e+00   5.84374e-03   1.30818e-06  -4.86058e-02
+   2  p1           1.00110e+00   2.77568e-03   6.21350e-07   2.32278e-01
+ FCN=26.3428 FROM MIGRAD    STATUS=CONVERGED     117 CALLS         118 TOTAL
+                     EDM=1.40282e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.43150e-01   2.20712e-03   6.74832e-07  -1.85058e+00
+   2  p1           1.00066e+00   7.34760e-03   2.24531e-06   5.24176e-01
+Iteration 5: p_1shift = 1.00066 ± 0.0073476
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=15.5337 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=1.05531e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00066e+00   5.85166e-03   1.38811e-06  -3.34689e-02
+   2  p1           1.00034e+00   2.78293e-03   6.60144e-07   2.34740e-01
+ FCN=16.4374 FROM MIGRAD    STATUS=CONVERGED     112 CALLS         113 TOTAL
+                     EDM=9.7712e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.37172e-01   2.40417e-03   5.17367e-07  -1.72862e-01
+   2  p1           9.82401e-01   7.91986e-03   1.70379e-06   5.28837e-02
+Iteration 6: p_1shift = 0.982401 ± 0.00791986
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=12.73 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=4.10599e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00235e+00   5.75183e-03   1.26584e-06  -4.20232e-02
+   2  p1           1.00108e+00   2.73211e-03   6.01260e-07   1.92148e-01
+ FCN=26.7958 FROM MIGRAD    STATUS=CONVERGED      91 CALLS          92 TOTAL
+                     EDM=2.29311e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.39619e-01   2.37660e-03   6.64811e-07  -2.88195e-01
+   2  p1           9.91155e-01   7.56349e-03   2.11541e-06   1.79016e-01
+Iteration 7: p_1shift = 0.991155 ± 0.00756349
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=8.50959 FROM MIGRAD    STATUS=FAILED         89 CALLS          90 TOTAL
+                     EDM=2.45565e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00015e+00   7.52204e-04   0.00000e+00  -3.90912e+00
+   2  p1           1.00000e+00   1.04495e-04  -0.00000e+00   1.63027e+01
+ FCN=16.9682 FROM MIGRAD    STATUS=CONVERGED      98 CALLS          99 TOTAL
+                     EDM=7.0628e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.36201e-01   2.45166e-03   5.20838e-07   1.46912e-02
+   2  p1           9.78741e-01   8.18931e-03   1.73976e-06  -4.45762e-03
+Iteration 8: p_1shift = 0.978741 ± 0.00818931
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=18.8416 FROM MIGRAD    STATUS=FAILED        102 CALLS         103 TOTAL
+                     EDM=1.2351e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00015e+00   7.27188e-04   0.00000e+00  -2.81699e+00
+   2  p1           1.00000e+00   8.38103e-05  -0.00000e+00   1.43613e+01
+ FCN=27.8671 FROM MIGRAD    STATUS=CONVERGED      49 CALLS          50 TOTAL
+                     EDM=3.79508e-09    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   2.9 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.44365e-01   2.15284e-03   1.71716e-05   3.86316e-01
+   2  p1           1.00592e+00   7.02274e-03   5.30878e-05  -1.25852e-01
+Iteration 9: p_1shift = 1.00592 ± 0.00702274
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=14.6652 FROM MIGRAD    STATUS=CONVERGED      86 CALLS          87 TOTAL
+                     EDM=3.75868e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99468e-01   6.40117e-03   1.34905e-06  -1.14362e-01
+   2  p1           9.99873e-01   2.78514e-03   5.87177e-07   2.49140e-01
+ FCN=27.6628 FROM MIGRAD    STATUS=CONVERGED      77 CALLS          78 TOTAL
+                     EDM=8.74618e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.37247e-01   2.42286e-03   6.62403e-07   4.21311e-01
+   2  p1           9.81247e-01   8.00753e-03   2.18908e-06  -1.17028e-01
+Iteration 10: p_1shift = 0.981247 ± 0.00800753
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=17.6906 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=4.22586e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00188e+00   6.00559e-03   1.47701e-06  -4.62687e-02
+   2  p1           1.00083e+00   2.86206e-03   7.03880e-07   1.97371e-01
+ FCN=26.7744 FROM MIGRAD    STATUS=CONVERGED     107 CALLS         108 TOTAL
+                     EDM=6.79619e-17    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.40484e-01   2.51517e-03   6.67044e-07   3.64835e-05
+   2  p1           9.91308e-01   7.96242e-03   2.11170e-06  -1.23193e-05
+Iteration 11: p_1shift = 0.991308 ± 0.00796242
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=22.179 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=4.4667e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00185e+00   5.70661e-03   1.64487e-06  -7.35064e-02
+   2  p1           1.00075e+00   2.71247e-03   7.81824e-07   2.62026e-01
+ FCN=19.525 FROM MIGRAD    STATUS=CONVERGED     134 CALLS         135 TOTAL
+                     EDM=1.22047e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.47312e-01   2.15639e-03   6.01300e-07   1.38642e-01
+   2  p1           1.01307e+00   6.78877e-03   1.89300e-06  -4.83932e-02
+Iteration 12: p_1shift = 1.01307 ± 0.00678877
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=15.4056 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=3.79927e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00170e+00   5.82438e-03   1.38405e-06  -4.66187e-02
+   2  p1           1.00082e+00   2.76554e-03   6.57162e-07   1.96445e-01
+ FCN=20.0669 FROM MIGRAD    STATUS=CONVERGED     111 CALLS         112 TOTAL
+                     EDM=3.20947e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.46183e-01   2.20345e-03   6.05197e-07  -2.75333e+00
+   2  p1           1.01001e+00   7.02954e-03   1.92930e-06   8.99101e-01
+Iteration 13: p_1shift = 1.01001 ± 0.00702954
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=17.4089 FROM MIGRAD    STATUS=FAILED        115 CALLS         116 TOTAL
+                     EDM=0.00086712    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99563e-01   1.10308e-03  -0.00000e+00   3.33391e+00
+   2  p1           1.00000e+00   3.73748e-04  -0.00000e+00   8.02543e+01
+ FCN=32.418 FROM MIGRAD    STATUS=CONVERGED      56 CALLS          57 TOTAL
+                     EDM=4.8668e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   5.6 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.41361e-01   2.49548e-03   1.45344e-04  -4.88213e+00
+   2  p1           9.94715e-01   7.76238e-03   4.77082e-04   1.53643e+00
+Iteration 14: p_1shift = 0.994715 ± 0.00776238
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=16.3227 FROM MIGRAD    STATUS=CONVERGED      85 CALLS          86 TOTAL
+                     EDM=2.73607e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.98704e-01   6.49104e-03   1.41784e-06   3.26656e-02
+   2  p1           9.99390e-01   2.82532e-03   6.17145e-07  -9.95218e-02
+ FCN=43.7123 FROM MIGRAD    STATUS=CONVERGED      88 CALLS          89 TOTAL
+                     EDM=5.36787e-08    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   2.5 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.43953e-01   2.21564e-03  -2.07692e-05  -8.79181e-01
+   2  p1           1.00335e+00   7.27389e-03  -6.64299e-05   2.15926e-01
+Iteration 15: p_1shift = 1.00335 ± 0.00727389
+ FCN=14.6793 FROM MIGRAD    STATUS=CONVERGED      84 CALLS          85 TOTAL
+                     EDM=6.16783e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.95779e-01   6.21625e-03   1.34358e-06  -3.29262e-02
+   2  p1           9.98151e-01   2.72884e-03   5.89810e-07   6.47705e-02
+ FCN=29.4358 FROM MIGRAD    STATUS=CONVERGED     104 CALLS         105 TOTAL
+                     EDM=1.24023e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.14152e-01   1.49789e-03   5.04321e-07  -2.64207e+00
+   2  p1           8.00755e-01   5.25934e-03   1.77061e-06   7.57658e-01
+Iteration 0: p_1shift = 0.800755 ± 0.00525934
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=13.0881 FROM MIGRAD    STATUS=FAILED        103 CALLS         104 TOTAL
+                     EDM=0.000389614    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00031e+00   7.62886e-04   0.00000e+00  -4.69001e+00
+   2  p1           1.00000e+00   1.45249e-04   0.00000e+00  -4.06206e+00
+ FCN=17.4347 FROM MIGRAD    STATUS=CONVERGED     105 CALLS         106 TOTAL
+                     EDM=6.10067e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.15319e-01   1.55455e-03   3.95715e-07  -1.05067e-02
+   2  p1           8.02752e-01   5.40135e-03   1.37491e-06  -2.01502e-01
+Iteration 1: p_1shift = 0.802752 ± 0.00540135
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=13.2814 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=5.88266e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00147e+00   5.85129e-03   1.29043e-06  -2.77537e-02
+   2  p1           1.00068e+00   2.78908e-03   6.15087e-07   1.80593e-01
+ FCN=22.9543 FROM MIGRAD    STATUS=CONVERGED     161 CALLS         162 TOTAL
+                     EDM=3.16092e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.13284e-01   1.89004e-04   4.44042e-07  -3.18993e+00
+   2  p1           7.97101e-01   1.23851e-04   3.93125e-07  -3.38760e+00
+Iteration 2: p_1shift = 0.797101 ± 0.000123851
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=17.7856 FROM MIGRAD    STATUS=FAILED        128 CALLS         129 TOTAL
+                     EDM=0.000193462    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99821e-01   7.38478e-04   0.00000e+00  -4.81361e+00
+   2  p1           1.00000e+00   7.93339e-05   0.00000e+00  -7.42993e+01
+ FCN=28.6046 FROM MIGRAD    STATUS=CONVERGED     102 CALLS         103 TOTAL
+                     EDM=7.88461e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.15469e-01   1.55064e-03   5.02158e-07   6.62592e+00
+   2  p1           8.03553e-01   5.38632e-03   1.74505e-06  -1.87688e+00
+Iteration 3: p_1shift = 0.803553 ± 0.00538632
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=16.0643 FROM MIGRAD    STATUS=CONVERGED      87 CALLS          88 TOTAL
+                     EDM=2.41033e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.96837e-01   6.61151e-03   1.40438e-06   5.12994e-03
+   2  p1           9.98643e-01   2.89632e-03   6.15228e-07  -1.37008e-02
+ FCN=18.3822 FROM MIGRAD    STATUS=CONVERGED     107 CALLS         108 TOTAL
+                     EDM=2.72282e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.13635e-01   1.52065e-03   4.00223e-07  -2.74212e+00
+   2  p1           7.98048e-01   5.37607e-03   1.41549e-06   8.68885e-01
+Iteration 4: p_1shift = 0.798048 ± 0.00537607
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=13.6683 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=6.63654e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00237e+00   5.84374e-03   1.30818e-06  -4.86058e-02
+   2  p1           1.00110e+00   2.77568e-03   6.21350e-07   2.32278e-01
+ FCN=41.8889 FROM MIGRAD    STATUS=CONVERGED     208 CALLS         209 TOTAL
+                     EDM=2.29456e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.11700e-01   1.83604e-04  -0.00000e+00   7.34422e+00
+   2  p1           7.91045e-01   5.56587e-05   0.00000e+00  -5.08101e+01
+Iteration 5: p_1shift = 0.791045 ± 5.56587e-05
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=15.5337 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=1.05531e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00066e+00   5.85166e-03   1.38811e-06  -3.34689e-02
+   2  p1           1.00034e+00   2.78293e-03   6.60144e-07   2.34740e-01
+ FCN=23.6855 FROM MIGRAD    STATUS=CONVERGED     148 CALLS         149 TOTAL
+                     EDM=5.96613e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.13137e-01   1.41108e-03   4.50469e-07  -5.87185e-01
+   2  p1           7.96845e-01   4.99772e-03   1.59513e-06   1.62975e-01
+Iteration 6: p_1shift = 0.796845 ± 0.00499772
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=12.73 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=4.10599e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00235e+00   5.75183e-03   1.26584e-06  -4.20232e-02
+   2  p1           1.00108e+00   2.73211e-03   6.01260e-07   1.92148e-01
+ FCN=27.1951 FROM MIGRAD    STATUS=CONVERGED     153 CALLS         154 TOTAL
+                     EDM=3.88248e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.15105e-01   1.49581e-03   4.89998e-07   9.63061e-02
+   2  p1           8.04865e-01   5.23164e-03   1.71372e-06  -1.08346e-02
+Iteration 7: p_1shift = 0.804865 ± 0.00523164
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=8.50959 FROM MIGRAD    STATUS=FAILED         89 CALLS          90 TOTAL
+                     EDM=2.45565e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00015e+00   7.52204e-04   0.00000e+00  -3.90912e+00
+   2  p1           1.00000e+00   1.04495e-04  -0.00000e+00   1.63027e+01
+ FCN=22.3256 FROM MIGRAD    STATUS=CONVERGED     109 CALLS         110 TOTAL
+                     EDM=5.62272e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.12009e-01   1.46288e-03   4.32973e-07   1.80852e-01
+   2  p1           7.92712e-01   5.22835e-03   1.54779e-06  -4.93095e-02
+Iteration 8: p_1shift = 0.792712 ± 0.00522835
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=18.8416 FROM MIGRAD    STATUS=FAILED        102 CALLS         103 TOTAL
+                     EDM=1.2351e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00015e+00   7.27188e-04   0.00000e+00  -2.81699e+00
+   2  p1           1.00000e+00   8.38103e-05  -0.00000e+00   1.43613e+01
+ FCN=27.0332 FROM MIGRAD    STATUS=CONVERGED     157 CALLS         158 TOTAL
+                     EDM=1.20369e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.16790e-01   2.59639e-04   4.94908e-07  -2.86013e+00
+   2  p1           8.09523e-01   6.14541e-04   1.18370e-06  -1.54601e+00
+Iteration 9: p_1shift = 0.809523 ± 0.000614541
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=14.6652 FROM MIGRAD    STATUS=CONVERGED      86 CALLS          87 TOTAL
+                     EDM=3.75868e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99468e-01   6.40117e-03   1.34905e-06  -1.14362e-01
+   2  p1           9.99873e-01   2.78514e-03   5.87177e-07   2.49140e-01
+ FCN=30.7957 FROM MIGRAD    STATUS=CONVERGED     125 CALLS         126 TOTAL
+                     EDM=9.38566e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.10705e-01   1.83460e-04   4.99496e-07   7.03143e-01
+   2  p1           7.87234e-01   9.96477e-05   3.75382e-07  -6.94338e-01
+Iteration 10: p_1shift = 0.787234 ± 9.96477e-05
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=17.6906 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=4.22586e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00188e+00   6.00559e-03   1.47701e-06  -4.62687e-02
+   2  p1           1.00083e+00   2.86206e-03   7.03880e-07   1.97371e-01
+ FCN=25.6536 FROM MIGRAD    STATUS=CONVERGED     196 CALLS         197 TOTAL
+                     EDM=5.14393e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.13662e-01   1.88649e-04   4.69318e-07  -3.17377e+00
+   2  p1           7.97468e-01   1.08722e-04   3.80262e-07  -2.81077e+01
+Iteration 11: p_1shift = 0.797468 ± 0.000108722
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=22.179 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=4.4667e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00185e+00   5.70661e-03   1.64487e-06  -7.35064e-02
+   2  p1           1.00075e+00   2.71247e-03   7.81824e-07   2.62026e-01
+ FCN=19.7334 FROM MIGRAD    STATUS=CONVERGED     122 CALLS         123 TOTAL
+                     EDM=7.32659e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.12972e-01   1.52824e-03   4.10736e-07  -3.19758e+00
+   2  p1           7.93991e-01   5.38870e-03   1.44858e-06   1.09626e+00
+Iteration 12: p_1shift = 0.793991 ± 0.0053887
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=15.4056 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=3.79927e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00170e+00   5.82438e-03   1.38405e-06  -4.66187e-02
+   2  p1           1.00082e+00   2.76554e-03   6.57162e-07   1.96445e-01
+ FCN=23.375 FROM MIGRAD    STATUS=CONVERGED     104 CALLS         105 TOTAL
+                     EDM=1.99495e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.15514e-01   1.60705e-03   4.56291e-07  -1.05534e+00
+   2  p1           8.04077e-01   5.60919e-03   1.59252e-06   3.00257e-01
+Iteration 13: p_1shift = 0.804077 ± 0.00560919
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=17.4089 FROM MIGRAD    STATUS=FAILED        115 CALLS         116 TOTAL
+                     EDM=0.00086712    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99563e-01   1.10308e-03  -0.00000e+00   3.33391e+00
+   2  p1           1.00000e+00   3.73748e-04  -0.00000e+00   8.02543e+01
+ FCN=32.6336 FROM MIGRAD    STATUS=CONVERGED      99 CALLS         100 TOTAL
+                     EDM=4.23988e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.14339e-01   1.50855e-03   5.30415e-07  -1.10556e-01
+   2  p1           8.00194e-01   5.28891e-03   1.85958e-06   2.05357e-01
+Iteration 14: p_1shift = 0.800194 ± 0.00528891
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=16.3227 FROM MIGRAD    STATUS=CONVERGED      85 CALLS          86 TOTAL
+                     EDM=2.73607e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.98704e-01   6.49104e-03   1.41784e-06   3.26656e-02
+   2  p1           9.99390e-01   2.82532e-03   6.17145e-07  -9.95218e-02
+ FCN=25.9455 FROM MIGRAD    STATUS=CONVERGED     160 CALLS         161 TOTAL
+                     EDM=5.72613e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.15378e-01   1.91140e-04   4.78855e-07   1.24068e+00
+   2  p1           8.03279e-01   1.01825e-04   4.01186e-07   3.28013e+01
+Iteration 15: p_1shift = 0.803279 ± 0.000101825
+[0mroot [2] hun_mill_low[0m[38;5;83m[1m()[D[D[0m([K[D[K[D[K[D[K[D[Khigh[0m[38;5;83m[1m()
+[0m FCN=40.0827 FROM MIGRAD    STATUS=CONVERGED     135 CALLS         136 TOTAL
+                     EDM=2.60681e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99774e-01   1.67885e-03   5.24852e-06  -1.30721e+00
+   2  p1           1.00000e+00   2.58058e-05   4.76837e-07   2.87166e+01
+ FCN=73.9411 FROM MIGRAD    STATUS=CONVERGED     185 CALLS         186 TOTAL
+                     EDM=3.41427e-06    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   7.7 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.88081e-01   1.24878e-03   0.00000e+00  -7.10373e-01
+   2  p1           1.33094e+00   6.40065e-04   0.00000e+00  -4.05498e+00
+Iteration 0: p_1shift = 1.33094 ± 0.000640065
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=33.0826 FROM MIGRAD    STATUS=CONVERGED     114 CALLS         115 TOTAL
+                     EDM=1.404e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99929e-01   1.68180e-03   4.78221e-06  -9.79557e-01
+   2  p1           1.00000e+00   3.85632e-05   4.76837e-07  -5.48997e+00
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=56.2811 FROM MIGRAD    STATUS=FAILED        242 CALLS         243 TOTAL
+                     EDM=2.6209e-05    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   9.8 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.66712e-01   1.05278e-03   0.00000e+00  -7.47352e-01
+   2  p1           1.28415e+00   3.64507e-04   0.00000e+00  -1.62863e+01
+Iteration 1: p_1shift = 1.28415 ± 0.000364507
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=52.8818 FROM MIGRAD    STATUS=CONVERGED     161 CALLS         162 TOTAL
+                     EDM=3.55959e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00124e+00   1.68105e-03   6.01637e-06  -1.47503e+00
+   2  p1           1.00000e+00   2.96004e-05   4.76837e-07   3.81298e+01
+ FCN=69.4542 FROM MIGRAD    STATUS=CONVERGED     187 CALLS         188 TOTAL
+                     EDM=1.35151e-06    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.0 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.63355e-01   1.01530e-03   0.00000e+00   4.00090e-05
+   2  p1           1.27513e+00   1.64717e-04   0.00000e+00  -2.67973e+01
+Iteration 2: p_1shift = 1.27513 ± 0.000164717
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=37.7047 FROM MIGRAD    STATUS=FAILED        137 CALLS         138 TOTAL
+                     EDM=1.01284e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99752e-01   1.68503e-03  -0.00000e+00   5.79900e-01
+   2  p1           1.00000e+00   6.38653e-05   0.00000e+00  -2.66439e+01
+ FCN=55.4624 FROM MIGRAD    STATUS=CONVERGED     191 CALLS         192 TOTAL
+                     EDM=6.5078e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   0.3 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.08661e-01   1.30521e-03  -2.47392e-07   3.32303e-01
+   2  p1           1.37443e+00   6.35594e-05  -1.23228e-07  -1.36692e+01
+Iteration 3: p_1shift = 1.37443 ± 6.35594e-05
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=27.6828 FROM MIGRAD    STATUS=FAILED        145 CALLS         146 TOTAL
+                     EDM=9.25146e-05    STRATEGY= 1      ERR MATRIX APPROXIMATE
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99093e-01   1.67744e-03   4.37775e-06   2.28565e-01
+   2  p1           1.00000e+00   3.49908e-05   4.76837e-07   3.87897e+02
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=61.5368 FROM MIGRAD    STATUS=FAILED        195 CALLS         196 TOTAL
+                     EDM=6.23062e-05    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   5.7 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.59957e-01   1.08321e-03   0.00000e+00  -3.13839e+00
+   2  p1           1.27004e+00   4.14190e-04  -0.00000e+00   2.79385e+01
+Iteration 4: p_1shift = 1.27004 ± 0.00041419
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=56.9143 FROM MIGRAD    STATUS=CONVERGED      85 CALLS          86 TOTAL
+                     EDM=1.02688e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99885e-01   1.06183e-02   6.23650e-06   1.16056e-02
+   2  p1           1.00042e+00   3.42938e-03   2.01412e-06   9.65428e-02
+ FCN=61.2277 FROM MIGRAD    STATUS=CONVERGED     210 CALLS         211 TOTAL
+                     EDM=9.22422e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.0 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.77678e-01   1.10588e-03  -2.20995e-07   5.69242e-01
+   2  p1           1.30622e+00   9.07697e-05  -1.24234e-07  -9.66858e+00
+Iteration 5: p_1shift = 1.30622 ± 9.07697e-05
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=29.2144 FROM MIGRAD    STATUS=CONVERGED     135 CALLS         136 TOTAL
+                     EDM=4.41306e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00024e+00   1.68038e-03   4.50385e-06  -1.45335e+00
+   2  p1           1.00000e+00   2.87572e-05   4.76837e-07  -5.45314e+01
+ FCN=86.6227 FROM MIGRAD    STATUS=CONVERGED     228 CALLS         229 TOTAL
+                     EDM=5.37697e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.57154e-01   1.19301e-03   4.46788e-06  -7.39415e-01
+   2  p1           1.26291e+00   1.60280e-03   6.77662e-06   7.79532e-01
+Iteration 6: p_1shift = 1.26291 ± 0.0016028
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=37.2302 FROM MIGRAD    STATUS=FAILED        140 CALLS         141 TOTAL
+                     EDM=3.17904e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99624e-01   1.71047e-03   0.00000e+00  -9.05727e-01
+   2  p1           1.00000e+00   4.93947e-05  -0.00000e+00   2.48290e+01
+ FCN=74.8013 FROM MIGRAD    STATUS=CONVERGED     163 CALLS         164 TOTAL
+                     EDM=5.86273e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.72458e-01   1.18219e-03   4.56383e-06  -5.37167e-01
+   2  p1           1.29851e+00   1.07837e-03   4.54904e-06   1.09651e+00
+Iteration 7: p_1shift = 1.29851 ± 0.00107837
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=31.3567 FROM MIGRAD    STATUS=FAILED        110 CALLS         111 TOTAL
+                     EDM=5.65373e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00031e+00   1.82193e-03   0.00000e+00  -1.88710e+00
+   2  p1           1.00000e+00   4.53858e-05  -0.00000e+00   1.57435e+02
+ FCN=144.747 FROM MIGRAD    STATUS=CONVERGED     184 CALLS         185 TOTAL
+                     EDM=4.9211e-06    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   5.1 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.35828e-01   8.85101e-04   0.00000e+00  -7.74259e-01
+   2  p1           1.20690e+00   2.42195e-04  -0.00000e+00   1.21956e+01
+Iteration 8: p_1shift = 1.2069 ± 0.000242195
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=31.9132 FROM MIGRAD    STATUS=FAILED        126 CALLS         127 TOTAL
+                     EDM=5.55146e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99029e-01   1.68746e-03   0.00000e+00  -1.54122e+00
+   2  p1           1.00000e+00   3.86049e-05  -0.00000e+00   8.69653e+01
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=95.5954 FROM MIGRAD    STATUS=FAILED        151 CALLS         152 TOTAL
+                     EDM=0.0158068    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.50381e-01   1.03874e-03   0.00000e+00  -8.94945e-04
+   2  p1           1.24631e+00   1.11193e-03   0.00000e+00  -3.09392e+01
+Iteration 9: p_1shift = 1.24631 ± 0.00111193
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=32.3539 FROM MIGRAD    STATUS=FAILED        117 CALLS         118 TOTAL
+                     EDM=0.000610233    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00025e+00   1.68688e-03   0.00000e+00  -7.30407e-01
+   2  p1           1.00000e+00   3.91400e-05  -0.00000e+00   1.40544e+02
+ FCN=141.807 FROM MIGRAD    STATUS=CONVERGED     123 CALLS         124 TOTAL
+                     EDM=1.86768e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.30026e-01   2.90154e-03   4.70421e-06  -6.20841e-01
+   2  p1           1.19235e+00   7.45681e-03   1.20891e-05   2.79102e-01
+Iteration 10: p_1shift = 1.19235 ± 0.00745681
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=48.5064 FROM MIGRAD    STATUS=CONVERGED     128 CALLS         129 TOTAL
+                     EDM=1.22674e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99512e-01   1.68069e-03   5.76608e-06   3.17206e-02
+   2  p1           1.00000e+00   2.89156e-05   4.76837e-07  -5.19201e+00
+ FCN=74.2604 FROM MIGRAD    STATUS=CONVERGED     235 CALLS         236 TOTAL
+                     EDM=3.16103e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.98588e-01   1.24002e-03   5.23607e-06  -1.10098e-01
+   2  p1           1.35146e+00   1.89353e-04   9.66685e-07   4.19449e+00
+Iteration 11: p_1shift = 1.35146 ± 0.000189353
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=33.7682 FROM MIGRAD    STATUS=CONVERGED     140 CALLS         141 TOTAL
+                     EDM=1.29327e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00076e+00   1.68001e-03   4.83154e-06  -9.94299e-02
+   2  p1           1.00000e+00   2.58718e-05   4.76837e-07  -6.15224e+01
+ FCN=55.3313 FROM MIGRAD    STATUS=CONVERGED     128 CALLS         129 TOTAL
+                     EDM=2.33555e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.86290e-01   4.85723e-03   4.24329e-06   5.90157e-01
+   2  p1           1.32611e+00   9.53965e-03   8.33653e-06  -2.92411e-01
+Iteration 12: p_1shift = 1.32611 ± 0.00953965
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=50.4152 FROM MIGRAD    STATUS=FAILED        124 CALLS         125 TOTAL
+                     EDM=0.00873493    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99827e-01   1.11787e-03   0.00000e+00  -2.17130e+00
+   2  p1           1.00000e+00   5.58278e-05   0.00000e+00  -9.10050e+01
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=63.4304 FROM MIGRAD    STATUS=FAILED        214 CALLS         215 TOTAL
+                     EDM=8.35632e-05    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   6.7 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.89980e-01   1.21259e-03  -0.00000e+00  -5.84963e-01
+   2  p1           1.33103e+00   5.50077e-04  -0.00000e+00   2.38714e+01
+Iteration 13: p_1shift = 1.33103 ± 0.000550077
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=36.7353 FROM MIGRAD    STATUS=FAILED        131 CALLS         132 TOTAL
+                     EDM=0.000290626    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00028e+00   1.69723e-03  -0.00000e+00   8.10477e-01
+   2  p1           1.00000e+00   3.51820e-05   0.00000e+00  -1.96381e+02
+ FCN=75.0589 FROM MIGRAD    STATUS=CONVERGED     184 CALLS         185 TOTAL
+                     EDM=5.10274e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   4.7 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.93629e-01   1.20909e-03   8.23708e-08   1.99675e-01
+   2  p1           1.34450e+00   1.97474e-04   2.60616e-07   3.04322e+00
+Iteration 14: p_1shift = 1.3445 ± 0.000197474
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=33.6101 FROM MIGRAD    STATUS=FAILED        125 CALLS         126 TOTAL
+                     EDM=4.20945e-05    STRATEGY= 1      ERR MATRIX APPROXIMATE
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00026e+00   1.68189e-03   4.82231e-06   2.09159e+00
+   2  p1           1.00000e+00   3.36032e-05   4.76837e-07   2.45865e+02
+ FCN=67.8886 FROM MIGRAD    STATUS=CONVERGED     157 CALLS         158 TOTAL
+                     EDM=1.61691e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   8.1 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.68950e-01   1.14639e-03   6.22564e-07  -1.16420e-04
+   2  p1           1.29442e+00   4.27015e-04   6.95192e-08   1.42396e+00
+Iteration 15: p_1shift = 1.29442 ± 0.000427015
+ FCN=40.0827 FROM MIGRAD    STATUS=CONVERGED     135 CALLS         136 TOTAL
+                     EDM=2.60681e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99774e-01   1.67885e-03   5.24852e-06  -1.30721e+00
+   2  p1           1.00000e+00   2.58058e-05   4.76837e-07   2.87166e+01
+ FCN=74.2516 FROM MIGRAD    STATUS=CONVERGED     111 CALLS         112 TOTAL
+                     EDM=9.9064e-16    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.52930e-01   4.03766e-03   2.87099e-06  -6.21201e-06
+   2  p1           1.02128e+00   8.46604e-03   6.01980e-06  -2.31347e-06
+Iteration 0: p_1shift = 1.02128 ± 0.00846604
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=33.0826 FROM MIGRAD    STATUS=CONVERGED     114 CALLS         115 TOTAL
+                     EDM=1.404e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99929e-01   1.68180e-03   4.78221e-06  -9.79557e-01
+   2  p1           1.00000e+00   3.85632e-05   4.76837e-07  -5.48997e+00
+ FCN=57.385 FROM MIGRAD    STATUS=CONVERGED      52 CALLS          53 TOTAL
+                     EDM=1.38175e-08    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   3.8 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.47290e-01   4.87618e-03   1.97799e-05  -2.75302e-01
+   2  p1           1.00919e+00   1.04597e-02   3.93604e-05   1.37947e-01
+Iteration 1: p_1shift = 1.00919 ± 0.0104597
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=52.8818 FROM MIGRAD    STATUS=CONVERGED     161 CALLS         162 TOTAL
+                     EDM=3.55959e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00124e+00   1.68105e-03   6.01637e-06  -1.47503e+00
+   2  p1           1.00000e+00   2.96004e-05   4.76837e-07   3.81298e+01
+ FCN=79.5426 FROM MIGRAD    STATUS=CONVERGED      49 CALLS          50 TOTAL
+                     EDM=2.25714e-09    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   3.2 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.44863e-01   4.40538e-03   2.19737e-05   1.18485e-01
+   2  p1           1.00489e+00   9.64279e-03   4.47249e-05  -5.87185e-02
+Iteration 2: p_1shift = 1.00489 ± 0.00964279
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=37.7047 FROM MIGRAD    STATUS=FAILED        137 CALLS         138 TOTAL
+                     EDM=1.01284e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99752e-01   1.68503e-03  -0.00000e+00   5.79900e-01
+   2  p1           1.00000e+00   6.38653e-05   0.00000e+00  -2.66439e+01
+ FCN=43.6706 FROM MIGRAD    STATUS=CONVERGED      49 CALLS          50 TOTAL
+                     EDM=5.02065e-10    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   2.5 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.43973e-01   3.57762e-03   1.22627e-05   5.47811e-02
+   2  p1           1.00474e+00   7.84288e-03   2.43361e-05  -2.78083e-02
+Iteration 3: p_1shift = 1.00474 ± 0.00784288
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=27.6828 FROM MIGRAD    STATUS=FAILED        145 CALLS         146 TOTAL
+                     EDM=9.25146e-05    STRATEGY= 1      ERR MATRIX APPROXIMATE
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99093e-01   1.67744e-03   4.37775e-06   2.28565e-01
+   2  p1           1.00000e+00   3.49908e-05   4.76837e-07   3.87897e+02
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=64.0405 FROM MIGRAD    STATUS=FAILED        110 CALLS         111 TOTAL
+                     EDM=1.45919    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.56881e-01   1.15122e-03   0.00000e+00   6.22322e+00
+   2  p1           1.03101e+00   1.91799e-03   0.00000e+00  -5.26844e+00
+Iteration 4: p_1shift = 1.03101 ± 0.00191799
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=56.9143 FROM MIGRAD    STATUS=CONVERGED      85 CALLS          86 TOTAL
+                     EDM=1.02688e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99885e-01   1.06183e-02   6.23650e-06   1.16056e-02
+   2  p1           1.00042e+00   3.42938e-03   2.01412e-06   9.65428e-02
+ FCN=73.9809 FROM MIGRAD    STATUS=CONVERGED     198 CALLS         199 TOTAL
+                     EDM=3.79962e-06    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   7.4 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.54298e-01   6.93110e-04   0.00000e+00  -3.25769e-01
+   2  p1           1.02510e+00   1.47149e-04  -0.00000e+00   1.16768e+01
+Iteration 5: p_1shift = 1.0251 ± 0.000147149
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=29.2144 FROM MIGRAD    STATUS=CONVERGED     135 CALLS         136 TOTAL
+                     EDM=4.41306e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00024e+00   1.68038e-03   4.50385e-06  -1.45335e+00
+   2  p1           1.00000e+00   2.87572e-05   4.76837e-07  -5.45314e+01
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=70.8854 FROM MIGRAD    STATUS=FAILED         80 CALLS          81 TOTAL
+                     EDM=0.0224855    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.42269e-01   9.00423e-04  -0.00000e+00  -2.34214e+01
+   2  p1           1.00000e+00   1.59600e-03  -0.00000e+00   2.83083e+01
+Iteration 6: p_1shift = 1 ± 0.001596
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=37.2302 FROM MIGRAD    STATUS=FAILED        140 CALLS         141 TOTAL
+                     EDM=3.17904e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99624e-01   1.71047e-03   0.00000e+00  -9.05727e-01
+   2  p1           1.00000e+00   4.93947e-05  -0.00000e+00   2.48290e+01
+ FCN=60.6207 FROM MIGRAD    STATUS=CONVERGED      68 CALLS          69 TOTAL
+                     EDM=5.48701e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.38616e-01   3.86999e-03   2.36563e-06   3.17834e-02
+   2  p1           9.91908e-01   8.74244e-03   5.34543e-06   2.39364e-02
+Iteration 7: p_1shift = 0.991908 ± 0.00874244
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=31.3567 FROM MIGRAD    STATUS=FAILED        110 CALLS         111 TOTAL
+                     EDM=5.65373e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00031e+00   1.82193e-03   0.00000e+00  -1.88710e+00
+   2  p1           1.00000e+00   4.53858e-05  -0.00000e+00   1.57435e+02
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=81.3194 FROM MIGRAD    STATUS=FAILED         70 CALLS          71 TOTAL
+                     EDM=0.023772    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.44649e-01   6.71205e-04   0.00000e+00  -2.37663e-01
+   2  p1           1.00000e+00   4.63128e-04   0.00000e+00  -3.56383e+01
+Iteration 8: p_1shift = 1 ± 0.000463128
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=31.9132 FROM MIGRAD    STATUS=FAILED        126 CALLS         127 TOTAL
+                     EDM=5.55146e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99029e-01   1.68746e-03   0.00000e+00  -1.54122e+00
+   2  p1           1.00000e+00   3.86049e-05  -0.00000e+00   8.69653e+01
+ FCN=83.965 FROM MIGRAD    STATUS=CONVERGED      50 CALLS          51 TOTAL
+                     EDM=1.13066e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   2.0 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.41279e-01   4.13867e-03   6.94021e-06  -4.72806e-01
+   2  p1           9.96360e-01   9.09863e-03   2.22453e-05   1.47921e-01
+Iteration 9: p_1shift = 0.99636 ± 0.00909863
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=32.3539 FROM MIGRAD    STATUS=FAILED        117 CALLS         118 TOTAL
+                     EDM=0.000610233    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00025e+00   1.68688e-03   0.00000e+00  -7.30407e-01
+   2  p1           1.00000e+00   3.91400e-05  -0.00000e+00   1.40544e+02
+ FCN=82.8733 FROM MIGRAD    STATUS=CONVERGED      49 CALLS          50 TOTAL
+                     EDM=1.42779e-09    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   2.8 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.45086e-01   3.53918e-03   1.64958e-05   8.99613e-02
+   2  p1           1.00517e+00   7.66839e-03   3.21752e-05  -4.65150e-02
+Iteration 10: p_1shift = 1.00517 ± 0.00766839
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=48.5064 FROM MIGRAD    STATUS=CONVERGED     128 CALLS         129 TOTAL
+                     EDM=1.22674e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99512e-01   1.68069e-03   5.76608e-06   3.17206e-02
+   2  p1           1.00000e+00   2.89156e-05   4.76837e-07  -5.19201e+00
+ FCN=88.623 FROM MIGRAD    STATUS=CONVERGED     100 CALLS         101 TOTAL
+                     EDM=2.74883e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.47609e-01   7.04763e-04  -0.00000e+00   9.59193e-01
+   2  p1           1.01117e+00   5.52373e-04  -0.00000e+00   1.07230e+00
+Iteration 11: p_1shift = 1.01117 ± 0.000552373
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=33.7682 FROM MIGRAD    STATUS=CONVERGED     140 CALLS         141 TOTAL
+                     EDM=1.29327e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00076e+00   1.68001e-03   4.83154e-06  -9.94299e-02
+   2  p1           1.00000e+00   2.58718e-05   4.76837e-07  -6.15224e+01
+ FCN=60.0545 FROM MIGRAD    STATUS=CONVERGED      62 CALLS          63 TOTAL
+                     EDM=2.24198e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.42267e-01   3.96646e-03   2.40748e-06  -6.56373e-02
+   2  p1           9.98576e-01   8.55671e-03   5.19721e-06   3.61859e-02
+Iteration 12: p_1shift = 0.998576 ± 0.00855671
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=50.4152 FROM MIGRAD    STATUS=FAILED        124 CALLS         125 TOTAL
+                     EDM=0.00873493    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99827e-01   1.11787e-03   0.00000e+00  -2.17130e+00
+   2  p1           1.00000e+00   5.58278e-05   0.00000e+00  -9.10050e+01
+ FCN=85.4299 FROM MIGRAD    STATUS=CONVERGED      61 CALLS          62 TOTAL
+                     EDM=5.13826e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.41149e-01   4.13018e-03   2.84327e-06   5.02519e-02
+   2  p1           9.95814e-01   9.07445e-03   6.24994e-06  -2.32729e-02
+Iteration 13: p_1shift = 0.995814 ± 0.00907445
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=36.7353 FROM MIGRAD    STATUS=FAILED        131 CALLS         132 TOTAL
+                     EDM=0.000290626    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00028e+00   1.69723e-03  -0.00000e+00   8.10477e-01
+   2  p1           1.00000e+00   3.51820e-05   0.00000e+00  -1.96381e+02
+ FCN=57.4541 FROM MIGRAD    STATUS=CONVERGED     106 CALLS         107 TOTAL
+                     EDM=3.53112e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.48044e-01   8.29177e-04   2.45649e-06  -6.69927e-01
+   2  p1           1.01307e+00   1.08856e-03   3.15740e-06  -2.09697e+00
+Iteration 14: p_1shift = 1.01307 ± 0.00108856
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=33.6101 FROM MIGRAD    STATUS=FAILED        125 CALLS         126 TOTAL
+                     EDM=4.20945e-05    STRATEGY= 1      ERR MATRIX APPROXIMATE
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00026e+00   1.68189e-03   4.82231e-06   2.09159e+00
+   2  p1           1.00000e+00   3.36032e-05   4.76837e-07   2.45865e+02
+ FCN=73.7976 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=7.61946e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.46784e-01   1.13628e-03   2.76750e-06  -1.33100e-01
+   2  p1           1.01212e+00   2.01658e-03   5.33049e-06  -1.27419e-01
+Iteration 15: p_1shift = 1.01212 ± 0.00201658
+ FCN=40.0827 FROM MIGRAD    STATUS=CONVERGED     135 CALLS         136 TOTAL
+                     EDM=2.60681e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99774e-01   1.67885e-03   5.24852e-06  -1.30721e+00
+   2  p1           1.00000e+00   2.58058e-05   4.76837e-07   2.87166e+01
+ FCN=66.5279 FROM MIGRAD    STATUS=CONVERGED     154 CALLS         155 TOTAL
+                     EDM=4.56049e-06    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   7.3 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.18280e-01   4.85708e-04  -0.00000e+00  -1.19210e+00
+   2  p1           8.09524e-01   8.68032e-05  -0.00000e+00   2.69246e+01
+Iteration 0: p_1shift = 0.809524 ± 8.68032e-05
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=33.0826 FROM MIGRAD    STATUS=CONVERGED     114 CALLS         115 TOTAL
+                     EDM=1.404e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99929e-01   1.68180e-03   4.78221e-06  -9.79557e-01
+   2  p1           1.00000e+00   3.85632e-05   4.76837e-07  -5.48997e+00
+ FCN=50.9424 FROM MIGRAD    STATUS=CONVERGED     170 CALLS         171 TOTAL
+                     EDM=3.5496e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.19139e-01   7.37123e-04   1.48348e-06   2.36296e-01
+   2  p1           8.10428e-01   1.41638e-03   2.82250e-06   4.89822e-01
+Iteration 1: p_1shift = 0.810428 ± 0.00141638
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=52.8818 FROM MIGRAD    STATUS=CONVERGED     161 CALLS         162 TOTAL
+                     EDM=3.55959e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00124e+00   1.68105e-03   6.01637e-06  -1.47503e+00
+   2  p1           1.00000e+00   2.96004e-05   4.76837e-07   3.81298e+01
+ FCN=58.3851 FROM MIGRAD    STATUS=CONVERGED     133 CALLS         134 TOTAL
+                     EDM=7.51101e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.10046e-01   4.35595e-03   1.46903e-06   9.61944e-01
+   2  p1           7.89970e-01   1.08001e-02   3.64238e-06  -3.95284e-01
+Iteration 2: p_1shift = 0.78997 ± 0.0108001
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=37.7047 FROM MIGRAD    STATUS=FAILED        137 CALLS         138 TOTAL
+                     EDM=1.01284e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99752e-01   1.68503e-03  -0.00000e+00   5.79900e-01
+   2  p1           1.00000e+00   6.38653e-05   0.00000e+00  -2.66439e+01
+ FCN=56.2505 FROM MIGRAD    STATUS=CONVERGED     125 CALLS         126 TOTAL
+                     EDM=2.37643e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.30320e-01   3.68202e-03   1.70333e-06   8.96015e-04
+   2  p1           8.35837e-01   7.98390e-03   3.69344e-06  -9.04482e-03
+Iteration 3: p_1shift = 0.835837 ± 0.0079839
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=27.6828 FROM MIGRAD    STATUS=FAILED        145 CALLS         146 TOTAL
+                     EDM=9.25146e-05    STRATEGY= 1      ERR MATRIX APPROXIMATE
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99093e-01   1.67744e-03   4.37775e-06   2.28565e-01
+   2  p1           1.00000e+00   3.49908e-05   4.76837e-07   3.87897e+02
+ FCN=60.8156 FROM MIGRAD    STATUS=CONVERGED     151 CALLS         152 TOTAL
+                     EDM=2.23621e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.22735e-01   6.22272e-04   1.67128e-06   7.59172e-01
+   2  p1           8.21279e-01   1.01858e-03   3.10422e-06   1.71933e+00
+Iteration 4: p_1shift = 0.821279 ± 0.00101858
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=56.9143 FROM MIGRAD    STATUS=CONVERGED      85 CALLS          86 TOTAL
+                     EDM=1.02688e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99885e-01   1.06183e-02   6.23650e-06   1.16056e-02
+   2  p1           1.00042e+00   3.42938e-03   2.01412e-06   9.65428e-02
+ FCN=79.0225 FROM MIGRAD    STATUS=CONVERGED     130 CALLS         131 TOTAL
+                     EDM=2.13382e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.28016e-01   3.80997e-03   1.98233e-06   4.07429e-01
+   2  p1           8.31859e-01   8.28547e-03   4.31092e-06  -1.74899e-01
+Iteration 5: p_1shift = 0.831859 ± 0.00828547
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=29.2144 FROM MIGRAD    STATUS=CONVERGED     135 CALLS         136 TOTAL
+                     EDM=4.41306e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00024e+00   1.68038e-03   4.50385e-06  -1.45335e+00
+   2  p1           1.00000e+00   2.87572e-05   4.76837e-07  -5.45314e+01
+ FCN=78.5095 FROM MIGRAD    STATUS=CONVERGED     115 CALLS         116 TOTAL
+                     EDM=1.39088e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.17628e-01   3.82474e-03   1.81349e-06   2.70943e-02
+   2  p1           8.07683e-01   8.94586e-03   4.24216e-06  -1.01424e-02
+Iteration 6: p_1shift = 0.807683 ± 0.00894586
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=37.2302 FROM MIGRAD    STATUS=FAILED        140 CALLS         141 TOTAL
+                     EDM=3.17904e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99624e-01   1.71047e-03   0.00000e+00  -9.05727e-01
+   2  p1           1.00000e+00   4.93947e-05  -0.00000e+00   2.48290e+01
+ FCN=67.1456 FROM MIGRAD    STATUS=CONVERGED     144 CALLS         145 TOTAL
+                     EDM=4.94179e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.14321e-01   3.82661e-03   1.63683e-06   3.53392e-02
+   2  p1           8.00611e-01   9.11992e-03   3.90029e-06  -3.95734e-03
+Iteration 7: p_1shift = 0.800611 ± 0.00911992
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=31.3567 FROM MIGRAD    STATUS=FAILED        110 CALLS         111 TOTAL
+                     EDM=5.65373e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00031e+00   1.82193e-03   0.00000e+00  -1.88710e+00
+   2  p1           1.00000e+00   4.53858e-05  -0.00000e+00   1.57435e+02
+ FCN=67.9627 FROM MIGRAD    STATUS=CONVERGED     192 CALLS         193 TOTAL
+                     EDM=7.5204e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.7 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.15691e-01   4.13718e-04  -7.14494e-08   1.31270e+00
+   2  p1           8.00866e-01   6.02096e-05   8.94222e-08   1.53727e+01
+Iteration 8: p_1shift = 0.800866 ± 6.02096e-05
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=31.9132 FROM MIGRAD    STATUS=FAILED        126 CALLS         127 TOTAL
+                     EDM=5.55146e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99029e-01   1.68746e-03   0.00000e+00  -1.54122e+00
+   2  p1           1.00000e+00   3.86049e-05  -0.00000e+00   8.69653e+01
+ FCN=44.1598 FROM MIGRAD    STATUS=CONVERGED     194 CALLS         195 TOTAL
+                     EDM=6.29503e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.15262e-01   4.54410e-04   1.34152e-06  -7.64665e-04
+   2  p1           8.02575e-01   4.79879e-04   1.25615e-06  -2.33789e+00
+Iteration 9: p_1shift = 0.802575 ± 0.000479879
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=32.3539 FROM MIGRAD    STATUS=FAILED        117 CALLS         118 TOTAL
+                     EDM=0.000610233    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00025e+00   1.68688e-03   0.00000e+00  -7.30407e-01
+   2  p1           1.00000e+00   3.91400e-05  -0.00000e+00   1.40544e+02
+ FCN=82.179 FROM MIGRAD    STATUS=CONVERGED     195 CALLS         196 TOTAL
+                     EDM=1.4053e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.17024e-01   4.51165e-04   1.85220e-06   6.17475e-01
+   2  p1           8.07860e-01   4.13696e-04   1.55387e-06  -1.38201e+00
+Iteration 10: p_1shift = 0.80786 ± 0.000413696
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=48.5064 FROM MIGRAD    STATUS=CONVERGED     128 CALLS         129 TOTAL
+                     EDM=1.22674e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99512e-01   1.68069e-03   5.76608e-06   3.17206e-02
+   2  p1           1.00000e+00   2.89156e-05   4.76837e-07  -5.19201e+00
+ FCN=63.448 FROM MIGRAD    STATUS=CONVERGED     152 CALLS         153 TOTAL
+                     EDM=5.30804e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.18999e-01   3.56609e-03   1.65263e-06  -3.31908e-03
+   2  p1           8.10744e-01   8.26006e-03   3.82852e-06   1.06666e-03
+Iteration 11: p_1shift = 0.810744 ± 0.00826006
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+ FCN=33.7682 FROM MIGRAD    STATUS=CONVERGED     140 CALLS         141 TOTAL
+                     EDM=1.29327e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00076e+00   1.68001e-03   4.83154e-06  -9.94299e-02
+   2  p1           1.00000e+00   2.58718e-05   4.76837e-07  -6.15224e+01
+ FCN=89.9617 FROM MIGRAD    STATUS=CONVERGED     242 CALLS         243 TOTAL
+                     EDM=6.37016e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY  11.9 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.25176e-01   4.21343e-04  -1.14944e-08   9.45225e-01
+   2  p1           8.26087e-01   1.24652e-04  -4.53848e-09   2.21039e+01
+Iteration 12: p_1shift = 0.826087 ± 0.000124652
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=50.4152 FROM MIGRAD    STATUS=FAILED        124 CALLS         125 TOTAL
+                     EDM=0.00873493    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           9.99827e-01   1.11787e-03   0.00000e+00  -2.17130e+00
+   2  p1           1.00000e+00   5.58278e-05   0.00000e+00  -9.10050e+01
+ FCN=66.2216 FROM MIGRAD    STATUS=CONVERGED     205 CALLS         206 TOTAL
+                     EDM=3.52424e-06    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   8.3 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.11022e-01   4.15151e-04   0.00000e+00  -3.60844e-01
+   2  p1           7.92208e-01   2.30689e-04   0.00000e+00  -1.10473e+01
+Iteration 13: p_1shift = 0.792208 ± 0.000230689
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=36.7353 FROM MIGRAD    STATUS=FAILED        131 CALLS         132 TOTAL
+                     EDM=0.000290626    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00028e+00   1.69723e-03  -0.00000e+00   8.10477e-01
+   2  p1           1.00000e+00   3.51820e-05   0.00000e+00  -1.96381e+02
+ FCN=76.3301 FROM MIGRAD    STATUS=CONVERGED     198 CALLS         199 TOTAL
+                     EDM=1.55056e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.24954e-01   7.67606e-04   1.90281e-06   4.40379e-01
+   2  p1           8.25640e-01   1.41342e-03   3.56453e-06  -1.43352e+00
+Iteration 14: p_1shift = 0.82564 ± 0.00141342
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+ FCN=33.6101 FROM MIGRAD    STATUS=FAILED        125 CALLS         126 TOTAL
+                     EDM=4.20945e-05    STRATEGY= 1      ERR MATRIX APPROXIMATE
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00026e+00   1.68189e-03   4.82231e-06   2.09159e+00
+   2  p1           1.00000e+00   3.36032e-05   4.76837e-07   2.45865e+02
+ FCN=57.2865 FROM MIGRAD    STATUS=CONVERGED     173 CALLS         174 TOTAL
+                     EDM=1.86134e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.33592e-01   4.84824e-04   1.76641e-06  -1.85896e-01
+   2  p1           8.43972e-01   2.21802e-04   7.72928e-07  -8.60383e+00
+Iteration 15: p_1shift = 0.843972 ± 0.000221802
+[0mroot [3] .q
+[0mbash sphnx03 codes $exit
+exit
+
+Script done on Tue 05 Nov 2024 07:09:08 PM EST

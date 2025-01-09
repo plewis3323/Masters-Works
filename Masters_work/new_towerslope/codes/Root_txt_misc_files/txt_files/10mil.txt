@@ -1,0 +1,2286 @@
+Script started on 2024-11-01 09:52:30-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_work/new_towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[Dfive_mill[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[D[D[D[0m.L l3_shape_code.C 
+[0m[0mroot [1] 100[D[K[D[K[D[Kten_mill[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      23.7148
+NDf                       =           26
+Edm                       =  9.35957e-07
+NCalls                    =           92
+p0                        =     0.176014   +/-   0.00834768  
+p1                        =      1.28905   +/-   0.0248754   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      9.05103
+NDf                       =           26
+Edm                       =  1.58802e-07
+NCalls                    =          204
+p0                        =      1.00147   +/-   0.0022128   
+p1                        =            1   +/-   6.44815e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.775768
+param 0 0.176014
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      29.2738
+NDf                       =           26
+Edm                       =  1.97658e-06
+NCalls                    =          147
+p0                        =     0.175617   +/-   0.00144386  
+p1                        =      1.29091   +/-   0.00224828  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      7.64645
+NDf                       =           26
+Edm                       =  1.17137e-08
+NCalls                    =          147
+p0                        =     0.999031   +/-   0.0179916   
+p1                        =       1.0001   +/-   0.0086249   
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.77465
+param 0 0.175617
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      42.1716
+NDf                       =           26
+Edm                       =  6.97389e-06
+NCalls                    =          144
+p0                        =     0.171137   +/-   0.00121095  
+p1                        =      1.27586   +/-   0.000628587 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      14.2665
+NDf                       =           26
+Edm                       =  4.47029e-07
+NCalls                    =          148
+p0                        =      1.00569   +/-   0.0182842   
+p1                        =      1.00139   +/-   0.00868483  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.783784
+param 0 0.171137
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      16.8509
+NDf                       =           26
+Edm                       =  1.20275e-06
+NCalls                    =          144
+p0                        =     0.177069   +/-   0.00136737  
+p1                        =      1.29508   +/-   0.00168212  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      9.04441
+NDf                       =           26
+Edm                       =  2.91048e-07
+NCalls                    =          205
+p0                        =      1.00065   +/-   0.00221557  
+p1                        =            1   +/-   7.59522e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.772151
+param 0 0.177069
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      17.6411
+NDf                       =           26
+Edm                       =  6.76529e-06
+NCalls                    =          115
+p0                        =      0.21137   +/-   0.0107611   
+p1                        =      1.38645   +/-   0.02805     
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      12.1386
+NDf                       =           26
+Edm                       =  2.52363e-09
+NCalls                    =          142
+p0                        =      1.00386   +/-   0.0165536   
+p1                        =       1.0017   +/-   0.00788076  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.721266
+param 0 0.21137
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      44.2156
+NDf                       =           26
+Edm                       =  1.86231e-07
+NCalls                    =          162
+p0                        =     0.198893   +/-   0.00140924  
+p1                        =      1.36066   +/-   0.000198572 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      16.2938
+NDf                       =           26
+Edm                       =  1.73409e-07
+NCalls                    =          170
+p0                        =      1.00603   +/-   0.0157577   
+p1                        =      1.00278   +/-   0.00742646  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.73494
+param 0 0.198893
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      18.6263
+NDf                       =           26
+Edm                       =  8.15946e-07
+NCalls                    =          149
+p0                        =     0.175726   +/-   0.00125354  
+p1                        =      1.29333   +/-   0.00051522  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      17.5502
+NDf                       =           26
+Edm                       =  5.61069e-06
+NCalls                    =          185
+p0                        =      1.00006   +/-   0.00222058  
+p1                        =            1   +/-   0.000119758 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.773196
+param 0 0.175726
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      46.6773
+NDf                       =           26
+Edm                       =  0.000184159
+NCalls                    =          149
+p0                        =     0.181594   +/-   0.00121177  
+p1                        =      1.31579   +/-   0.00148363  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      12.5224
+NDf                       =           26
+Edm                       =  3.69479e-09
+NCalls                    =          142
+p0                        =      1.00127   +/-   0.0164304   
+p1                        =      1.00005   +/-   0.00781815  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.76
+param 0 0.181594
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      24.0323
+NDf                       =           26
+Edm                       =  4.89222e-06
+NCalls                    =          142
+p0                        =     0.181167   +/-   0.00130596  
+p1                        =      1.30588   +/-   0.000796056 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      14.7748
+NDf                       =           26
+Edm                       =  2.92583e-08
+NCalls                    =          140
+p0                        =      1.00498   +/-   0.0155729   
+p1                        =      1.00261   +/-   0.00731929  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.765766
+param 0 0.181167
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      32.6551
+NDf                       =           26
+Edm                       =   7.0967e-06
+NCalls                    =           98
+p0                        =     0.164646   +/-   0.0082361   
+p1                        =      1.25942   +/-   0.0259342   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      28.8482
+NDf                       =           26
+Edm                       =  1.35151e-05
+NCalls                    =          198
+p0                        =      1.00012   +/-   0.00221195  
+p1                        =            1   +/-   6.04169e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.794019
+param 0 0.164646
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      28.9701
+NDf                       =           26
+Edm                       =  6.95646e-05
+NCalls                    =          157
+p0                        =     0.156307   +/-   0.00113532  
+p1                        =      1.22535   +/-   0.000600399 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      17.8278
+NDf                       =           26
+Edm                       =  1.73041e-05
+NCalls                    =          205
+p0                        =     0.998376   +/-   0.0022079   
+p1                        =            1   +/-   6.09001e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.816092
+param 0 0.156307
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      25.2435
+NDf                       =           26
+Edm                       =  5.10901e-06
+NCalls                    =          161
+p0                        =     0.170817   +/-   0.00120901  
+p1                        =       1.2716   +/-   0.000365055 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      30.2856
+NDf                       =           26
+Edm                       =  1.16755e-05
+NCalls                    =          193
+p0                        =      1.00035   +/-   0.00221519  
+p1                        =            1   +/-   6.14282e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.786408
+param 0 0.170817
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      20.2814
+NDf                       =           26
+Edm                       =    0.0123592
+NCalls                    =          108
+p0                        =     0.180267   +/-   0.00313748  
+p1                        =      1.29787   +/-   0.00861193  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       8.8676
+NDf                       =           26
+Edm                       =  1.49146e-06
+NCalls                    =          132
+p0                        =      1.00019   +/-   0.0161567   
+p1                        =      1.00011   +/-   0.00765843  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.77049
+param 0 0.180267
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      25.6885
+NDf                       =           26
+Edm                       =  3.22161e-05
+NCalls                    =          158
+p0                        =     0.219537   +/-   0.00160532  
+p1                        =      1.41758   +/-   0.000321685 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      7.13736
+NDf                       =           26
+Edm                       =  2.19955e-06
+NCalls                    =          219
+p0                        =     0.998667   +/-   0.00223366  
+p1                        =            1   +/-   0.000164538 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.705426
+param 0 0.219537
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      38.9868
+NDf                       =           26
+Edm                       =  1.73804e-07
+NCalls                    =          106
+p0                        =     0.197156   +/-   0.0102284   
+p1                        =       1.3551   +/-   0.0286162   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      18.8651
+NDf                       =           26
+Edm                       =  9.42354e-06
+NCalls                    =          173
+p0                        =      1.00117   +/-   0.00221527  
+p1                        =            1   +/-   5.39922e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.737953
+param 0 0.197156
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      15.0083
+NDf                       =           26
+Edm                       =  0.000107335
+NCalls                    =          114
+p0                        =      0.18587   +/-   0.0043897   
+p1                        =      1.32184   +/-   0.0120347   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      20.7489
+NDf                       =           26
+Edm                       =   4.5651e-06
+NCalls                    =          182
+p0                        =      0.99823   +/-   0.00220919  
+p1                        =            1   +/-   7.35735e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.75652
+param 0 0.18587
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      32.0866
+NDf                       =           26
+Edm                       =  2.64606e-11
+NCalls                    =           84
+p0                        =     0.161104   +/-   0.00694463  
+p1                        =      1.05566   +/-   0.0204612   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      9.05104
+NDf                       =           26
+Edm                       =  1.00476e-05
+NCalls                    =          197
+p0                        =      1.00147   +/-   0.00221272  
+p1                        =            1   +/-   6.38383e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.947272
+param 0 0.161104
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      15.5229
+NDf                       =           26
+Edm                       =  1.20572e-07
+NCalls                    =           67
+p0                        =     0.148753   +/-   0.00683822  
+p1                        =      1.01488   +/-   0.0213314   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      7.64645
+NDf                       =           26
+Edm                       =  2.29125e-08
+NCalls                    =          151
+p0                        =     0.999032   +/-   0.0179909   
+p1                        =       1.0001   +/-   0.00862457  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.985336
+param 0 0.148753
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       32.585
+NDf                       =           26
+Edm                       =  6.46327e-06
+NCalls                    =          128
+p0                        =      0.15644   +/-   0.000922541 
+p1                        =      1.04444   +/-   0.000295397 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      14.2665
+NDf                       =           26
+Edm                       =  1.55028e-08
+NCalls                    =          134
+p0                        =      1.00569   +/-   0.0182857   
+p1                        =      1.00139   +/-   0.00868553  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.957447
+param 0 0.15644
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      34.3229
+NDf                       =           26
+Edm                       =  1.03378e-06
+NCalls                    =          133
+p0                        =     0.134206   +/-   0.000821981 
+p1                        =     0.974027   +/-   0.000820221 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      9.04441
+NDf                       =           26
+Edm                       =  3.55968e-09
+NCalls                    =          216
+p0                        =      1.00065   +/-   0.00221561  
+p1                        =            1   +/-   7.61168e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.02667
+param 0 0.134206
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       16.523
+NDf                       =           26
+Edm                       =  3.35818e-06
+NCalls                    =           77
+p0                        =     0.133232   +/-   0.00540158  
+p1                        =     0.963842   +/-   0.0182921   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      12.1386
+NDf                       =           26
+Edm                       =  1.12172e-05
+NCalls                    =          157
+p0                        =      1.00387   +/-   0.016547    
+p1                        =      1.00171   +/-   0.00787743  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.03751
+param 0 0.133232
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      28.8221
+NDf                       =           26
+Edm                       =   6.8905e-06
+NCalls                    =           69
+p0                        =     0.158888   +/-   0.00630656  
+p1                        =      1.05066   +/-   0.0188954   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      16.2938
+NDf                       =           26
+Edm                       =  4.23759e-08
+NCalls                    =          147
+p0                        =      1.00603   +/-   0.0157585   
+p1                        =      1.00278   +/-   0.00742688  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.951782
+param 0 0.158888
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      35.2379
+NDf                       =           26
+Edm                       =  1.15211e-08
+NCalls                    =           80
+p0                        =     0.134329   +/-   0.00653478  
+p1                        =     0.977164   +/-   0.0222084   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      5147.88
+NDf                       =           26
+Edm                       =  2.06704e-14
+NCalls                    =          187
+p0                        =    0.0233932   +/-   0.000226269 
+p1                        =    0.0937336   +/-   0.000561322 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.02337
+param 0 0.134329
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      35.3804
+NDf                       =           26
+Edm                       =  6.36233e-11
+NCalls                    =           73
+p0                        =     0.143632   +/-   0.0061583   
+p1                        =       1.0106   +/-   0.0199712   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      5371.46
+NDf                       =           26
+Edm                       =  1.76159e-15
+NCalls                    =          155
+p0                        =    0.0236209   +/-   0.000227943 
+p1                        =    0.0942346   +/-   0.000553807 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.989511
+param 0 0.143632
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      23.1054
+NDf                       =           26
+Edm                       =  5.70244e-07
+NCalls                    =           79
+p0                        =     0.138063   +/-   0.00631469  
+p1                        =     0.986707   +/-   0.0204682   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      14.7748
+NDf                       =           26
+Edm                       =   1.0481e-09
+NCalls                    =          137
+p0                        =      1.00498   +/-   0.0155728   
+p1                        =      1.00261   +/-   0.00731924  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.01347
+param 0 0.138063
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      30.7684
+NDf                       =           26
+Edm                       =  1.85575e-11
+NCalls                    =           75
+p0                        =     0.143502   +/-   0.00556648  
+p1                        =      1.00629   +/-   0.0182561   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      28.8482
+NDf                       =           26
+Edm                       =  1.15644e-05
+NCalls                    =          234
+p0                        =      1.00012   +/-   0.00221267  
+p1                        =            1   +/-   6.53078e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.993752
+param 0 0.143502
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      40.9759
+NDf                       =           26
+Edm                       =  4.95174e-08
+NCalls                    =           67
+p0                        =     0.147077   +/-   0.00581123  
+p1                        =      1.01505   +/-   0.0180822   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      17.8278
+NDf                       =           26
+Edm                       =  8.53132e-06
+NCalls                    =          173
+p0                        =     0.998381   +/-   0.00220814  
+p1                        =            1   +/-   6.22511e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.985171
+param 0 0.147077
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      32.3783
+NDf                       =           26
+Edm                       =  3.24587e-09
+NCalls                    =           91
+p0                        =     0.137529   +/-   0.00672798  
+p1                        =      0.98167   +/-   0.0221394   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      30.2856
+NDf                       =           26
+Edm                       =  1.38201e-05
+NCalls                    =          184
+p0                        =      1.00035   +/-   0.00221659  
+p1                        =            1   +/-   7.21777e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.01867
+param 0 0.137529
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      24.2584
+NDf                       =           26
+Edm                       =  1.75507e-08
+NCalls                    =           84
+p0                        =     0.134655   +/-   0.0055236   
+p1                        =     0.972086   +/-   0.0185258   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       8.8676
+NDf                       =           26
+Edm                       =  1.63442e-06
+NCalls                    =          120
+p0                        =       1.0002   +/-   0.0161603   
+p1                        =      1.00011   +/-   0.00765994  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.02872
+param 0 0.134655
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      16.5695
+NDf                       =           26
+Edm                       =  9.34698e-06
+NCalls                    =           64
+p0                        =     0.155282   +/-   0.00933359  
+p1                        =      1.03736   +/-   0.0277203   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      7.13735
+NDf                       =           26
+Edm                       =  1.85043e-06
+NCalls                    =          207
+p0                        =     0.998669   +/-   0.0022131   
+p1                        =            1   +/-   7.68342e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.963985
+param 0 0.155282
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      31.4421
+NDf                       =           26
+Edm                       =  5.54093e-07
+NCalls                    =          122
+p0                        =     0.142753   +/-   0.000836033 
+p1                        =            1   +/-   0.00010904  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      18.8651
+NDf                       =           26
+Edm                       =   8.4602e-06
+NCalls                    =          173
+p0                        =      1.00117   +/-   0.00221515  
+p1                        =            1   +/-   5.32125e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1
+param 0 0.142753
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      21.0471
+NDf                       =           26
+Edm                       =  8.90497e-08
+NCalls                    =           68
+p0                        =     0.147353   +/-   0.0072855   
+p1                        =      1.01593   +/-   0.0226694   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      20.7489
+NDf                       =           26
+Edm                       =  5.85665e-07
+NCalls                    =          151
+p0                        =     0.998231   +/-   0.00220895  
+p1                        =            1   +/-   7.22299e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.984323
+param 0 0.147353
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       24.353
+NDf                       =           26
+Edm                       =   4.5116e-10
+NCalls                    =          107
+p0                        =     0.122038   +/-   0.00443201  
+p1                        =     0.826473   +/-   0.0148775   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      9.05104
+NDf                       =           26
+Edm                       =  1.02353e-05
+NCalls                    =          207
+p0                        =      1.00146   +/-   0.00221423  
+p1                        =            1   +/-   7.49743e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.20996
+param 0 0.122038
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      27.8539
+NDf                       =           26
+Edm                       =  3.23586e-06
+NCalls                    =          206
+p0                        =       0.1241   +/-   0.000680053 
+p1                        =     0.829791   +/-   0.000766415 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      7.64645
+NDf                       =           26
+Edm                       =  4.53988e-07
+NCalls                    =          164
+p0                        =     0.999044   +/-   0.0179918   
+p1                        =      1.00011   +/-   0.0086248   
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.20512
+param 0 0.1241
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      33.4698
+NDf                       =           26
+Edm                       =  7.62822e-11
+NCalls                    =          141
+p0                        =     0.121846   +/-   0.00446134  
+p1                        =     0.826609   +/-   0.0149852   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      14.2665
+NDf                       =           26
+Edm                       =  1.58718e-09
+NCalls                    =          139
+p0                        =      1.00569   +/-   0.018286    
+p1                        =      1.00139   +/-   0.0086857   
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.20976
+param 0 0.121846
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      29.5908
+NDf                       =           26
+Edm                       =  1.40656e-05
+NCalls                    =          183
+p0                        =     0.117539   +/-   0.000626864 
+p1                        =     0.811322   +/-   0.000516777 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      9.04442
+NDf                       =           26
+Edm                       =  1.19436e-05
+NCalls                    =          188
+p0                        =      1.00064   +/-   0.00221735  
+p1                        =            1   +/-   8.54063e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.23256
+param 0 0.117539
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      19.9548
+NDf                       =           26
+Edm                       =  2.85655e-06
+NCalls                    =          116
+p0                        =     0.118926   +/-   0.000629802 
+p1                        =     0.813953   +/-   0.000466568 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      12.1386
+NDf                       =           26
+Edm                       =  1.29183e-14
+NCalls                    =          150
+p0                        =      1.00386   +/-   0.0165537   
+p1                        =       1.0017   +/-   0.0078808   
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.22857
+param 0 0.118926
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      27.1179
+NDf                       =           26
+Edm                       =  1.79311e-06
+NCalls                    =          105
+p0                        =     0.124191   +/-   0.00513857  
+p1                        =     0.832676   +/-   0.0171629   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      16.2938
+NDf                       =           26
+Edm                       =  1.80389e-07
+NCalls                    =          141
+p0                        =      1.00603   +/-   0.0157577   
+p1                        =      1.00278   +/-   0.00742649  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.20095
+param 0 0.124191
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       31.742
+NDf                       =           26
+Edm                       =  1.91969e-06
+NCalls                    =           96
+p0                        =     0.106956   +/-   0.00389184  
+p1                        =      0.77666   +/-   0.0142383   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      17.5502
+NDf                       =           26
+Edm                       =   4.4535e-06
+NCalls                    =          174
+p0                        =      1.00006   +/-   0.00221714  
+p1                        =            1   +/-   0.000106767 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.28757
+param 0 0.106956
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      28.6704
+NDf                       =           26
+Edm                       =  3.32507e-09
+NCalls                    =          113
+p0                        =     0.114092   +/-   0.00500086  
+p1                        =     0.808613   +/-   0.0178439   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      12.5224
+NDf                       =           26
+Edm                       =  4.03507e-08
+NCalls                    =          152
+p0                        =      1.00127   +/-   0.0164306   
+p1                        =      1.00005   +/-   0.00781819  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.23669
+param 0 0.114092
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      29.0115
+NDf                       =           26
+Edm                       =  3.05073e-06
+NCalls                    =          156
+p0                        =     0.115062   +/-   0.000598489 
+p1                        =     0.802817   +/-   0.000223818 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      10810.1
+NDf                       =           26
+Edm                       =  1.39478e-06
+NCalls                    =           79
+p0                        =     0.108559   +/-   0.00272398  
+p1                        =     0.273194   +/-   0.00505437  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.24561
+param 0 0.115062
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      27.3249
+NDf                       =           26
+Edm                       =  9.25558e-06
+NCalls                    =           94
+p0                        =     0.122194   +/-   0.00440233  
+p1                        =     0.831908   +/-   0.01486     
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      28.8482
+NDf                       =           26
+Edm                       =  2.44837e-06
+NCalls                    =          182
+p0                        =      1.00012   +/-   0.00221169  
+p1                        =            1   +/-   5.85354e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.20206
+param 0 0.122194
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      28.5344
+NDf                       =           26
+Edm                       =  1.78024e-09
+NCalls                    =          124
+p0                        =       0.1126   +/-   0.00423019  
+p1                        =     0.795843   +/-   0.0149245   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      17.8278
+NDf                       =           26
+Edm                       =   8.7459e-07
+NCalls                    =          214
+p0                        =     0.998379   +/-   0.00220787  
+p1                        =            1   +/-   6.03786e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.25653
+param 0 0.1126
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       27.822
+NDf                       =           26
+Edm                       =   2.9076e-11
+NCalls                    =          133
+p0                        =     0.118162   +/-   0.00499303  
+p1                        =     0.812055   +/-   0.0172086   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      30.2856
+NDf                       =           26
+Edm                       =  1.21261e-05
+NCalls                    =          225
+p0                        =      1.00035   +/-   0.00221598  
+p1                        =            1   +/-   6.7694e-05  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.23144
+param 0 0.118162
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      36.5869
+NDf                       =           26
+Edm                       =  6.71353e-07
+NCalls                    =           97
+p0                        =     0.114589   +/-   0.00477991  
+p1                        =     0.798765   +/-   0.0167263   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      8.86759
+NDf                       =           26
+Edm                       =   5.5912e-08
+NCalls                    =          144
+p0                        =      1.00019   +/-   0.0161586   
+p1                        =      1.00011   +/-   0.00765937  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.25193
+param 0 0.114589
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      22.4165
+NDf                       =           26
+Edm                       =  1.20517e-06
+NCalls                    =          144
+p0                        =     0.111172   +/-   0.00427069  
+p1                        =     0.788504   +/-   0.0153156   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      7.13736
+NDf                       =           26
+Edm                       =  1.89823e-06
+NCalls                    =          263
+p0                        =     0.998669   +/-   0.0022167   
+p1                        =            1   +/-   9.7975e-05  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.26822
+param 0 0.111172
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      37.5226
+NDf                       =           26
+Edm                       =  2.55638e-06
+NCalls                    =          165
+p0                        =     0.113214   +/-   0.000600827 
+p1                        =     0.795918   +/-   0.000452232 
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      10191.1
+NDf                       =           26
+Edm                       =   0.00177254
+NCalls                    =          132
+p0                        =     0.114608   +/-   0.000284065 
+p1                        =     0.284213   +/-   0.000205681 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.25641
+param 0 0.113214
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      16.3725
+NDf                       =           26
+Edm                       =  1.70619e-08
+NCalls                    =          131
+p0                        =     0.113319   +/-   0.00398954  
+p1                        =     0.796197   +/-   0.0140579   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      20.7489
+NDf                       =           26
+Edm                       =  1.33432e-06
+NCalls                    =          187
+p0                        =     0.998229   +/-   0.00220905  
+p1                        =            1   +/-   7.29905e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.25597
+param 0 0.113319
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      94.4861
+NDf                       =           62
+Edm                       =  5.02004e-06
+NCalls                    =          125
+p0                        =     0.109865   +/-   0.00222113  
+p1                        =      1.14173   +/-   0.00148502  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      160.991
+NDf                       =           62
+Edm                       =  2.86213e-08
+NCalls                    =           79
+p0                        =       1.4401   +/-   0.0158995   
+p1                        =      1.12489   +/-   0.00319297  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.875864
+param 0 0.109865
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      56.4051
+NDf                       =           62
+Edm                       =  4.68608e-06
+NCalls                    =          121
+p0                        =     0.108885   +/-   0.00215758  
+p1                        =      1.13793   +/-   0.000268335 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       33.157
+NDf                       =           62
+Edm                       =  3.18366e-05
+NCalls                    =          272
+p0                        =     0.997911   +/-   0.00530828  
+p1                        =            1   +/-   8.25283e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.878788
+param 0 0.108885
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      81.0287
+NDf                       =           62
+Edm                       =   4.4715e-05
+NCalls                    =           90
+p0                        =    0.0860858   +/-   0.00198265  
+p1                        =      1.06154   +/-   0.00105813  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      112.171
+NDf                       =           62
+Edm                       =  1.72605e-06
+NCalls                    =          198
+p0                        =     0.592108   +/-   0.003179    
+p1                        =     0.843318   +/-   0.000170315 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.942029
+param 0 0.0860858
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      60.5605
+NDf                       =           62
+Edm                       =  1.33535e-05
+NCalls                    =          102
+p0                        =    0.0855226   +/-   0.00189391  
+p1                        =      1.07549   +/-   0.00289702  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       55.235
+NDf                       =           62
+Edm                       =  1.29541e-06
+NCalls                    =          133
+p0                        =      1.00264   +/-   0.00531088  
+p1                        =            1   +/-   1.34312e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.929813
+param 0 0.0855226
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      81.7546
+NDf                       =           62
+Edm                       =  4.56411e-09
+NCalls                    =          118
+p0                        =    0.0824627   +/-   0.00374735  
+p1                        =      1.04314   +/-   0.0135236   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      179.546
+NDf                       =           62
+Edm                       =  3.99757e-06
+NCalls                    =          161
+p0                        =      0.57093   +/-   0.0100405   
+p1                        =     0.832345   +/-   0.00467261  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.95864
+param 0 0.0824627
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      63.1115
+NDf                       =           62
+Edm                       =  0.000588612
+NCalls                    =          126
+p0                        =    0.0798339   +/-   0.00160039  
+p1                        =      1.04027   +/-   0.00121951  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      46.3298
+NDf                       =           62
+Edm                       =  3.91297e-06
+NCalls                    =           59
+p0                        =     0.998999   +/-   0.0118047   
+p1                        =      1.00063   +/-   0.00346087  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.961292
+param 0 0.0798339
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      89.7853
+NDf                       =           62
+Edm                       =   0.00693539
+NCalls                    =          127
+p0                        =     0.116867   +/-   0.00159519  
+p1                        =      1.16289   +/-   0.00106508  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      159.166
+NDf                       =           62
+Edm                       =  1.73715e-05
+NCalls                    =           54
+p0                        =      1.58915   +/-   0.0198459   
+p1                        =       1.1528   +/-   0.00399858  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.859925
+param 0 0.116867
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      77.4286
+NDf                       =           62
+Edm                       =  2.57168e-07
+NCalls                    =          105
+p0                        =      0.10914   +/-   0.00272838  
+p1                        =      1.14086   +/-   0.0051265   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      40.4859
+NDf                       =           62
+Edm                       =  3.41457e-06
+NCalls                    =          307
+p0                        =     0.995999   +/-   0.00530509  
+p1                        =            1   +/-   2.664e-05   
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.876535
+param 0 0.10914
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      84.0936
+NDf                       =           62
+Edm                       =  3.14826e-06
+NCalls                    =          119
+p0                        =     0.134084   +/-   0.00271772  
+p1                        =      1.22026   +/-   0.00108736  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      108.822
+NDf                       =           62
+Edm                       =  5.79546e-06
+NCalls                    =          138
+p0                        =      1.30397   +/-   0.0069793   
+p1                        =      1.08633   +/-   0.000188404 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.819496
+param 0 0.134084
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      93.6223
+NDf                       =           62
+Edm                       =  3.44772e-07
+NCalls                    =           74
+p0                        =    0.0832678   +/-   0.00372562  
+p1                        =      1.06195   +/-   0.0134297   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      114.891
+NDf                       =           62
+Edm                       =  7.31576e-15
+NCalls                    =          108
+p0                        =      0.61995   +/-   0.0101816   
+p1                        =     0.855568   +/-   0.00455744  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.941665
+param 0 0.0832678
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      82.6957
+NDf                       =           62
+Edm                       =  3.29995e-05
+NCalls                    =          146
+p0                        =      0.13958   +/-   0.00264191  
+p1                        =      1.22798   +/-   0.000631413 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      82.7621
+NDf                       =           62
+Edm                       =  7.25477e-08
+NCalls                    =          124
+p0                        =     0.833474   +/-   0.0166407   
+p1                        =     0.944358   +/-   0.00592913  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.814346
+param 0 0.13958
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      109.999
+NDf                       =           62
+Edm                       =  5.91467e-05
+NCalls                    =          191
+p0                        =     0.129986   +/-   0.00264403  
+p1                        =      1.20779   +/-   0.00119429  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      82.6447
+NDf                       =           62
+Edm                       =  5.51759e-06
+NCalls                    =          158
+p0                        =     0.724749   +/-   0.00397727  
+p1                        =     0.902439   +/-   0.000390114 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.827957
+param 0 0.129986
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      86.2131
+NDf                       =           62
+Edm                       =   0.00190246
+NCalls                    =           74
+p0                        =     0.104811   +/-   0.00587499  
+p1                        =      1.14098   +/-   0.0162197   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      91.4366
+NDf                       =           62
+Edm                       =  4.73312e-07
+NCalls                    =          185
+p0                        =      0.79101   +/-   0.00447104  
+p1                        =       0.9267   +/-   0.000594342 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.87644
+param 0 0.104811
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      76.6319
+NDf                       =           62
+Edm                       =  7.77995e-10
+NCalls                    =          110
+p0                        =     0.106359   +/-   0.0065472   
+p1                        =      1.12368   +/-   0.0192993   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      33.0846
+NDf                       =           62
+Edm                       =  1.52113e-06
+NCalls                    =          321
+p0                        =     0.998252   +/-   0.00529573  
+p1                        =            1   +/-   1.96018e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.889931
+param 0 0.106359
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       77.326
+NDf                       =           62
+Edm                       =  3.73576e-06
+NCalls                    =           99
+p0                        =     0.148041   +/-   0.00379793  
+p1                        =      1.25768   +/-   0.00589244  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      114.838
+NDf                       =           62
+Edm                       =  1.43528e-05
+NCalls                    =          103
+p0                        =     0.520869   +/-   0.00293567  
+p1                        =     0.807487   +/-   0.00052014  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.795118
+param 0 0.148041
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      88.1319
+NDf                       =           62
+Edm                       =  0.000246063
+NCalls                    =           89
+p0                        =    0.0771547   +/-   0.0013222   
+p1                        =      1.03686   +/-   0.00134327  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      51.0839
+NDf                       =           62
+Edm                       =  2.35023e-06
+NCalls                    =          216
+p0                        =     0.999717   +/-   0.00553241  
+p1                        =            1   +/-   0.000529301 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.964452
+param 0 0.0771547
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      76.7726
+NDf                       =           62
+Edm                       =  0.000807961
+NCalls                    =           96
+p0                        =     0.179562   +/-   0.00283467  
+p1                        =      1.07752   +/-   0.00222021  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      35.7521
+NDf                       =           62
+Edm                       =  1.25735e-05
+NCalls                    =          111
+p0                        =     0.996229   +/-   0.00529557  
+p1                        =            1   +/-   3.6923e-05  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.928061
+param 0 0.179562
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       58.551
+NDf                       =           62
+Edm                       =  3.86738e-06
+NCalls                    =          108
+p0                        =     0.169156   +/-   0.00245768  
+p1                        =      1.05907   +/-   0.0010548   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       33.157
+NDf                       =           62
+Edm                       =  1.78207e-05
+NCalls                    =          231
+p0                        =     0.997906   +/-   0.00530565  
+p1                        =            1   +/-   6.60516e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.944223
+param 0 0.169156
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      50.4204
+NDf                       =           62
+Edm                       =  3.61076e-06
+NCalls                    =          144
+p0                        =     0.149375   +/-   0.00213378  
+p1                        =      1.01482   +/-   0.000703331 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      51.6503
+NDf                       =           62
+Edm                       =  7.21028e-06
+NCalls                    =          100
+p0                        =      1.00029   +/-   0.00533287  
+p1                        =            1   +/-   3.66307e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.985401
+param 0 0.149375
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =        64.77
+NDf                       =           62
+Edm                       =  2.70781e-06
+NCalls                    =          109
+p0                        =     0.187216   +/-   0.00580222  
+p1                        =      1.10203   +/-   0.0094069   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       55.235
+NDf                       =           62
+Edm                       =  6.81813e-07
+NCalls                    =          104
+p0                        =      1.00264   +/-   0.005306    
+p1                        =            1   +/-   2.65424e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.907419
+param 0 0.187216
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      47.1211
+NDf                       =           62
+Edm                       =   0.00077023
+NCalls                    =           81
+p0                        =     0.183788   +/-   0.00287717  
+p1                        =      1.08291   +/-   0.0030997   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      124.289
+NDf                       =           62
+Edm                       =  1.14683e-05
+NCalls                    =          115
+p0                        =      1.23391   +/-   0.00663355  
+p1                        =      1.07048   +/-   0.000277645 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.92344
+param 0 0.183788
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      74.7883
+NDf                       =           62
+Edm                       =  6.48922e-06
+NCalls                    =          126
+p0                        =     0.170336   +/-   0.00241515  
+p1                        =      1.06349   +/-   0.000191086 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      85.4522
+NDf                       =           62
+Edm                       =  8.57041e-09
+NCalls                    =          228
+p0                        =     0.751928   +/-   0.00400374  
+p1                        =     0.913043   +/-   6.89827e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.940299
+param 0 0.170336
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      59.6431
+NDf                       =           62
+Edm                       =  9.51347e-11
+NCalls                    =          120
+p0                        =     0.147228   +/-   0.00586742  
+p1                        =      1.01431   +/-   0.01185     
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      57.5681
+NDf                       =           62
+Edm                       =  8.70257e-06
+NCalls                    =          207
+p0                        =      1.00277   +/-   0.00532263  
+p1                        =            1   +/-   4.60226e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.985895
+param 0 0.147228
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      68.1957
+NDf                       =           62
+Edm                       =   0.00784844
+NCalls                    =          105
+p0                        =     0.185566   +/-   0.00268647  
+p1                        =      1.09215   +/-   0.000941701 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      40.4859
+NDf                       =           62
+Edm                       =  3.90936e-06
+NCalls                    =          118
+p0                        =     0.996002   +/-   0.00535017  
+p1                        =            1   +/-   2.5339e-05  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.915621
+param 0 0.185566
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      72.9661
+NDf                       =           62
+Edm                       =  2.22087e-13
+NCalls                    =           68
+p0                        =     0.170305   +/-   0.00670006  
+p1                        =      1.06243   +/-   0.0117747   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      47.4917
+NDf                       =           62
+Edm                       =  1.81589e-06
+NCalls                    =           54
+p0                        =      1.00834   +/-   0.0150606   
+p1                        =      1.00287   +/-   0.00448108  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.941237
+param 0 0.170305
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      45.1929
+NDf                       =           62
+Edm                       =  5.18316e-06
+NCalls                    =          119
+p0                        =     0.180948   +/-   0.00258298  
+p1                        =      1.08187   +/-   0.000662242 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      94.5278
+NDf                       =           62
+Edm                       =  7.70909e-06
+NCalls                    =          128
+p0                        =     0.783134   +/-   0.00426755  
+p1                        =     0.924811   +/-   0.000353743 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.924324
+param 0 0.180948
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      52.8481
+NDf                       =           62
+Edm                       =  4.07196e-06
+NCalls                    =          113
+p0                        =     0.161258   +/-   0.00226975  
+p1                        =      1.03727   +/-   0.00019038  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =        56.47
+NDf                       =           62
+Edm                       =  1.32094e-05
+NCalls                    =          207
+p0                        =     0.996279   +/-   0.00532128  
+p1                        =            1   +/-   4.14279e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.964072
+param 0 0.161258
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      54.1023
+NDf                       =           62
+Edm                       =  6.83145e-06
+NCalls                    =          119
+p0                        =     0.182153   +/-   0.00257357  
+p1                        =      1.08072   +/-   0.000295282 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      82.6447
+NDf                       =           62
+Edm                       =  1.00157e-06
+NCalls                    =          168
+p0                        =     0.724745   +/-   0.0039624   
+p1                        =     0.902439   +/-   0.000364106 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.925311
+param 0 0.182153
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      77.0703
+NDf                       =           62
+Edm                       =  2.65472e-09
+NCalls                    =          124
+p0                        =      0.16482   +/-   0.00577791  
+p1                        =      1.04793   +/-   0.010363    
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      91.4366
+NDf                       =           62
+Edm                       =  1.03638e-06
+NCalls                    =          228
+p0                        =     0.791007   +/-   0.00449782  
+p1                        =       0.9267   +/-   0.000623953 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.954264
+param 0 0.16482
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       80.455
+NDf                       =           62
+Edm                       =  7.95194e-06
+NCalls                    =          131
+p0                        =     0.152341   +/-   0.00217951  
+p1                        =      1.03077   +/-   0.000380883 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      33.0846
+NDf                       =           62
+Edm                       =  3.02221e-06
+NCalls                    =          108
+p0                        =     0.998246   +/-   0.00533337  
+p1                        =            1   +/-   1.95379e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.970149
+param 0 0.152341
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      76.0939
+NDf                       =           62
+Edm                       =  0.000135846
+NCalls                    =           74
+p0                        =     0.151761   +/-   0.00265038  
+p1                        =      1.02395   +/-   0.00335491  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      39.0186
+NDf                       =           62
+Edm                       =  1.42226e-06
+NCalls                    =           90
+p0                        =     0.994758   +/-   0.00527643  
+p1                        =            1   +/-   1.69341e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.976608
+param 0 0.151761
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      64.4513
+NDf                       =           62
+Edm                       =  2.53931e-10
+NCalls                    =           97
+p0                        =     0.146261   +/-   0.00605314  
+p1                        =       1.0235   +/-   0.0128213   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      51.0839
+NDf                       =           62
+Edm                       =  3.34931e-07
+NCalls                    =          198
+p0                        =     0.999703   +/-   0.00538408  
+p1                        =            1   +/-   0.000312496 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.97704
+param 0 0.146261
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      85.1504
+NDf                       =           62
+Edm                       =  4.13764e-06
+NCalls                    =           73
+p0                        =     0.221969   +/-   0.00600722  
+p1                        =     0.995114   +/-   0.00788432  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      119.047
+NDf                       =           62
+Edm                       =  1.12521e-15
+NCalls                    =          123
+p0                        =     0.672583   +/-   0.00938909  
+p1                        =     0.880725   +/-   0.00384234  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.00491
+param 0 0.221969
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      60.0152
+NDf                       =           62
+Edm                       =  1.29177e-09
+NCalls                    =          109
+p0                        =     0.161551   +/-   0.00568009  
+p1                        =     0.905202   +/-   0.00975669  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       33.157
+NDf                       =           62
+Edm                       =  1.39154e-05
+NCalls                    =          208
+p0                        =     0.997898   +/-   0.00530353  
+p1                        =            1   +/-   4.56077e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.10473
+param 0 0.161551
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      91.7869
+NDf                       =           62
+Edm                       =  1.18645e-06
+NCalls                    =          132
+p0                        =      0.24676   +/-   0.00281134  
+p1                        =      1.03209   +/-   0.000513487 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      81.0903
+NDf                       =           62
+Edm                       =  7.01641e-12
+NCalls                    =          104
+p0                        =     0.868263   +/-   0.0147424   
+p1                        =     0.955417   +/-   0.00501524  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.968912
+param 0 0.24676
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      74.8537
+NDf                       =           62
+Edm                       =   6.2687e-06
+NCalls                    =          101
+p0                        =     0.241883   +/-   0.0028671   
+p1                        =      1.03175   +/-   0.00116965  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      122.645
+NDf                       =           62
+Edm                       =  2.58671e-06
+NCalls                    =          121
+p0                        =     0.702222   +/-   0.00372578  
+p1                        =     0.890711   +/-   9.35376e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.969228
+param 0 0.241883
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       91.977
+NDf                       =           62
+Edm                       =  2.88502e-06
+NCalls                    =          108
+p0                        =     0.271308   +/-   0.00305977  
+p1                        =      1.06704   +/-   0.000166239 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      120.916
+NDf                       =           62
+Edm                       =  2.41106e-15
+NCalls                    =          116
+p0                        =      1.30173   +/-   0.0156777   
+p1                        =      1.08812   +/-   0.00361573  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.937173
+param 0 0.271308
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      86.6084
+NDf                       =           62
+Edm                       =  1.01292e-07
+NCalls                    =          120
+p0                        =     0.243772   +/-   0.00278671  
+p1                        =      1.02758   +/-   0.000611707 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      137.365
+NDf                       =           62
+Edm                       =  5.32336e-06
+NCalls                    =          154
+p0                        =     0.574568   +/-   0.00313115  
+p1                        =     0.834197   +/-   5.98976e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.973156
+param 0 0.243772
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      79.8501
+NDf                       =           62
+Edm                       =  9.64008e-06
+NCalls                    =          122
+p0                        =     0.260262   +/-   0.00294774  
+p1                        =      1.04969   +/-   0.000414417 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      57.5681
+NDf                       =           62
+Edm                       =  6.67549e-06
+NCalls                    =          156
+p0                        =      1.00276   +/-   0.00536191  
+p1                        =            1   +/-   6.45441e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.952663
+param 0 0.260262
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       101.76
+NDf                       =           62
+Edm                       =  9.49225e-06
+NCalls                    =          134
+p0                        =      0.25626   +/-   0.00291923  
+p1                        =      1.05031   +/-   0.000223152 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      40.4859
+NDf                       =           62
+Edm                       =  3.04833e-06
+NCalls                    =          176
+p0                        =     0.996001   +/-   0.00532209  
+p1                        =            1   +/-   2.32003e-05 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.952096
+param 0 0.25626
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      73.4245
+NDf                       =           62
+Edm                       =  7.20186e-06
+NCalls                    =           95
+p0                        =     0.245137   +/-   0.00277264  
+p1                        =      1.03007   +/-   0.000358294 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      115.922
+NDf                       =           62
+Edm                       =  3.41102e-07
+NCalls                    =          152
+p0                        =     0.732841   +/-   0.0115064   
+p1                        =     0.904937   +/-   0.00451007  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.970804
+param 0 0.245137
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      70.3775
+NDf                       =           62
+Edm                       =  9.26935e-05
+NCalls                    =          174
+p0                        =      0.19652   +/-   0.00232698  
+p1                        =     0.962265   +/-   0.00138709  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      115.623
+NDf                       =           62
+Edm                       =  5.70297e-06
+NCalls                    =          111
+p0                        =     0.598564   +/-   0.00330748  
+p1                        =     0.845493   +/-   0.000431592 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.03922
+param 0 0.19652
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      91.1523
+NDf                       =           62
+Edm                       =  6.10637e-06
+NCalls                    =          146
+p0                        =     0.196352   +/-   0.00251812  
+p1                        =     0.958168   +/-   0.00194083  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      82.7621
+NDf                       =           62
+Edm                       =  9.66755e-12
+NCalls                    =           69
+p0                        =      0.83347   +/-   0.0166407   
+p1                        =     0.944356   +/-   0.00592917  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.04366
+param 0 0.196352
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      62.7845
+NDf                       =           62
+Edm                       =  1.37415e-06
+NCalls                    =          125
+p0                        =     0.198314   +/-   0.00226256  
+p1                        =     0.959799   +/-   0.000671507 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      66.4228
+NDf                       =           62
+Edm                       =  4.46592e-06
+NCalls                    =          100
+p0                        =     0.863747   +/-   0.00471177  
+p1                        =     0.955157   +/-   0.000362571 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.04188
+param 0 0.198314
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      82.0718
+NDf                       =           62
+Edm                       =  2.41895e-13
+NCalls                    =          109
+p0                        =     0.248216   +/-   0.00734063  
+p1                        =      1.02995   +/-   0.00874248  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      91.4366
+NDf                       =           62
+Edm                       =  3.85528e-06
+NCalls                    =          191
+p0                        =     0.790997   +/-   0.00506577  
+p1                        =     0.926698   +/-   0.00109872  
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.97092
+param 0 0.248216
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      62.5506
+NDf                       =           62
+Edm                       =  8.82921e-10
+NCalls                    =          131
+p0                        =     0.136064   +/-   0.00695669  
+p1                        =     0.855638   +/-   0.0142824   
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      57.9952
+NDf                       =           62
+Edm                       =  1.91337e-06
+NCalls                    =          132
+p0                        =     0.828536   +/-   0.00474724  
+p1                        =     0.942582   +/-   0.000668582 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 1.16872
+param 0 0.136064
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =        83.12
+NDf                       =           62
+Edm                       =  3.74976e-09
+NCalls                    =          119
+p0                        =     0.227224   +/-   0.00747269  
+p1                        =      1.01322   +/-   0.00998815  
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      114.838
+NDf                       =           62
+Edm                       =  6.81075e-06
+NCalls                    =          130
+p0                        =     0.520871   +/-   0.00286047  
+p1                        =     0.807487   +/-   0.000386018 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.98695
+param 0 0.227224
+Warning in <TFile::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      61.3754
+NDf                       =           62
+Edm                       =  2.35541e-06
+NCalls                    =          128
+p0                        =     0.229048   +/-   0.00260235  
+p1                        =      1.01481   +/-   0.000262536 
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      51.0839
+NDf                       =           62
+Edm                       =    0.0193762
+NCalls                    =          168
+p0                        =     0.999708   +/-   0.00539821  
+p1                        =            1   +/-   0.000338667 
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+==== ratio is 0.985402
+param 0 0.229048
+Error in <TFile::WriteTObject>: Directory l3all_oe.root is not writable
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_work/new_towerslope/codes[00m$ exit
+[?2004lexit
+
+Script done on 2024-11-01 09:59:28-05:00 [COMMAND_EXIT_CODE="0"]

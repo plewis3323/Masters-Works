@@ -1,0 +1,1756 @@
+Script started on 2024-11-10 19:52:57-06:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/new_towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m([0m5e6, "Var_binning_5mill_p1err.root"[0m[38;5;83m[1m)[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[0m.L var_size_binning_tower.C [K
+[0m[0mroot [1] Run1("[D[K10e6, "Var-b[D[K[D[K-bin[D[K[D[K[D[K[D[K_bin_10mill_p1w[D[Kerr.root"0[D[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[0m[38;5;83m[1m([0m10e6, "Var_bin_10mill_p1err.root"[0m[38;5;83m[1m)
+[0min 
+in 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =     0.419545
+NDf                       =            1
+Edm                       =  1.60111e-06
+NCalls                    =           90
+p0                        =     0.269406   +/-   0.00351269  
+p1                        =      1.31835   +/-   0.00636584  
+==== ratio is 0.758525
+param 0 0.269406
+Iteration 0: p_1shift = 1.31835 ± 0.00636584
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      9.60809
+NDf                       =            1
+Edm                       =  2.43986e-08
+NCalls                    =           94
+p0                        =     0.280195   +/-   0.00542551  
+p1                        =       1.3377   +/-   0.00928141  
+==== ratio is 0.747549
+param 0 0.280195
+Iteration 1: p_1shift = 1.3377 ± 0.00928141
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      5.91257
+NDf                       =            1
+Edm                       =  1.42835e-06
+NCalls                    =           96
+p0                        =     0.271113   +/-   0.00311835  
+p1                        =      1.32182   +/-   0.00539575  
+==== ratio is 0.756532
+param 0 0.271113
+Iteration 2: p_1shift = 1.32182 ± 0.00539575
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      4.22209
+NDf                       =            1
+Edm                       =  4.05635e-06
+NCalls                    =          169
+p0                        =     0.270823   +/-   0.0004402   
+p1                        =      1.32121   +/-   0.000316395 
+==== ratio is 0.756881
+param 0 0.270823
+Iteration 3: p_1shift = 1.32121 ± 0.000316395
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      4.18807
+NDf                       =            1
+Edm                       =  1.40965e-06
+NCalls                    =           85
+p0                        =     0.284385   +/-   0.00428276  
+p1                        =       1.3451   +/-   0.00715951  
+==== ratio is 0.743439
+param 0 0.284385
+Iteration 4: p_1shift = 1.3451 ± 0.00715951
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       1.6981
+NDf                       =            1
+Edm                       =  8.51044e-09
+NCalls                    =           90
+p0                        =     0.264459   +/-   0.00429743  
+p1                        =      1.31049   +/-   0.00756456  
+==== ratio is 0.763075
+param 0 0.264459
+Iteration 5: p_1shift = 1.31049 ± 0.00756456
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =    0.0184388
+NDf                       =            1
+Edm                       =  3.71881e-07
+NCalls                    =           91
+p0                        =     0.263516   +/-   0.00450014  
+p1                        =      1.30871   +/-   0.00786138  
+==== ratio is 0.764114
+param 0 0.263516
+Iteration 6: p_1shift = 1.3087 ± 0.00786138
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =     0.281563
+NDf                       =            1
+Edm                       =  1.63784e-08
+NCalls                    =           94
+p0                        =     0.274198   +/-   0.00328449  
+p1                        =      1.32508   +/-   0.00569791  
+==== ratio is 0.75467
+param 0 0.274198
+Iteration 7: p_1shift = 1.32508 ± 0.00569791
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      5.65106
+NDf                       =            1
+Edm                       =  6.12979e-09
+NCalls                    =           88
+p0                        =     0.280224   +/-   0.00369291  
+p1                        =      1.33778   +/-   0.00625846  
+==== ratio is 0.747505
+param 0 0.280224
+Iteration 8: p_1shift = 1.33778 ± 0.00625846
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =     0.545488
+NDf                       =            1
+Edm                       =  6.73079e-07
+NCalls                    =          123
+p0                        =     0.273901   +/-   0.000414126 
+p1                        =      1.32824   +/-   0.000149596 
+==== ratio is 0.752874
+param 0 0.273901
+Iteration 9: p_1shift = 1.32824 ± 0.000149596
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       2.3005
+NDf                       =            1
+Edm                       =  7.35647e-12
+NCalls                    =           90
+p0                        =     0.273466   +/-   0.00348894  
+p1                        =      1.32689   +/-   0.00607478  
+==== ratio is 0.753643
+param 0 0.273466
+Iteration 10: p_1shift = 1.32689 ± 0.00607478
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =    0.0244073
+NDf                       =            1
+Edm                       =  2.37192e-07
+NCalls                    =           91
+p0                        =     0.262891   +/-   0.00429656  
+p1                        =      1.30822   +/-   0.00754229  
+==== ratio is 0.764397
+param 0 0.262891
+Iteration 11: p_1shift = 1.30822 ± 0.00754229
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       2.4443
+NDf                       =            1
+Edm                       =  1.17644e-07
+NCalls                    =           89
+p0                        =     0.276976   +/-   0.00385716  
+p1                        =      1.33193   +/-   0.00681208  
+==== ratio is 0.75079
+param 0 0.276976
+Iteration 12: p_1shift = 1.33193 ± 0.00681208
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =     0.210641
+NDf                       =            1
+Edm                       =  6.64427e-06
+NCalls                    =           82
+p0                        =     0.282967   +/-   0.00450222  
+p1                        =      1.34158   +/-   0.0074514   
+==== ratio is 0.74539
+param 0 0.282967
+Iteration 13: p_1shift = 1.34158 ± 0.0074514
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      2.04287
+NDf                       =            1
+Edm                       =  4.95318e-07
+NCalls                    =           87
+p0                        =     0.281139   +/-   0.00426152  
+p1                        =       1.3394   +/-   0.00714899  
+==== ratio is 0.7466
+param 0 0.281139
+Iteration 14: p_1shift = 1.3394 ± 0.00714899
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1.34443
+NDf                       =            1
+Edm                       =  4.14298e-06
+NCalls                    =           90
+p0                        =     0.276133   +/-   0.00443491  
+p1                        =      1.33067   +/-   0.0077328   
+==== ratio is 0.751502
+param 0 0.276133
+Iteration 15: p_1shift = 1.33067 ± 0.0077328
+Warning in <TROOT::Append>: Replacing existing TH1: htally (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       5838.5
+NDf                       =            1
+Edm                       =        12794
+NCalls                    =           49
+p0                        =     0.434279   +/-   1           
+p1                        =      1.36468   +/-   1           
+==== ratio is 0.732773
+param 0 0.434279
+Iteration 0: p_1shift = 1.36468 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1.36816
+NDf                       =            1
+Edm                       =  3.75153e-06
+NCalls                    =          117
+p0                        =     0.185292   +/-   0.00172961  
+p1                        =     0.976921   +/-   0.00379517  
+==== ratio is 1.02362
+param 0 0.185292
+Iteration 1: p_1shift = 0.976921 ± 0.00379517
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =     0.923227
+NDf                       =            1
+Edm                       =  1.41742e-08
+NCalls                    =          130
+p0                        =     0.184177   +/-   0.0019161   
+p1                        =     0.974517   +/-   0.00426164  
+==== ratio is 1.02615
+param 0 0.184177
+Iteration 2: p_1shift = 0.974517 ± 0.00426164
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1.37521
+NDf                       =            1
+Edm                       =  1.23711e-08
+NCalls                    =          120
+p0                        =     0.188455   +/-   0.00251754  
+p1                        =     0.983956   +/-   0.00536803  
+==== ratio is 1.01631
+param 0 0.188455
+Iteration 3: p_1shift = 0.983956 ± 0.00536803
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       11.705
+NDf                       =            1
+Edm                       =  8.58078e-07
+NCalls                    =          129
+p0                        =     0.184793   +/-   0.00199315  
+p1                        =     0.976253   +/-   0.0044131   
+==== ratio is 1.02432
+param 0 0.184793
+Iteration 4: p_1shift = 0.976253 ± 0.0044131
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =  8.75517e-05
+NDf                       =            1
+Edm                       =  2.41305e-08
+NCalls                    =          128
+p0                        =      0.18606   +/-   0.00200795  
+p1                        =     0.979501   +/-   0.00432004  
+==== ratio is 1.02093
+param 0 0.18606
+Iteration 5: p_1shift = 0.979501 ± 0.00432004
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =    0.0800287
+NDf                       =            1
+Edm                       =   9.0634e-07
+NCalls                    =          125
+p0                        =     0.186585   +/-   0.00191588  
+p1                        =     0.980871   +/-   0.00414864  
+==== ratio is 1.0195
+param 0 0.186585
+Iteration 6: p_1shift = 0.980871 ± 0.00414864
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      6357.86
+NDf                       =            1
+Edm                       =      16314.4
+NCalls                    =           49
+p0                        =     0.438089   +/-   1           
+p1                        =       1.3666   +/-   1           
+==== ratio is 0.731742
+param 0 0.438089
+Iteration 7: p_1shift = 1.3666 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      6259.14
+NDf                       =            1
+Edm                       =      9414.01
+NCalls                    =           49
+p0                        =     0.448488   +/-   1           
+p1                        =      1.37804   +/-   1           
+==== ratio is 0.725668
+param 0 0.448488
+Iteration 8: p_1shift = 1.37804 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      5597.78
+NDf                       =            1
+Edm                       =         4503
+NCalls                    =           55
+p0                        =      0.42243   +/-   1           
+p1                        =      1.35202   +/-   1           
+==== ratio is 0.739632
+param 0 0.42243
+Iteration 9: p_1shift = 1.35202 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      9.12068
+NDf                       =            1
+Edm                       =  5.90909e-06
+NCalls                    =          228
+p0                        =     0.187153   +/-   0.000229421 
+p1                        =     0.981818   +/-   7.43721e-05 
+==== ratio is 1.01852
+param 0 0.187153
+Iteration 10: p_1shift = 0.981818 ± 7.43721e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =   0.00725407
+NDf                       =            1
+Edm                       =  2.26136e-10
+NCalls                    =          126
+p0                        =     0.190843   +/-   0.00159748  
+p1                        =     0.989992   +/-   0.00346724  
+==== ratio is 1.01011
+param 0 0.190843
+Iteration 11: p_1shift = 0.989992 ± 0.00346724
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      4999.97
+NDf                       =            1
+Edm                       =      3250.81
+NCalls                    =           55
+p0                        =     0.392319   +/-   1           
+p1                        =      1.31959   +/-   1           
+==== ratio is 0.757812
+param 0 0.392319
+Iteration 12: p_1shift = 1.31959 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      8.22586
+NDf                       =            1
+Edm                       =  9.50852e-09
+NCalls                    =          122
+p0                        =     0.185941   +/-   0.00166633  
+p1                        =      0.97887   +/-   0.0035474   
+==== ratio is 1.02159
+param 0 0.185941
+Iteration 13: p_1shift = 0.97887 ± 0.0035474
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      0.28404
+NDf                       =            1
+Edm                       =  3.10973e-07
+NCalls                    =          123
+p0                        =     0.186234   +/-   0.00176564  
+p1                        =     0.978906   +/-   0.00378688  
+==== ratio is 1.02155
+param 0 0.186234
+Iteration 14: p_1shift = 0.978906 ± 0.00378688
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =    0.0721197
+NDf                       =            1
+Edm                       =  7.05573e-06
+NCalls                    =          121
+p0                        =      0.18825   +/-   0.00218345  
+p1                        =     0.983276   +/-   0.00468861  
+==== ratio is 1.01701
+param 0 0.18825
+Iteration 15: p_1shift = 0.983276 ± 0.00468861
+Warning in <TROOT::Append>: Replacing existing TH1: htally (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      22862.1
+NDf                       =            1
+Edm                       =  2.82315e+08
+NCalls                    =           45
+p0                        =      0.60968   +/-   0.000211842 
+p1                        =      1.41989   +/-   0.82174     
+==== ratio is 0.704282
+param 0 0.60968
+Iteration 0: p_1shift = 1.41989 ± 0.82174
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       3.1924
+NDf                       =            1
+Edm                       =  2.12377e-08
+NCalls                    =          155
+p0                        =     0.139575   +/-   0.00078176  
+p1                        =     0.773167   +/-   0.0021631   
+==== ratio is 1.29338
+param 0 0.139575
+Iteration 1: p_1shift = 0.773167 ± 0.0021631
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      19881.8
+NDf                       =            1
+Edm                       =      29568.3
+NCalls                    =           49
+p0                        =     0.525186   +/-   1           
+p1                        =      1.34926   +/-   1.00027     
+==== ratio is 0.741147
+param 0 0.525186
+Iteration 2: p_1shift = 1.34926 ± 1.00027
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1.09479
+NDf                       =            1
+Edm                       =  4.09157e-08
+NCalls                    =          134
+p0                        =     0.143382   +/-   0.000844211 
+p1                        =     0.782554   +/-   0.00231321  
+==== ratio is 1.27787
+param 0 0.143382
+Iteration 3: p_1shift = 0.782554 ± 0.00231321
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      17773.9
+NDf                       =            1
+Edm                       =      8723.64
+NCalls                    =           61
+p0                        =     0.456857   +/-   1           
+p1                        =      1.29204   +/-   1           
+==== ratio is 0.773967
+param 0 0.456857
+Iteration 4: p_1shift = 1.29204 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      0.99577
+NDf                       =            1
+Edm                       =  4.44066e-06
+NCalls                    =          154
+p0                        =     0.143461   +/-   0.000886032 
+p1                        =     0.782942   +/-   0.00240973  
+==== ratio is 1.27723
+param 0 0.143461
+Iteration 5: p_1shift = 0.782942 ± 0.00240973
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       1.1928
+NDf                       =            1
+Edm                       =     1.45e-09
+NCalls                    =          141
+p0                        =     0.143305   +/-   0.000852651 
+p1                        =     0.783256   +/-   0.00231207  
+==== ratio is 1.27672
+param 0 0.143305
+Iteration 6: p_1shift = 0.783256 ± 0.00231207
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      20952.7
+NDf                       =            1
+Edm                       =      53753.7
+NCalls                    =           49
+p0                        =     0.539741   +/-   1           
+p1                        =      1.36033   +/-   1           
+==== ratio is 0.735118
+param 0 0.539741
+Iteration 7: p_1shift = 1.36033 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      20196.7
+NDf                       =            1
+Edm                       =      68283.6
+NCalls                    =           49
+p0                        =     0.532653   +/-   1           
+p1                        =      1.35627   +/-   1           
+==== ratio is 0.737315
+param 0 0.532653
+Iteration 8: p_1shift = 1.35627 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      21348.1
+NDf                       =            1
+Edm                       =      60101.2
+NCalls                    =           49
+p0                        =     0.543459   +/-   1           
+p1                        =      1.36562   +/-   1           
+==== ratio is 0.73227
+param 0 0.543459
+Iteration 9: p_1shift = 1.36562 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =     0.145105
+NDf                       =            1
+Edm                       =  1.54544e-08
+NCalls                    =          139
+p0                        =     0.142226   +/-   0.00134112  
+p1                        =     0.779445   +/-   0.00348204  
+==== ratio is 1.28296
+param 0 0.142226
+Iteration 10: p_1shift = 0.779445 ± 0.00348204
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      5.23907
+NDf                       =            1
+Edm                       =  2.69898e-08
+NCalls                    =          125
+p0                        =     0.143601   +/-   0.000853644 
+p1                        =     0.783499   +/-   0.00230453  
+==== ratio is 1.27633
+param 0 0.143601
+Iteration 11: p_1shift = 0.783499 ± 0.00230453
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      20144.9
+NDf                       =            1
+Edm                       =      39680.8
+NCalls                    =           49
+p0                        =      0.51759   +/-   1           
+p1                        =      1.34502   +/-   1           
+==== ratio is 0.743484
+param 0 0.51759
+Iteration 12: p_1shift = 1.34502 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =   0.00649249
+NDf                       =            1
+Edm                       =  3.46996e-08
+NCalls                    =          170
+p0                        =     0.140468   +/-   0.000782951 
+p1                        =     0.775143   +/-   0.00210832  
+==== ratio is 1.29008
+param 0 0.140468
+Iteration 13: p_1shift = 0.775143 ± 0.00210832
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =        19237
+NDf                       =            1
+Edm                       =      35998.9
+NCalls                    =           49
+p0                        =     0.521168   +/-   1           
+p1                        =      1.34626   +/-   1           
+==== ratio is 0.742798
+param 0 0.521168
+Iteration 14: p_1shift = 1.34626 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      10523.2
+NDf                       =            1
+Edm                       =      1624.39
+NCalls                    =           62
+p0                        =     0.354324   +/-   1           
+p1                        =      1.14557   +/-   1           
+==== ratio is 0.872929
+param 0 0.354324
+Iteration 15: p_1shift = 1.14557 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: htally (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      3.61849
+NDf                       =            3
+Edm                       =  1.22825e-06
+NCalls                    =           94
+p0                        =     0.272595   +/-   0.0109564   
+p1                        =      1.32993   +/-   0.0113935   
+==== ratio is 0.751918
+param 0 0.272595
+Iteration 0: p_1shift = 1.32993 ± 0.0113935
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      5.16564
+NDf                       =            3
+Edm                       =  8.53822e-13
+NCalls                    =          126
+p0                        =     0.318997   +/-   0.00751777  
+p1                        =      1.37998   +/-   0.00713912  
+==== ratio is 0.724648
+param 0 0.318997
+Iteration 1: p_1shift = 1.37998 ± 0.00713912
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      19.6709
+NDf                       =            3
+Edm                       =  1.58163e-05
+NCalls                    =          137
+p0                        =     0.211456   +/-   0.00100551  
+p1                        =      1.25223   +/-   6.91831e-05 
+==== ratio is 0.798578
+param 0 0.211456
+Iteration 2: p_1shift = 1.25223 ± 6.91831e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      31.7233
+NDf                       =            3
+Edm                       =   8.7639e-10
+NCalls                    =          106
+p0                        =     0.237682   +/-   0.00787612  
+p1                        =      1.28831   +/-   0.0108803   
+==== ratio is 0.776211
+param 0 0.237682
+Iteration 3: p_1shift = 1.28831 ± 0.0108803
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      30.5432
+NDf                       =            3
+Edm                       =  1.31973e-09
+NCalls                    =           75
+p0                        =      0.20944   +/-   0.00479507  
+p1                        =      1.24564   +/-   0.00743584  
+==== ratio is 0.802802
+param 0 0.20944
+Iteration 4: p_1shift = 1.24564 ± 0.00743584
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =        16.15
+NDf                       =            3
+Edm                       =  1.38866e-05
+NCalls                    =          158
+p0                        =     0.255228   +/-   0.00121068  
+p1                        =      1.31157   +/-   7.37889e-05 
+==== ratio is 0.762444
+param 0 0.255228
+Iteration 5: p_1shift = 1.31157 ± 7.37889e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      39.4166
+NDf                       =            3
+Edm                       =  4.06887e-10
+NCalls                    =          114
+p0                        =      0.18641   +/-   0.00974685  
+p1                        =      1.21591   +/-   0.0171015   
+==== ratio is 0.822426
+param 0 0.18641
+Iteration 6: p_1shift = 1.21591 ± 0.0171015
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      5.40122
+NDf                       =            3
+Edm                       =  3.19693e-06
+NCalls                    =           79
+p0                        =     0.333048   +/-   0.00807479  
+p1                        =      1.40678   +/-   0.00723404  
+==== ratio is 0.710842
+param 0 0.333048
+Iteration 7: p_1shift = 1.40678 ± 0.00723404
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      67.7153
+NDf                       =            3
+Edm                       =  3.32618e-09
+NCalls                    =           64
+p0                        =     0.164173   +/-   0.00538632  
+p1                        =      1.17242   +/-   0.010064    
+==== ratio is 0.852935
+param 0 0.164173
+Iteration 8: p_1shift = 1.17242 ± 0.010064
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1.57834
+NDf                       =            3
+Edm                       =  5.58598e-09
+NCalls                    =          119
+p0                        =      0.30637   +/-   0.00858257  
+p1                        =      1.37325   +/-   0.00945755  
+==== ratio is 0.728197
+param 0 0.30637
+Iteration 9: p_1shift = 1.37325 ± 0.00945755
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      28.7096
+NDf                       =            3
+Edm                       =  7.82368e-08
+NCalls                    =           77
+p0                        =     0.194107   +/-   0.0103855   
+p1                        =      1.22315   +/-   0.015594    
+==== ratio is 0.817562
+param 0 0.194107
+Iteration 10: p_1shift = 1.22315 ± 0.015594
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      6.69167
+NDf                       =            3
+Edm                       =  3.38072e-08
+NCalls                    =          162
+p0                        =     0.260345   +/-   0.00693875  
+p1                        =      1.31428   +/-   0.00870782  
+==== ratio is 0.760875
+param 0 0.260345
+Iteration 11: p_1shift = 1.31428 ± 0.00870782
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       11.308
+NDf                       =            3
+Edm                       =  1.36804e-05
+NCalls                    =          157
+p0                        =     0.215329   +/-   0.00104355  
+p1                        =      1.25223   +/-   0.000379674 
+==== ratio is 0.798577
+param 0 0.215329
+Iteration 12: p_1shift = 1.25223 ± 0.000379674
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      38.8811
+NDf                       =            3
+Edm                       =  1.61959e-07
+NCalls                    =           89
+p0                        =     0.217038   +/-   0.0159363   
+p1                        =      1.25969   +/-   0.0225647   
+==== ratio is 0.793847
+param 0 0.217038
+Iteration 13: p_1shift = 1.25969 ± 0.0225647
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       74.118
+NDf                       =            3
+Edm                       =   0.00133462
+NCalls                    =          139
+p0                        =     0.183525   +/-   0.000854523 
+p1                        =      1.20823   +/-   0.000174909 
+==== ratio is 0.827659
+param 0 0.183525
+Iteration 14: p_1shift = 1.20823 ± 0.000174909
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      40.0416
+NDf                       =            3
+Edm                       =  1.20945e-07
+NCalls                    =          140
+p0                        =     0.223065   +/-   0.0011833   
+p1                        =      1.26992   +/-   0.000710603 
+==== ratio is 0.787451
+param 0 0.223065
+Iteration 15: p_1shift = 1.26992 ± 0.000710603
+Warning in <TROOT::Append>: Replacing existing TH1: htally (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      63.4741
+NDf                       =            3
+Edm                       =      9.35055
+NCalls                    =           80
+p0                        =     0.312847   +/-   1           
+p1                        =       1.1301   +/-   1.00005     
+==== ratio is 0.884878
+param 0 0.312847
+Iteration 0: p_1shift = 1.1301 ± 1.00005
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      145.963
+NDf                       =            3
+Edm                       =  1.98499e-05
+NCalls                    =          169
+p0                        =      0.35783   +/-   0.00113828  
+p1                        =       1.1671   +/-   4.52191e-05 
+==== ratio is 0.856828
+param 0 0.35783
+Iteration 1: p_1shift = 1.1671 ± 4.52191e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      17.6785
+NDf                       =            3
+Edm                       =  1.75971e-08
+NCalls                    =           96
+p0                        =     0.301701   +/-   0.00577463  
+p1                        =      1.11756   +/-   0.00545944  
+==== ratio is 0.894803
+param 0 0.301701
+Iteration 2: p_1shift = 1.11756 ± 0.00545944
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      120.716
+NDf                       =            3
+Edm                       =  0.000117062
+NCalls                    =          109
+p0                        =     0.401995   +/-   0.00134697  
+p1                        =      1.20332   +/-   0.000338102 
+==== ratio is 0.831035
+param 0 0.401995
+Iteration 3: p_1shift = 1.20332 ± 0.000338102
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      144.029
+NDf                       =            3
+Edm                       =  0.000102239
+NCalls                    =          109
+p0                        =     0.381467   +/-   0.00189092  
+p1                        =      1.18568   +/-   0.000103214 
+==== ratio is 0.843397
+param 0 0.381467
+Iteration 4: p_1shift = 1.18568 ± 0.000103214
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      4.21768
+NDf                       =            3
+Edm                       =  6.08614e-10
+NCalls                    =          126
+p0                        =     0.232601   +/-   0.00551338  
+p1                        =      1.04374   +/-   0.00681553  
+==== ratio is 0.958089
+param 0 0.232601
+Iteration 5: p_1shift = 1.04374 ± 0.00681553
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      21.2161
+NDf                       =            3
+Edm                       =  2.89752e-09
+NCalls                    =           92
+p0                        =      0.29269   +/-   0.00866552  
+p1                        =      1.11254   +/-   0.00858348  
+==== ratio is 0.898845
+param 0 0.29269
+Iteration 6: p_1shift = 1.11254 ± 0.00858348
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      352.124
+NDf                       =            3
+Edm                       =  2.56791e-10
+NCalls                    =           81
+p0                        =     0.618203   +/-   0.00847987  
+p1                        =      1.34216   +/-   0.00448049  
+==== ratio is 0.745068
+param 0 0.618203
+Iteration 7: p_1shift = 1.34216 ± 0.00448049
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      140.895
+NDf                       =            3
+Edm                       =  3.49564e-05
+NCalls                    =          110
+p0                        =     0.391306   +/-   0.00130425  
+p1                        =      1.19794   +/-   0.00010067  
+==== ratio is 0.834764
+param 0 0.391306
+Iteration 8: p_1shift = 1.19794 ± 0.00010067
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      118.759
+NDf                       =            3
+Edm                       =  1.38307e-11
+NCalls                    =          103
+p0                        =      0.39432   +/-   0.00659649  
+p1                        =      1.19851   +/-   0.00482127  
+==== ratio is 0.83437
+param 0 0.39432
+Iteration 9: p_1shift = 1.19851 ± 0.00482127
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      217.195
+NDf                       =            3
+Edm                       =  1.27835e-05
+NCalls                    =          133
+p0                        =     0.471895   +/-   0.00151314  
+p1                        =      1.25311   +/-   1.45617e-05 
+==== ratio is 0.798013
+param 0 0.471895
+Iteration 10: p_1shift = 1.25311 ± 1.45617e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      86.2499
+NDf                       =            3
+Edm                       =   0.00280615
+NCalls                    =           67
+p0                        =     0.343155   +/-   0.00110983  
+p1                        =      1.15352   +/-   0.000324224 
+==== ratio is 0.866909
+param 0 0.343155
+Iteration 11: p_1shift = 1.15352 ± 0.000324224
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      329.214
+NDf                       =            3
+Edm                       =  4.69157e-06
+NCalls                    =          159
+p0                        =     0.578766   +/-   0.00184748  
+p1                        =       1.3195   +/-   3.06065e-05 
+==== ratio is 0.757862
+param 0 0.578766
+Iteration 12: p_1shift = 1.3195 ± 3.06065e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      156.355
+NDf                       =            3
+Edm                       =  1.33909e-06
+NCalls                    =           75
+p0                        =     0.412848   +/-   0.0142312   
+p1                        =      1.21315   +/-   0.0109979   
+==== ratio is 0.8243
+param 0 0.412848
+Iteration 13: p_1shift = 1.21315 ± 0.0109979
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      45.3885
+NDf                       =            3
+Edm                       =  6.61273e-06
+NCalls                    =          142
+p0                        =     0.303836   +/-   0.000971112 
+p1                        =      1.12033   +/-   5.52019e-05 
+==== ratio is 0.892591
+param 0 0.303836
+Iteration 14: p_1shift = 1.12033 ± 5.52019e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      217.674
+NDf                       =            3
+Edm                       =  5.49791e-07
+NCalls                    =           84
+p0                        =     0.419262   +/-   0.00813543  
+p1                        =      1.22024   +/-   0.00584467  
+==== ratio is 0.819511
+param 0 0.419262
+Iteration 15: p_1shift = 1.22024 ± 0.00584467
+Warning in <TROOT::Append>: Replacing existing TH1: htally (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1917.51
+NDf                       =            3
+Edm                       =       9878.8
+NCalls                    =           49
+p0                        =     0.704826   +/-   1           
+p1                        =       1.2158   +/-   1.00007     
+==== ratio is 0.822505
+param 0 0.704826
+Iteration 0: p_1shift = 1.2158 ± 1.00007
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1712.52
+NDf                       =            3
+Edm                       =  0.000120449
+NCalls                    =          198
+p0                        =      0.58788   +/-   0.00146354  
+p1                        =      1.15681   +/-   7.12873e-05 
+==== ratio is 0.864444
+param 0 0.58788
+Iteration 1: p_1shift = 1.15681 ± 7.12873e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1843.99
+NDf                       =            3
+Edm                       =      18573.1
+NCalls                    =           48
+p0                        =     0.642287   +/-   1           
+p1                        =      1.18516   +/-   1.00001     
+==== ratio is 0.843768
+param 0 0.642287
+Iteration 2: p_1shift = 1.18516 ± 1.00001
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1509.84
+NDf                       =            3
+Edm                       =  7.76003e-05
+NCalls                    =          149
+p0                        =     0.685993   +/-   0.00167226  
+p1                        =      1.20332   +/-   1.35009e-05 
+==== ratio is 0.831035
+param 0 0.685993
+Iteration 3: p_1shift = 1.20332 ± 1.35009e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1349.22
+NDf                       =            3
+Edm                       =   0.00011733
+NCalls                    =          128
+p0                        =     0.536582   +/-   0.00130881  
+p1                        =      1.13199   +/-   1.88495e-05 
+==== ratio is 0.883399
+param 0 0.536582
+Iteration 4: p_1shift = 1.13199 ± 1.88495e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       5.8595
+NDf                       =            3
+Edm                       =  3.58306e-07
+NCalls                    =          183
+p0                        =     0.158259   +/-   0.00331882  
+p1                        =     0.807683   +/-   0.00469965  
+==== ratio is 1.23811
+param 0 0.158259
+Iteration 5: p_1shift = 0.807683 ± 0.00469965
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      20.9758
+NDf                       =            3
+Edm                       =      8.94746
+NCalls                    =          148
+p0                        =     0.190898   +/-   1.00013     
+p1                        =     0.854188   +/-   1           
+==== ratio is 1.1707
+param 0 0.190898
+Iteration 6: p_1shift = 0.854188 ± 1
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      2291.82
+NDf                       =            3
+Edm                       =      198.735
+NCalls                    =           67
+p0                        =     0.858216   +/-   1           
+p1                        =      1.28384   +/-   1.00021     
+==== ratio is 0.778915
+param 0 0.858216
+Iteration 7: p_1shift = 1.28384 ± 1.00021
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1679.28
+NDf                       =            3
+Edm                       =  0.000129483
+NCalls                    =          180
+p0                        =     0.665948   +/-   0.00162825  
+p1                        =      1.19794   +/-   2.03911e-05 
+==== ratio is 0.834764
+param 0 0.665948
+Iteration 8: p_1shift = 1.19794 ± 2.03911e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1881.74
+NDf                       =            3
+Edm                       =      2944.86
+NCalls                    =           49
+p0                        =     0.731866   +/-   1           
+p1                        =      1.22579   +/-   1.00002     
+==== ratio is 0.815801
+param 0 0.731866
+Iteration 9: p_1shift = 1.22579 ± 1.00002
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1959.33
+NDf                       =            3
+Edm                       =  8.62206e-05
+NCalls                    =          109
+p0                        =     0.803588   +/-   0.00196281  
+p1                        =      1.25311   +/-   1.72435e-05 
+==== ratio is 0.798013
+param 0 0.803588
+Iteration 10: p_1shift = 1.25311 ± 1.72435e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1456.92
+NDf                       =            3
+Edm                       =   0.00353662
+NCalls                    =          116
+p0                        =     0.628664   +/-   0.00156389  
+p1                        =      1.17673   +/-   0.000212084 
+==== ratio is 0.849812
+param 0 0.628664
+Iteration 11: p_1shift = 1.17673 ± 0.000212084
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       2329.5
+NDf                       =            3
+Edm                       =   0.00216379
+NCalls                    =          116
+p0                        =     0.874397   +/-   0.00220475  
+p1                        =       1.2802   +/-   6.08699e-05 
+==== ratio is 0.781128
+param 0 0.874397
+Iteration 12: p_1shift = 1.2802 ± 6.08699e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1792.84
+NDf                       =            3
+Edm                       =  0.000353861
+NCalls                    =          139
+p0                        =     0.702771   +/-   0.00050545  
+p1                        =      1.21253   +/-   3.51559e-05 
+==== ratio is 0.824723
+param 0 0.702771
+Iteration 13: p_1shift = 1.21253 ± 3.51559e-05
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      1579.02
+NDf                       =            3
+Edm                       =      4415.47
+NCalls                    =           48
+p0                        =     0.578875   +/-   1           
+p1                        =      1.15386   +/-   1.00001     
+==== ratio is 0.866653
+param 0 0.578875
+Iteration 14: p_1shift = 1.15386 ± 1.00001
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h1_reb (Potential memory leak).
+in 
+Warning in <TROOT::Append>: Replacing existing TH1: h2_reb (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+****************************************
+         Invalid FitResult  (status = 3 )
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      2021.94
+NDf                       =            3
+Edm                       =  0.000327528
+NCalls                    =          131
+p0                        =     0.709702   +/-   0.0019657   
+p1                        =      1.21851   +/-   4.73864e-05 
+==== ratio is 0.820675
+param 0 0.709702
+Iteration 15: p_1shift = 1.21851 ± 4.73864e-05
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/new_towerslope/codes[00m$ exit
+[?2004lexit
+
+Script done on 2024-11-10 19:57:26-06:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,657 @@
+Script started on 2024-10-18 11:52:20-05:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_work/towerslope/codes[00m$ exitroot
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] hun_mill_low[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[D[D[D[D[D[D[0m.L testslope_ExpDf.C++
+[0mInfo in <TUnixSystem::ACLiC>: creating shared library /home/plewis/Masters_work/towerslope/codes/./testslope_ExpDf_C.so
+[0mroot [1] hun_mill_high[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      67.6367
+NDf                       =           62
+Edm                       =  8.04027e-06
+NCalls                    =           99
+p0                        =     0.190271   +/-   0.000555454 
+p1                        =      1.33305   +/-   0.00147284  
+==== ratio is 0.750158
+param 0 0.190271
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+/home/plewis/Masters_work/towerslopeWarning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      63.9333
+NDf                       =           62
+Edm                       =  5.38103e-08
+NCalls                    =          112
+p0                        =     0.189494   +/-   0.00054512  
+p1                        =      1.33106   +/-   0.00145226  
+==== ratio is 0.751283
+param 0 0.189494
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslopeWarning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      36.1976
+NDf                       =           62
+Edm                       =    3.816e-07
+NCalls                    =          104
+p0                        =     0.190922   +/-   0.000561115 
+p1                        =      1.33465   +/-   0.00148475  
+==== ratio is 0.74926
+param 0 0.190922
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      57.3774
+NDf                       =           62
+Edm                       =  1.18482e-06
+NCalls                    =          109
+p0                        =     0.190565   +/-   0.000556272 
+p1                        =      1.33346   +/-   0.00147001  
+==== ratio is 0.749927
+param 0 0.190565
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      58.2265
+NDf                       =           62
+Edm                       =  1.85617e-08
+NCalls                    =          101
+p0                        =     0.190641   +/-   0.000555465 
+p1                        =      1.33371   +/-   0.00147079  
+==== ratio is 0.749786
+param 0 0.190641
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      72.4406
+NDf                       =           62
+Edm                       =  1.22671e-07
+NCalls                    =          103
+p0                        =     0.190855   +/-   0.000552145 
+p1                        =      1.33457   +/-   0.00145458  
+==== ratio is 0.749306
+param 0 0.190855
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       42.131
+NDf                       =           62
+Edm                       =    2.602e-07
+NCalls                    =          105
+p0                        =     0.190818   +/-   0.000542146 
+p1                        =       1.3342   +/-   0.00143311  
+==== ratio is 0.749511
+param 0 0.190818
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      45.8367
+NDf                       =           62
+Edm                       =  7.82673e-13
+NCalls                    =          132
+p0                        =     0.190773   +/-   0.00056157  
+p1                        =      1.33411   +/-   0.00148539  
+==== ratio is 0.749561
+param 0 0.190773
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      53.6211
+NDf                       =           62
+Edm                       =  2.05696e-06
+NCalls                    =          106
+p0                        =     0.190873   +/-   0.000538998 
+p1                        =      1.33449   +/-   0.00142258  
+==== ratio is 0.749352
+param 0 0.190873
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      56.2942
+NDf                       =           62
+Edm                       =  1.74735e-07
+NCalls                    =          108
+p0                        =     0.189916   +/-   0.000563811 
+p1                        =      1.33194   +/-   0.0015084   
+==== ratio is 0.750784
+param 0 0.189916
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      47.7141
+NDf                       =           62
+Edm                       =  3.22319e-06
+NCalls                    =          112
+p0                        =     0.190364   +/-   0.000544301 
+p1                        =      1.33332   +/-   0.00144247  
+==== ratio is 0.750008
+param 0 0.190364
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      48.9645
+NDf                       =           62
+Edm                       =  3.19792e-06
+NCalls                    =          122
+p0                        =     0.189901   +/-   0.000162091 
+p1                        =      1.33155   +/-   0.000306471 
+==== ratio is 0.751004
+param 0 0.189901
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      62.2653
+NDf                       =           62
+Edm                       =  2.43616e-07
+NCalls                    =          108
+p0                        =     0.190394   +/-   0.000555598 
+p1                        =      1.33351   +/-   0.00147454  
+==== ratio is 0.7499
+param 0 0.190394
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      68.0719
+NDf                       =           62
+Edm                       =  7.07396e-06
+NCalls                    =          106
+p0                        =     0.190868   +/-   0.00054801  
+p1                        =      1.33431   +/-   0.00144507  
+==== ratio is 0.749451
+param 0 0.190868
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      93.2217
+NDf                       =           62
+Edm                       =  1.39775e-08
+NCalls                    =           99
+p0                        =     0.190283   +/-   0.000538526 
+p1                        =      1.33274   +/-   0.00142701  
+==== ratio is 0.750337
+param 0 0.190283
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      79.7818
+NDf                       =           62
+Edm                       =  5.81595e-06
+NCalls                    =           99
+p0                        =     0.190574   +/-   0.000545958 
+p1                        =      1.33324   +/-   0.00144638  
+==== ratio is 0.750052
+param 0 0.190574
+Error in <TROOT::WriteTObject>: The current directory (Rint) is not associated with a file. The object (htally) has not been written.
+Warning in <TROOT::Append>: Replacing existing TH1: htally (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      54.2876
+NDf                       =           62
+Edm                       =  1.32692e-07
+NCalls                    =           89
+p0                        =     0.142981   +/-   0.000338022 
+p1                        =      1.00059   +/-   0.00117006  
+==== ratio is 0.999407
+param 0 0.142981
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      54.8712
+NDf                       =           62
+Edm                       =   3.9006e-08
+NCalls                    =           89
+p0                        =     0.143013   +/-   0.000341777 
+p1                        =      1.00069   +/-   0.0011824   
+==== ratio is 0.999313
+param 0 0.143013
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       50.229
+NDf                       =           62
+Edm                       =  1.69549e-07
+NCalls                    =           92
+p0                        =     0.142341   +/-   0.00034353  
+p1                        =     0.998349   +/-   0.00117196  
+==== ratio is 1.00165
+param 0 0.142341
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      68.0809
+NDf                       =           62
+Edm                       =  3.59491e-08
+NCalls                    =           92
+p0                        =     0.142741   +/-   0.000340664 
+p1                        =     0.999547   +/-   0.00115505  
+==== ratio is 1.00045
+param 0 0.142741
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      74.0814
+NDf                       =           62
+Edm                       =  1.57986e-07
+NCalls                    =           88
+p0                        =     0.142493   +/-   0.000341874 
+p1                        =     0.998772   +/-   0.00116189  
+==== ratio is 1.00123
+param 0 0.142493
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       53.376
+NDf                       =           62
+Edm                       =  8.83478e-09
+NCalls                    =           93
+p0                        =     0.143355   +/-   0.000342135 
+p1                        =      1.00163   +/-   0.00117871  
+==== ratio is 0.998372
+param 0 0.143355
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       46.241
+NDf                       =           62
+Edm                       =  1.97311e-06
+NCalls                    =           92
+p0                        =     0.142624   +/-   0.000342188 
+p1                        =     0.999193   +/-   0.00116271  
+==== ratio is 1.00081
+param 0 0.142624
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       42.941
+NDf                       =           62
+Edm                       =  1.95685e-08
+NCalls                    =           88
+p0                        =     0.142649   +/-   0.000341904 
+p1                        =     0.999507   +/-   0.00115953  
+==== ratio is 1.00049
+param 0 0.142649
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      63.7647
+NDf                       =           62
+Edm                       =  2.65362e-06
+NCalls                    =           87
+p0                        =     0.142739   +/-   0.000337999 
+p1                        =     0.999801   +/-   0.00114447  
+==== ratio is 1.0002
+param 0 0.142739
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      46.4441
+NDf                       =           62
+Edm                       =  9.12193e-09
+NCalls                    =           92
+p0                        =     0.143055   +/-   0.000341107 
+p1                        =      1.00048   +/-   0.00118257  
+==== ratio is 0.999522
+param 0 0.143055
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      47.1712
+NDf                       =           62
+Edm                       =  1.48697e-08
+NCalls                    =           89
+p0                        =     0.142907   +/-   0.000342271 
+p1                        =      1.00034   +/-   0.00118784  
+==== ratio is 0.999662
+param 0 0.142907
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      62.2415
+NDf                       =           62
+Edm                       =  6.23486e-06
+NCalls                    =           93
+p0                        =     0.142956   +/-   0.000340982 
+p1                        =      1.00008   +/-   0.0011834   
+==== ratio is 0.99992
+param 0 0.142956
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       63.601
+NDf                       =           62
+Edm                       =  1.83412e-08
+NCalls                    =           89
+p0                        =     0.143292   +/-   0.000342294 
+p1                        =      1.00154   +/-   0.00118054  
+==== ratio is 0.99846
+param 0 0.143292
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      77.0108
+NDf                       =           62
+Edm                       =  4.01942e-07
+NCalls                    =           91
+p0                        =     0.143028   +/-   0.000347435 
+p1                        =      1.00082   +/-   0.0012032   
+==== ratio is 0.999182
+param 0 0.143028
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      84.8971
+NDf                       =           62
+Edm                       =  6.93286e-10
+NCalls                    =           95
+p0                        =     0.142766   +/-   0.000340379 
+p1                        =     0.999579   +/-   0.00115292  
+==== ratio is 1.00042
+param 0 0.142766
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      78.6643
+NDf                       =           62
+Edm                       =  1.74616e-09
+NCalls                    =           91
+p0                        =      0.14248   +/-   0.000336621 
+p1                        =     0.998605   +/-   0.0011431   
+==== ratio is 1.0014
+param 0 0.14248
+Error in <TROOT::WriteTObject>: The current directory (Rint) is not associated with a file. The object (htally) has not been written.
+Warning in <TROOT::Append>: Replacing existing TH1: htally (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      47.3848
+NDf                       =           62
+Edm                       =  6.64828e-07
+NCalls                    =          124
+p0                        =     0.114504   +/-   8.31543e-05 
+p1                        =     0.801047   +/-   0.000273075 
+==== ratio is 1.24837
+param 0 0.114504
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      51.3798
+NDf                       =           62
+Edm                       =  9.64994e-07
+NCalls                    =           97
+p0                        =     0.114762   +/-   0.000248278 
+p1                        =     0.802163   +/-   0.00103839  
+==== ratio is 1.24663
+param 0 0.114762
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      59.6364
+NDf                       =           62
+Edm                       =  1.41337e-08
+NCalls                    =          127
+p0                        =     0.114089   +/-   0.00024692  
+p1                        =     0.799287   +/-   0.00103917  
+==== ratio is 1.25111
+param 0 0.114089
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      75.0956
+NDf                       =           62
+Edm                       =  1.68658e-08
+NCalls                    =          114
+p0                        =     0.114036   +/-   0.000252238 
+p1                        =     0.799125   +/-   0.00106581  
+==== ratio is 1.25137
+param 0 0.114036
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      73.8618
+NDf                       =           62
+Edm                       =  8.47807e-08
+NCalls                    =          104
+p0                        =     0.114033   +/-   0.000249489 
+p1                        =     0.799007   +/-   0.0010519   
+==== ratio is 1.25155
+param 0 0.114033
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      50.3036
+NDf                       =           62
+Edm                       =  7.72704e-08
+NCalls                    =          111
+p0                        =     0.114032   +/-   0.00024831  
+p1                        =     0.798821   +/-   0.00104536  
+==== ratio is 1.25185
+param 0 0.114032
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      51.6596
+NDf                       =           62
+Edm                       =  6.71601e-09
+NCalls                    =          115
+p0                        =     0.113626   +/-   0.000248308 
+p1                        =     0.797559   +/-   0.00104986  
+==== ratio is 1.25383
+param 0 0.113626
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      69.4169
+NDf                       =           62
+Edm                       =   5.1684e-08
+NCalls                    =          109
+p0                        =     0.114367   +/-   0.00024832  
+p1                        =     0.800444   +/-   0.00104195  
+==== ratio is 1.24931
+param 0 0.114367
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      70.7142
+NDf                       =           62
+Edm                       =  5.66994e-07
+NCalls                    =           98
+p0                        =     0.114199   +/-   0.000249956 
+p1                        =      0.79972   +/-   0.00105098  
+==== ratio is 1.25044
+param 0 0.114199
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      58.1459
+NDf                       =           62
+Edm                       =  4.98779e-06
+NCalls                    =           94
+p0                        =     0.114257   +/-   0.000249248 
+p1                        =     0.799853   +/-   0.00104638  
+==== ratio is 1.25023
+param 0 0.114257
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      48.8779
+NDf                       =           62
+Edm                       =  1.78259e-06
+NCalls                    =          129
+p0                        =     0.114541   +/-   6.36107e-05 
+p1                        =      0.80117   +/-   0.000146749 
+==== ratio is 1.24818
+param 0 0.114541
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      59.6811
+NDf                       =           62
+Edm                       =  2.90152e-07
+NCalls                    =          107
+p0                        =     0.114096   +/-   0.000249611 
+p1                        =     0.799253   +/-   0.00105097  
+==== ratio is 1.25117
+param 0 0.114096
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      69.3731
+NDf                       =           62
+Edm                       =  1.31133e-06
+NCalls                    =          106
+p0                        =     0.114333   +/-   0.00024847  
+p1                        =      0.80033   +/-   0.00104333  
+==== ratio is 1.24948
+param 0 0.114333
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      48.8826
+NDf                       =           62
+Edm                       =  1.15545e-06
+NCalls                    =          113
+p0                        =      0.11435   +/-   0.000249852 
+p1                        =     0.800319   +/-   0.00104788  
+==== ratio is 1.2495
+param 0 0.11435
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      76.3085
+NDf                       =           62
+Edm                       =  1.21045e-06
+NCalls                    =          110
+p0                        =     0.114244   +/-   0.000248904 
+p1                        =     0.799843   +/-   0.0010462   
+==== ratio is 1.25025
+param 0 0.114244
+Warning in <TROOT::Append>: Replacing existing TH1: h1 (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: h2 (Potential memory leak).
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      62.3078
+NDf                       =           62
+Edm                       =  2.01611e-10
+NCalls                    =          115
+p0                        =     0.114269   +/-   0.000249914 
+p1                        =     0.799902   +/-   0.00105136  
+==== ratio is 1.25015
+param 0 0.114269
+Error in <TROOT::WriteTObject>: The current directory (Rint) is not associated with a file. The object (htally) has not been written.
+[0mroot [2] /home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/ho me/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Ma sters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/t owerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/ho me/plewis/Masters_work/towerslope
+[0m[1mROOT_prompt_2:1:1: [0m[0;1;31merror: [0m[1mexpected expression[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m^
+[0m[1mROOT_prompt_2:1:2: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'home'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m ^
+[0m[1mROOT_prompt_2:1:7: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'plewis'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m      ^
+[0m[1mROOT_prompt_2:1:14: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'Masters_work'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m             ^
+[0m[1mROOT_prompt_2:1:27: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'towerslope'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m                          ^
+[0m[1mROOT_prompt_2:1:38: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'home'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m                                     ^
+[0m[1mROOT_prompt_2:1:43: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'plewis'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m                                          ^
+[0m[1mROOT_prompt_2:1:50: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'Masters_work'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m                                                 ^
+[0m[1mROOT_prompt_2:1:63: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'towerslope'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m                                                              ^
+[0m[1mROOT_prompt_2:1:74: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'home'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m                                                                         ^
+[0m[1mROOT_prompt_2:1:79: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'plewis'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m                                                                              ^
+[0m[1mROOT_prompt_2:1:86: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'Masters_work'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m                                                                                     ^
+[0m[1mROOT_prompt_2:1:99: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'towerslope'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m                                                                                                  ^
+[0m[1mROOT_prompt_2:1:110: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'home'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m                                                                                                             ^
+[0m[1mROOT_prompt_2:1:115: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'plewis'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m                                                                                                                  ^
+[0m[1mROOT_prompt_2:1:122: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'Masters_work'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m                                                                                                                         ^
+[0m[1mROOT_prompt_2:1:135: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'towerslope'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m                                                                                                                                      ^
+[0m[1mROOT_prompt_2:1:146: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'home'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m                                                                                                                                                 ^
+[0m[1mROOT_prompt_2:1:151: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'plewis'[0m
+/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope/home/plewis/Masters_work/towerslope
+[0;1;32m                                                                                                                                                      ^
+[0m[0;1;31mfatal error: [0m[1mtoo many errors emitted, stopping now [-ferror-limit=][0m
+[0mroot [3] .q
+[0m[?2004h]0;plewis@MSI: ~/Masters_work/towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_work/towerslope/codes[00m$ exit
+[?2004lexit
+
+Script done on 2024-10-18 12:26:17-05:00 [COMMAND_EXIT_CODE="0"]

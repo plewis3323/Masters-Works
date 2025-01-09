@@ -1,0 +1,68 @@
+Script started on 2024-11-11 16:33:42-06:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="130" LINES="36"]
+[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/new_towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.30/08                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Jul 14 2024, 22:53:16                 |
+  | From tags/v6-30-08@v6-30-08                                      |
+  | With c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0mRun1()[D[D[D[D[D[D.L Var_mean_inp.C 
+[0m[0mroot [1] .L Var_mean_inp.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Linear / Migrad
+Chi2                      =      3.81446
+NDf                       =            1
+p0                        =    0.0435392   +/-   0.0491311   
+p1                        =     0.943861   +/-   0.0647399   
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =    0.0221975
+NDf                       =            1
+p0                        =      0.67942   +/-   0.0956144   
+p1                        =     0.116436   +/-   0.0932288   
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =     0.228588
+NDf                       =            1
+p0                        =     0.292938   +/-   0.0729141   
+p1                        =     0.614465   +/-   0.097088    
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =      1.47795
+NDf                       =            1
+p0                        =     0.751212   +/-   0.0686999   
+p1                        =    0.0527861   +/-   0.0636514   
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =       1.7996
+NDf                       =            1
+p0                        =     0.312315   +/-   0.0700139   
+p1                        =      0.58843   +/-   0.0932149   
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =     0.635393
+NDf                       =            1
+p0                        =     0.616746   +/-   0.0442072   
+p1                        =     0.223107   +/-   0.0505226   
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =      1.75817
+NDf                       =            1
+p0                        =   -0.0441435   +/-   0.00197795  
+p1                        =      1.06513   +/-   0.0021777   
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =     0.435508
+NDf                       =            1
+p0                        =     0.153632   +/-   0.0449763   
+p1                        =      0.76854   +/-   0.0572384   
+Info in <TCanvas::SaveAs>: ROOT file Var_means_input.root has been created
+[0mroot [2] 
+[0m[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Master_w/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Master_w/Masters_work/new_towerslope/codes[00m$ exit
+[?2004lexit
+
+Script done on 2024-11-11 16:35:37-06:00 [COMMAND_EXIT_CODE="0"]
