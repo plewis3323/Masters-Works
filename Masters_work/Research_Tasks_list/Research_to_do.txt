@@ -50,6 +50,7 @@ B. Include important towerslope discussion/results of fall 2024
 A. l3_shapes (Mean, RMS, Staterror_logscale/Reg plot, RMS_staterror) ()
 B. Rhich_shapes (Mean, RMS, Staterror_logscale/Reg plot, RMS_staterror) ()
 C. Exponential_shapes (Mean, RMS, Staterror_logscale/Reg plot, RMS_staterror) ()
+(Do all this low/High/mean p1's)
 
 
 2. l3/exp test-Runs: () 

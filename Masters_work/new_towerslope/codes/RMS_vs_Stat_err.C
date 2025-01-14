@@ -277,15 +277,15 @@ void Run1() {
 
 void Low_Mill_Mean_input() {
     const int n = 3;
-    double stat_err1a[3] = {0.012, 0.016, 0.012};
-    double stat_err5a[3] = {0.011, 0.011, 0.008};
-    double stat_err10a[3] = {0.0086, 0.017, 0.011};
-    double stat_err100a[3] = {0.0078, 0.0075, 0.0034};
+    double stat_err1a[3] = {0.0456, 0.0439, 0.0312};
+    double stat_err5a[3] = {0.0223, 0.01986, 0.0133};
+    double stat_err10a[3] = {0.01464, 0.01542, 0.00951};
+    double stat_err100a[3] = {0.00479, 0.00268, 0.003037};
 
-    double RMS_1a[3] = {0.072, 0.0641, 0.133};
-    double RMS_5a[3] = {0.038, 0.049, 0.047};
-    double RMS_10a[3] = {0.0272, 0.0280, 0.0251};
-    double RMS_100a[3] = {0.0042, 0.0101, 0.0088};
+    double RMS_1a[3] = {0.02451, 0.04408, 0.04332};
+    double RMS_5a[3] = {0.01516, 0.02064, 0.02069};
+    double RMS_10a[3] = {0.01122, 0.009633, 0.007666};
+    double RMS_100a[3] = {0.00264, 0.002397, 0.0042};
 
     TGraph* graphs[4];
     graphs[0] = new TGraph(n, stat_err1a, RMS_1a);
@@ -361,7 +361,7 @@ void Low_Mill_Mean_input() {
 
     legend->Draw();
     canvas->Update();
-    canvas->SaveAs("l3_RMS_vs_P1staterr_LowR_iteration.root");
+    canvas->SaveAs("l3_Rebin_RMS_vs_P1staterr_Lowpt_iteration.root");
     double r = PearsonCorrelation(global_x, global_y, total_points);
     cout << "Pearson Correlation Coefficient (r) for dataset 1: " << r << endl;
     // Calculate and print the population correlation coefficient
@@ -389,16 +389,16 @@ void Run2() {
 
 void H_Mill_Mean_input() {
     const int n = 3;
-    double stat_err1b[3] = {0.0101, 0.0050, 0.0034};
-    double stat_err5b[3] = {0.0041, 0.0044, 0.0026};
-    double stat_err10b[3] = {0.0054, 0.0043, 0.0036};
-    double stat_err100b[3] = {0.0018, 0.0035, 0.0041};
+    double stat_err1b[3] = {0.04654, 0.08129, 0.03861};
+    double stat_err5b[3] = {0.01373, 0.05901, 0.02775};
+    double stat_err10b[3] = {0.006722, 0.04015, 0.03466};
+    double stat_err100b[3] = {0.0001445, 0.01428, 0.006132};
 
 
-    double RMS_1b[3] = {0.197, 0.184, 0.206};
-    double RMS_5b[3] = {0.082, 0.057, 0.054};
-    double RMS_10b[3] = {0.054, 0.0252, 0.060};
-    double RMS_100b[3] = {0.028, 0.018, 0.0233};
+    double RMS_1b[3] = {0.08718, 0.1812, 0.1529};
+    double RMS_5b[3] = {0.02853, 0.06441, 0.07561};
+    double RMS_10b[3] = {0.003154, 0.03499, 0.04906};
+    double RMS_100b[3] = {0.0009493, 0.01597, 0.05799};
 
     TGraph* graphs[4];
     graphs[0] = new TGraph(n, stat_err1b, RMS_1b);
@@ -474,7 +474,7 @@ void H_Mill_Mean_input() {
 
     legend->Draw();
     canvas->Update();
-    canvas->SaveAs("l3_RMS_vs_P1staterr_HighR_iteration.root");
+    canvas->SaveAs("l3_rebin_RMS_vs_P1staterr_HighR_iteration.root");
     double r = PearsonCorrelation(global_x, global_y, total_points);
     cout << "Pearson Correlation Coefficient (r) for dataset 1: " << r << endl;
     // Calculate and print the population correlation coefficient
