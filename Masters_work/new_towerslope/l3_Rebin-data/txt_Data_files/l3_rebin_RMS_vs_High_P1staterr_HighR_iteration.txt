@@ -1,0 +1,30 @@
+Script started on 2025-01-28 20:04:00-06:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="73" LINES="41"]
+[?2004h]0;plewis@MSI: ~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.34.02                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Dec 28 2024, 08:39:22                 |
+  | From tags/v6-34-02@v6-34-02                                      |
+  | With c++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DH_Mill_Mean_input[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[0m.q[K[D[DH_Mill_Mean_input[0m[38;5;83m[1m()[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[0m.L RMS_vs_Stat_err.C 
+[0m[0mroot [1] .L RMS_vs_Stat_err.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DH_Mill_Mean_input[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =  1.17549e-38
+NDf                       =            0
+Edm                       =    5.724e-39
+NCalls                    =           29
+p0                        =     0.892315   +/-   29739.4     
+p1                        =   0.00047465   +/-   15.8193     
+Info in <TCanvas::SaveAs>: ROOT file l3_rebin_RMS_vs_High_P1staterr_HighR_iteration.root has been created
+Pearson Correlation Coefficient (r) for dataset 1: 0.705414
+Population Correlation Coefficient (rho): 0.705414
+Spearman Rank Correlation Coefficient (rho): 0.881119
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[00m$ exit
+[?2004lexit
+
+Script done on 2025-01-28 20:07:35-06:00 [COMMAND_EXIT_CODE="0"]

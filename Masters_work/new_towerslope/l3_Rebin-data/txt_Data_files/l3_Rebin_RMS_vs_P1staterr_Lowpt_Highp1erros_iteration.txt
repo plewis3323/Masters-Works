@@ -1,0 +1,30 @@
+Script started on 2025-01-28 20:30:44-06:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="73" LINES="41"]
+[?2004h]0;plewis@MSI: ~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.34.02                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Dec 28 2024, 08:39:22                 |
+  | From tags/v6-34-02@v6-34-02                                      |
+  | With c++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .L RMS_vs_Stat_err.C 
+[0m[0mroot [1] Low_Mill_Mean_input[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =   9.8627e-05
+NDf                       =            4
+Edm                       =  8.07655e-29
+NCalls                    =           30
+p0                        =       1.0042   +/-   0.410795    
+p1                        =  -0.00159886   +/-   0.0044684   
+Info in <TCanvas::SaveAs>: ROOT file l3_Rebin_RMS_vs_P1staterr_Lowpt_Highp1erros_iteration.root has been created
+Pearson Correlation Coefficient (r) for dataset 1: 0.846952
+Population Correlation Coefficient (rho): 0.846952
+Spearman Rank Correlation Coefficient (rho): 0.874126
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[00m$ exit
+[?2004lexit
+
+Script done on 2025-01-28 20:31:48-06:00 [COMMAND_EXIT_CODE="0"]

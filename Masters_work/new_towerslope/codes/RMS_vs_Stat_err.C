@@ -277,10 +277,10 @@ void Run1() {
 
 void Low_Mill_Mean_input() {
     const int n = 3;
-    double stat_err1a[3] = {0.0456, 0.0439, 0.0312};
-    double stat_err5a[3] = {0.0223, 0.01986, 0.0133};
-    double stat_err10a[3] = {0.01464, 0.01542, 0.00951};
-    double stat_err100a[3] = {0.00479, 0.00268, 0.003037};
+    double stat_err1a[3] = {0.0644101, 0.0762856, 0.0437919};
+    double stat_err5a[3] = {0.023324, 0.0353681, 0.0148592};
+    double stat_err10a[3] = {0.0168207, 0.027008, 0.0101488};
+    double stat_err100a[3] = {0.00487283, 0.00835389, 0.00310641};
 
     double RMS_1a[3] = {0.02451, 0.04408, 0.04332};
     double RMS_5a[3] = {0.01516, 0.02064, 0.02069};
@@ -361,7 +361,7 @@ void Low_Mill_Mean_input() {
 
     legend->Draw();
     canvas->Update();
-    canvas->SaveAs("l3_Rebin_RMS_vs_P1staterr_Lowpt_iteration.root");
+    canvas->SaveAs("l3_Rebin_RMS_vs_P1staterr_Lowpt_Highp1erros_iteration.root");
     double r = PearsonCorrelation(global_x, global_y, total_points);
     cout << "Pearson Correlation Coefficient (r) for dataset 1: " << r << endl;
     // Calculate and print the population correlation coefficient
@@ -389,10 +389,10 @@ void Run2() {
 
 void H_Mill_Mean_input() {
     const int n = 3;
-    double stat_err1b[3] = {0.04654, 0.08129, 0.03861};
-    double stat_err5b[3] = {0.01373, 0.05901, 0.02775};
-    double stat_err10b[3] = {0.006722, 0.04015, 0.03466};
-    double stat_err100b[3] = {0.0001445, 0.01428, 0.006132};
+    double stat_err1b[3] = {0.20129, 0.154158, 0.119315};
+    double stat_err5b[3] = {0.0520258, 0.0837859, 0.099437};
+    double stat_err10b[3] = {0.0348044, 0.0572511, 0.154149};
+    double stat_err100b[3] = {0.000531931, 0.0202416, 0.0523513};
 
 
     double RMS_1b[3] = {0.08718, 0.1812, 0.1529};
@@ -474,7 +474,7 @@ void H_Mill_Mean_input() {
 
     legend->Draw();
     canvas->Update();
-    canvas->SaveAs("l3_rebin_RMS_vs_P1staterr_HighR_iteration.root");
+    canvas->SaveAs("l3_rebin_RMS_vs_High_P1staterr_HighR_iteration.root");
     double r = PearsonCorrelation(global_x, global_y, total_points);
     cout << "Pearson Correlation Coefficient (r) for dataset 1: " << r << endl;
     // Calculate and print the population correlation coefficient
