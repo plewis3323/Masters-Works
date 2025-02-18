@@ -1,0 +1,107 @@
+Script started on 2025-01-31 10:44:12-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;plewis@MSI: ~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[00m$ o[Kroot
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.34.02                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Dec 28 2024, 08:39:22                 |
+  | From tags/v6-34-02@v6-34-02                                      |
+  | With c++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[DRun1[0m[38;5;83m[1m()[D[D[D[D[D[D[0m.L Var_mean_inp.C 
+[0m[0mroot [1] .L Var_mean_inp.C [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[DRun1[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Linear / Migrad
+Chi2                      =      1.86882
+NDf                       =            1
+p0                        =     0.473067   +/-   0.0220919   
+p1                        =     0.499414   +/-   0.0240756   
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =    0.0591698
+NDf                       =            1
+p0                        =     0.453325   +/-   0.078467    
+p1                        =     0.561763   +/-   0.0857977   
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =      39.9552
+NDf                       =            1
+p0                        =     0.483304   +/-   0.0122414   
+p1                        =     0.487692   +/-   0.0126616   
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =     0.508123
+NDf                       =            1
+p0                        =     0.347415   +/-   0.0317219   
+p1                        =     0.690309   +/-   0.0370518   
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =      147.571
+NDf                       =            1
+p0                        =     0.504686   +/-   0.00718799  
+p1                        =     0.468708   +/-   0.00664362  
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =      25.3743
+NDf                       =            1
+p0                        =     0.409046   +/-   0.015248    
+p1                        =      0.61401   +/-   0.0201948   
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =      2469.15
+NDf                       =            1
+p0                        =     0.449479   +/-   0.00225741  
+p1                        =     0.533829   +/-   0.00235676  
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =      36.0605
+NDf                       =            1
+p0                        =     0.475822   +/-   0.0105271   
+p1                        =     0.525544   +/-   0.0140137   
+Info in <TCanvas::SaveAs>: ROOT file l3_rebin_mean_inp.root has been created
+[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.34.02                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Dec 28 2024, 08:39:22                 |
+  | From tags/v6-34-02@v6-34-02                                      |
+  | With c++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q
+[0m[?2004h]0;plewis@MSI: ~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.34.02                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Dec 28 2024, 08:39:22                 |
+  | From tags/v6-34-02@v6-34-02                                      |
+  | With c++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .q[D[K[D[K.L RMS
+[0m[38;5;207mRMS-Mean_inp_data.txt
+RMS_inp.C[K
+RMS_vs_Stat_err.C
+[0m[0mroot [0] .L RMS_inp.C 
+[0m[0mroot [1] Run1[0m[38;5;83m[1m()
+[0m[0mroot [2] .q
+[0m[?2004h]0;plewis@MSI: ~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[00m$ l
+[?2004lAveraging_stat_err.C   RHICH_Rebinning.C      Var_RMS_input.C         l3_shape_code.C    staterr_inp.C
+Expo_Rebinning.C       RMS-Mean_inp_data.txt  Var_mean_inp.C          l3all_oe.root      testslope.C
+L3_Rebin_RMS_inp.root  RMS_inp.C              l3_Rebinning.C          later_testslope.C  var_size_binning_tower.C
+Mean_input.C           RMS_vs_Stat_err.C      l3_rebin_mean_inp.root  new_testslope.C
+Part2_New_testslope.C  [0m[01;34mRoot_txt_misc_files[0m/   l3_reorganize.C         p1_inp.C
+[?2004h]0;plewis@MSI: ~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[00m$ ls
+[?2004lAveraging_stat_err.C   RHICH_Rebinning.C      Var_RMS_input.C         l3_shape_code.C    staterr_inp.C
+Expo_Rebinning.C       RMS-Mean_inp_data.txt  Var_mean_inp.C          l3all_oe.root      testslope.C
+L3_Rebin_RMS_inp.root  RMS_inp.C              l3_Rebinning.C          later_testslope.C  var_size_binning_tower.C
+Mean_input.C           RMS_vs_Stat_err.C      l3_rebin_mean_inp.root  new_testslope.C
+Part2_New_testslope.C  [0m[01;34mRoot_txt_misc_files[0m    l3_reorganize.C         p1_inp.C
+[?2004h]0;plewis@MSI: ~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[00m$ exit
+[?2004lexit
+
+Script done on 2025-01-31 10:49:44-06:00 [COMMAND_EXIT_CODE="0"]

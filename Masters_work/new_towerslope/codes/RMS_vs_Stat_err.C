@@ -277,15 +277,15 @@ void Run1() {
 
 void Low_Mill_Mean_input() {
     const int n = 3;
-    double stat_err1a[3] = {0.0644101, 0.0762856, 0.0437919};
-    double stat_err5a[3] = {0.023324, 0.0353681, 0.0148592};
-    double stat_err10a[3] = {0.0168207, 0.027008, 0.0101488};
-    double stat_err100a[3] = {0.00487283, 0.00835389, 0.00310641};
+    double stat_err1a[3] = {0.0185539, 0.0129874, 0.0140597};
+    double stat_err5a[3] = {0.00833124, 0.00582996, 0.00629351};
+    double stat_err10a[3] = {0.00593409, 0.00411803, 0.00442986};
+    double stat_err100a[3] = {0.00186179, 0.00130147, 0.00139085};
 
-    double RMS_1a[3] = {0.02451, 0.04408, 0.04332};
-    double RMS_5a[3] = {0.01516, 0.02064, 0.02069};
-    double RMS_10a[3] = {0.01122, 0.009633, 0.007666};
-    double RMS_100a[3] = {0.00264, 0.002397, 0.0042};
+    double RMS_1a[3] = {0.06254, 0.02456, 0.01861};
+    double RMS_5a[3] = {0.06338, 0.002664, 0.004476};
+    double RMS_10a[3] = {0.004071, 0.00233, 0.003143};
+    double RMS_100a[3] = {0.003406, 0.0009043, 0.0008208};
 
     TGraph* graphs[4];
     graphs[0] = new TGraph(n, stat_err1a, RMS_1a);
@@ -312,7 +312,7 @@ void Low_Mill_Mean_input() {
     TGraph* globalGraph = new TGraph(total_points, global_x, global_y);
 
     // Create canvas for all graphs
-    TCanvas* canvas = new TCanvas("AllGraphs", "L3_RMS_Staterror_comparison", 1200, 800);
+    TCanvas* canvas = new TCanvas("AllGraphs", "Expo_RMS_Staterror_comparison", 1200, 800);
     TLegend* legend = new TLegend(0.6, 0.7, 0.9, 0.9);
     legend->SetTextSize(0.025);
 
@@ -337,7 +337,7 @@ void Low_Mill_Mean_input() {
             graphs[i]->Draw("AP");
             graphs[i]->GetXaxis()->SetTitle("Statistical Error");
             graphs[i]->GetYaxis()->SetTitle("RMS");
-            graphs[i]->SetTitle("l3 RMS vs. P1 statistical Error (0.5-1.2 GeV)");
+            graphs[i]->SetTitle("Exponential RMS vs. P1 statistical Error (0.5-1.2 GeV)");
             graphs[i]->GetXaxis()->SetLimits(0.0, 1.5);  // Adjust x-axis range
             graphs[i]->SetMinimum(0.0);                 // Adjust y-axis range
             graphs[i]->SetMaximum(1.5);
@@ -361,7 +361,7 @@ void Low_Mill_Mean_input() {
 
     legend->Draw();
     canvas->Update();
-    canvas->SaveAs("l3_Rebin_RMS_vs_P1staterr_Lowpt_Highp1erros_iteration.root");
+    canvas->SaveAs("Expo_Rebin_RMS_vs_P1staterr_Lowpt_High_p1erros_iteration.root");
     double r = PearsonCorrelation(global_x, global_y, total_points);
     cout << "Pearson Correlation Coefficient (r) for dataset 1: " << r << endl;
     // Calculate and print the population correlation coefficient
@@ -387,18 +387,18 @@ void Run2() {
 
 
 
-void H_Mill_Mean_input() {
+void H_Mill_Mean_input() { 
     const int n = 3;
-    double stat_err1b[3] = {0.20129, 0.154158, 0.119315};
-    double stat_err5b[3] = {0.0520258, 0.0837859, 0.099437};
-    double stat_err10b[3] = {0.0348044, 0.0572511, 0.154149};
-    double stat_err100b[3] = {0.000531931, 0.0202416, 0.0523513};
+    double stat_err1b[3] = {0.0202266, 0.0145296, 0.0196403};
+    double stat_err5b[3] = {0.00882501, 0.00606852, 0.00505779};
+    double stat_err10b[3] = {0.00638446, 0.00467541, 0.00368531 };
+    double stat_err100b[3] = {0.00161578, 0.00146265, 0.00114445};
 
 
-    double RMS_1b[3] = {0.08718, 0.1812, 0.1529};
-    double RMS_5b[3] = {0.02853, 0.06441, 0.07561};
-    double RMS_10b[3] = {0.003154, 0.03499, 0.04906};
-    double RMS_100b[3] = {0.0009493, 0.01597, 0.05799};
+    double RMS_1b[3] = {0.01284, 0.01146, 0.02064};
+    double RMS_5b[3] = {0.007139, 0.005375, 0.01163};
+    double RMS_10b[3] = {0.007337, 0.003055, 0.01256};
+    double RMS_100b[3] = {0.004677, 0.001789, 0.007541};
 
     TGraph* graphs[4];
     graphs[0] = new TGraph(n, stat_err1b, RMS_1b);
@@ -425,7 +425,7 @@ void H_Mill_Mean_input() {
     TGraph* globalGraph = new TGraph(total_points, global_x, global_y);
 
     // Create canvas for all graphs
-    TCanvas* canvas = new TCanvas("AllGraphs", "L3_RMS_Staterror_comparison", 1200, 800);
+    TCanvas* canvas = new TCanvas("AllGraphs", "Expo_RMS_Staterror_comparison", 1200, 800);
     TLegend* legend = new TLegend(0.6, 0.7, 0.9, 0.9);
     legend->SetTextSize(0.025);
 
@@ -450,7 +450,7 @@ void H_Mill_Mean_input() {
             graphs[i]->Draw("AP");
             graphs[i]->GetXaxis()->SetTitle("Statistical Error");
             graphs[i]->GetYaxis()->SetTitle("RMS");
-            graphs[i]->SetTitle("l3 RMS vs. P1 statistical Error (1.4-3.0 Gev) ");
+            graphs[i]->SetTitle("Exponential RMS vs. P1 statistical Error (1.4-3.0 Gev) ");
             graphs[i]->GetXaxis()->SetLimits(0.0, 1.5);  // Adjust x-axis range
             graphs[i]->SetMinimum(0.0);                 // Adjust y-axis range
             graphs[i]->SetMaximum(1.5);
@@ -474,7 +474,7 @@ void H_Mill_Mean_input() {
 
     legend->Draw();
     canvas->Update();
-    canvas->SaveAs("l3_rebin_RMS_vs_High_P1staterr_HighR_iteration.root");
+    canvas->SaveAs("Expo_rebin_RMS_vs_High_P1staterr_HighR_iteration.root");
     double r = PearsonCorrelation(global_x, global_y, total_points);
     cout << "Pearson Correlation Coefficient (r) for dataset 1: " << r << endl;
     // Calculate and print the population correlation coefficient

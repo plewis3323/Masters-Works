@@ -21,26 +21,28 @@ void AddLegend(TLegend* legend, TGraphErrors* graph, const char* legendText, Col
 }
 
 void Mill_Mean_input() {                                                                                                                                                                                                                                                            
-    const int n = 3;
-    double Input[3] = {0.75, 1.0, 1.25};
-    double Means1a[3] = {0.7512, 1.005, 1.113};
-    double Means1b[3] = {0.7688, 0.7918, 0.8269};
-    double Means5a[3] = {0.7538, 0.8946, 1.082};
-    double Means5b[3] = {0.7784, 0.8345, 0.8105};
-    double Means10a[3] = {0.7536, 0.9317, 0.9849};
-    double Means10b[3] = {0.7823, 0.8463, 0.8765};
-    double Means100a[3] = {0.7547, 1.021, 1.243};
-    double Means100b[3] = {0.7297, 0.9282, 1.088};
+ const int n = 3; 
+    double Means1a[3] =  {0.8456, 0.9856, 1.091};
+    double Means1b[3] =  {0.8735, 1.025, 1.152};
+    double Means5a[3] =  {0.8416, 0.9987, 1.079};
+    double Means5b[3] =  {0.8661, 1.028, 1.217};
+    double Means10a[3] =  {0.84, 0.9973, 1.083};
+    double Means10b[3] =  {0.8697, 0.987, 1.212};
+    double Means100a[3] =  {0.8373, 1.004, 1.085};
+    double Means100b[3] =  {0.87, 0.9898, 1.209};
 
-    double std_err1a[3] = {0.01199/4.0, 0.07336/4.0, 0.2598/4.0};
-    double std_err1b[3] = {0.1338/4.0, 0.133/4.0, 0.1299/4.0};
-    double std_err5a[3] = {0.006538/4.0, 0.1445/4.0, 0.2616/4.0};
-    double std_err5b[3] = {0.1037/4.0, 0.115/4.0, 0.07619/4.0};
-    double std_err10a[3] = {0.006461/4.0, 0.1311/4.0, 0.2644/4.0};
-    double std_err10b[3] = {0.03888/4.0, 0.05238/4.0, 0.1276/4.0};
-    double std_err100a[3] = {0.001687/4.0, 0.001378/4.0, 0.1336/4.0};
-    double std_err100b[3] = {0.0219/4.0, 0.06546/4.0, 0.1934/4.0};
+    double Input[3]  = {0.75, 1.0, 1.25};
 
+    double std_err1a[3] = {0.02451/4.0, 0.04408/4.0, 0.04332/4.0};
+    double std_err1b[3] = {0.08718/4.0, 0.1812/4.0, 0.1529/4.0};
+    double std_err5a[3] = {0.01516/4.0, 0.02064/4.0, 0.02069/4.0};
+    double std_err5b[3] = {0.02853/4.0, 0.06441/4.0, 0.07561/4.0};
+    double std_err10a[3] = {0.01122/4.0, 0.009633/4.0, 0.007666/4.0};
+    double std_err10b[3] = {0.003154/4.0, 0.03499/4.0, 0.04906/4.0};
+    double std_err100a[3] = {0.00264/4.0, 0.002397/4.0, 0.0042/4.0};
+    double std_err100b[3] = {0.0009493/4.0, 0.01597/4.0, 0.05799/4.0};
+    
+    
     TGraphErrors* graphs[8];
     graphs[0] = new TGraphErrors(n, Input, Means1a, 0, std_err1a);
     graphs[1] = new TGraphErrors(n, Input, Means1b, 0, std_err1b);
@@ -96,7 +98,7 @@ void Mill_Mean_input() {
     // Draw legend and save canvas
     legend->Draw();
     canvas->Update();
-    canvas->SaveAs("Var_means_input.root");
+    canvas->SaveAs("l3_rebin_mean_inp.root");
 }
 
 void Run1() {

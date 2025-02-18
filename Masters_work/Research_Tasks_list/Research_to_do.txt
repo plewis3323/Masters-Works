@@ -71,25 +71,18 @@ B. For errors on x-logscales tally try to find distribution connections, chi-squ
 
 -----------------------------------------------------------------------------------------------------------
 
-                                       1/28 - 2/2: Research tasks
+                                       2/17 - 2/23: Research tasks
                                        
                                        
 ----------------------------------------------------------------------------------------------------------
       
       
 1. Finish Rebinning studies:  ()
-A. l3_shapes (Mean, RMS, Staterror_logscale/Reg plot, RMS_staterror [mean, high, Low]) ()
-B. Rhich_shapes (Mean, RMS, Staterror_logscale/Reg plot, RMS_staterror [mean, high, Low]) () * 
-C. Exponential_shapes (Mean, RMS, Staterror_logscale/Reg plot, RMS_staterror[mean, high, Low] ) () * 
+A. l3_shapes (Mean (x), RMS (x), Staterror_logscale/Reg plot (x), RMS_staterror [mean, high, Low] (x)) (X)
+B. Rhich_shapes (Mean (), RMS (), Staterror_logscale/Reg plot (X), RMS_staterror [mean, high, Low] ()) () * 
+C. Exponential_shapes (Mean (), RMS (), Staterror_logscale/Reg plot (X), RMS_staterror[mean, high, Low] (X)) () * 
 (Do all this low/High/mean p1's)
 
-3. Read all thesis papers (JF, Shyam) () 
-
-4. SPHENIX Design template ()
-
-6. Try PI-O codes and complation sequences {Good PI-O signal, Tuples, Fitting} () 
-
-7. Research presentation update () 
                               
 
 

@@ -67,14 +67,14 @@ void CreateLargeTableCanvas(TGraph* graph1a, TGraph* graph1b, TGraph* graph5a, T
 void Mill_Mean_input(TCanvas* Inputs1) {
     Inputs1->cd(); 
     const int n = 3; 
-    double std1a[3] =  {0.072, 0.064, 0.133};
-    double std1b[3] =  {0.197, 0.184, 0.206};
-    double std5a[3] =  {0.151, 0.195, 0.190};
-    double std5b[3] =  {0.330, 0.229, 0.218};
-    double std10a[3] =  {0.0068 * 4,  0.007 * 4, 0.0063 * 4};
-    double std10b[3] =  {0.0136*4, 0.00631*4, 0.0150*4};
-    double std100a[3] =  {0.00106*4, 0.00252*4, 0.00221*4};
-    double std100b[3] =  {0.0069*4, 0.0044*4, 0.0058*4};
+    double std1a[3] =  {0.02451, 0.04408, 0.04332};
+    double std1b[3] =  {0.08718, 0.1812, 0.1529};
+    double std5a[3] =  {0.01516, 0.02064, 0.02069};
+    double std5b[3] =  {0.02853, 0.06441, 0.07561};
+    double std10a[3] =  {0.01122, 0.009633, 0.007666};
+    double std10b[3] =  {0.003154, 0.03499, 0.04906};
+    double std100a[3] =  {0.00264, 0.002397, 0.0042};
+    double std100b[3] =  {0.0009493, 0.01597, 0.05799};
     double Input[3]  = {0.75, 1.0, 1.25};
 
 
@@ -153,7 +153,7 @@ void Mill_Mean_input(TCanvas* Inputs1) {
     Inputs1->Update();
 
     // Open a new root file to store canvases and tables
-    TFile *Mean_inp = new TFile("Spectral_events_RMS_inp.root", "RECREATE");
+    TFile *Mean_inp = new TFile("L3_Rebin_RMS_inp.root", "RECREATE");
 
     // Write the main canvas (graphs)
     Inputs1->Write();

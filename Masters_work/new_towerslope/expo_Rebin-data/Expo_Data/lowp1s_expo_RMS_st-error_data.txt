@@ -1,0 +1,284 @@
+Script started on 2025-02-17 16:29:23-06:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="152" LINES="39"]
+[?2004h]0;plewis@MSI: ~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[00m$ root
+[?2004l   ------------------------------------------------------------------
+  | Welcome to ROOT 6.34.02                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Dec 28 2024, 08:39:22                 |
+  | From tags/v6-34-02@v6-34-02                                      |
+  | With c++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0                   |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+[0mroot [0] .L RMS_vs_Stat_err.C 
+[0m[0mroot [1] Lo
+[0m[38;5;207mLoadStoreFlags
+LoadStoreImplementation
+LoadTag[K
+LocalChangeMsgLevel
+LocalCoordinateSystemTag
+LogImpl[K
+LogInterval
+LogLikelihoodFCN
+LogLikelihoodFunction
+LogLikelihoodGradFunction
+LogarithmBase
+Logger[K
+LogicalShapeMapCIt_t
+LogicalShapeMapIt_t
+LogicalShapeMapValueType_t
+LogicalShapeMap_t
+Long64_t[K
+LongDouble_t
+Long_t[K
+Longptr_t[K
+LoopScope[K
+LorentzRotation
+LorentzVector
+LossFunction
+LossFunctionBDT
+LossFunctionEventInfo
+Low_Mill_Mean_input
+[0m[0mroot [1] Low_m[D[KMill_Mean_input[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =   0.00281881
+NDf                       =           10
+Edm                       =   3.2183e-29
+NCalls                    =           32
+p0                        =      5.47518   +/-   1.6526      
+p1                        =   -0.0137737   +/-   0.0101861   
+Info in <TCanvas::SaveAs>: ROOT file Expo_Rebin_RMS_vs_P1staterr_Lowpt_Low_p1erros_iteration.root has been created
+Pearson Correlation Coefficient (r) for dataset 1: 0.723377
+Population Correlation Coefficient (rho): 0.723377
+Spearman Rank Correlation Coefficient (rho): 0.846154
+[0mroot [2] H
+[0m[38;5;207mH[K
+HDURecord[K
+HLFactory[K
+HT[K
+H_Mill_Mean_input
+Handle_t[K
+Handler[K
+HasBeginAndEnd
+HasCollectionProxyMemberType
+Hash[K
+HashValue[K
+Heaviside[K
+HelperDescriptor_t
+HelperT[K
+Helper_t[K
+HessianGradientCalculator
+HijackMessageStream
+Hist[K
+HistBinStat_t
+HistFactory
+HistFactoryNavigation
+HistImplBase_t
+HistImpl_t
+HistImplt_t
+HistRef[K
+HistType[K
+HistViewOutOfRange_t
+Hist_t[K
+Histo1D[K
+Histo2D[K
+Histo3D[K
+HistoFactor
+HistoND[K
+HistoSys[K
+HistoToWorkspaceFactoryFast
+HistoUtils
+HistogramUncertaintyBase
+Hoption_t[K
+HostBuffer_t
+Hparam_t[K
+Html_16_t[K
+Html_32_t[K
+Html_A[K
+Html_ADDRESS
+Html_APPLET
+Html_AREA[K
+Html_B[K
+Html_BASE[K
+Html_BASEFONT
+Html_BGSOUND
+Html_BIG[K
+Html_BLOCKQUOTE
+Html_BODY[K
+Html_BR[K
+Html_Block
+Html_CAPTION
+Html_CENTER
+Html_CITE[K
+Html_CODE[K
+Html_COMMENT
+Html_DD[K
+Html_DFN[K
+Html_DIR[K
+Html_DIV[K
+Html_DL[K
+Html_DT[K
+Html_EM[K
+Html_EMBED
+Html_EndA[K
+Html_EndADDRESS
+Html_EndAPPLET
+Html_EndB[K
+Html_EndBASEFONT
+Html_EndBIG
+Html_EndBLOCKQUOTE
+Html_EndBODY
+Html_EndCAPTION
+Html_EndCENTER
+Html_EndCITE
+Html_EndCODE
+Html_EndCOMMENT
+Html_EndDD
+Html_EndDFN
+Html_EndDIR
+Html_EndDIV
+Html_EndDL
+Html_EndDT
+Html_EndEM
+Html_EndFONT
+Html_EndFORM
+Html_EndFRAME
+Html_EndFRAMESET
+Html_EndH1
+Html_EndH2
+Html_EndH3
+Html_EndH4
+Html_EndH5
+Html_EndH6
+Html_EndHTML
+Html_EndI[K
+Html_EndKBD
+Html_EndLI
+Html_EndLISTING
+Html_EndMAP
+Html_EndMARQUEE
+Html_EndMENU
+Html_EndNOBR
+Html_EndNOEMBED
+Html_EndNOFRAMES
+Html_EndNOSCRIPT
+Html_EndOL
+Html_EndOPTION
+Html_EndP[K
+Html_EndPARAM
+Html_EndPRE
+Html_EndS[K
+Html_EndSAMP
+Html_EndSELECT
+Html_EndSMALL
+Html_EndSTRIKE
+Html_EndSTRONG
+Html_EndSUB
+Html_EndSUP
+Html_EndTABLE
+Html_EndTD
+Html_EndTEXTAREA
+Html_EndTH
+Html_EndTITLE
+Html_EndTR
+Html_EndTT
+Html_EndU[K
+Html_EndUL
+Html_EndVAR
+Html_EndXMP
+Html_FONT[K
+Html_FORM[K
+Html_FRAME
+Html_FRAMESET
+Html_H1[K
+Html_H2[K
+Html_H3[K
+Html_H4[K
+Html_H5[K
+Html_H6[K
+Html_HR[K
+Html_HTML[K
+Html_I[K
+Html_IFRAME
+Html_IMG[K
+Html_INPUT
+Html_ISINDEX
+Html_KBD[K
+Html_LI[K
+Html_LINK[K
+Html_LISTING
+Html_MAP[K
+Html_MARQUEE
+Html_MENU[K
+Html_META[K
+Html_NEXTID
+Html_NOBR[K
+Html_NOEMBED
+Html_NOFRAMES
+Html_NOSCRIPT
+Html_OL[K
+Html_OPTION
+Html_P[K
+Html_PARAM
+Html_PLAINTEXT
+Html_PRE[K
+Html_S[K
+Html_SAMP[K
+Html_SCRIPT
+Html_SELECT
+Html_SMALL
+Html_STRIKE
+Html_STRONG
+Html_STYLE
+Html_SUB[K
+Html_SUP[K
+Html_Space
+Html_TABLE
+Html_TD[K
+Html_TEXTAREA
+Html_TH[K
+Html_TITLE
+Html_TR[K
+Html_TT[K
+Html_Text[K
+Html_U[K
+Html_UL[K
+Html_Unknown
+Html_VAR[K
+Html_WBR[K
+Html_XMP[K
+Html__TypeCount
+Html_u16_t
+Html_u8_t[K
+HuberLossFunction
+HuberLossFunctionBDT
+HybridCalculator
+HybridPlot
+HybridResult
+HyperParameterOptimisation
+HyperParameterOptimisationResult
+HypoTestCalculator
+HypoTestCalculatorGeneric
+HypoTestInverter
+HypoTestInverterPlot
+HypoTestInverterResult
+HypoTestPlot
+HypoTestResult
+[0m[0mroot [2] H_Mill_Mean_input[0m[38;5;83m[1m()
+[0m****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =  0.000203222
+NDf                       =           10
+Edm                       =  6.91292e-08
+NCalls                    =           25
+p0                        =     0.972038   +/-   0.427678    
+p1                        =   0.00491966   +/-   0.00215117  
+Info in <TCanvas::SaveAs>: ROOT file Expo_rebin_RMS_vs_Low_P1staterr_HighR_iteration.root has been created
+Pearson Correlation Coefficient (r) for dataset 1: 0.574212
+Population Correlation Coefficient (rho): 0.574212
+Spearman Rank Correlation Coefficient (rho): 0.321678
+[0mroot [3] .q
+[0m[?2004h]0;plewis@MSI: ~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[01;32mplewis@MSI[00m:[01;34m~/Masters_Folder/Masters-Works/Masters_work/new_towerslope/codes[00m$ exit
+[?2004lexit
+
+Script done on 2025-02-17 16:31:07-06:00 [COMMAND_EXIT_CODE="0"]

@@ -116,25 +116,25 @@ void DrawGraphOnCanvas(TGraphErrors* graph, const char* canvasName, const char* 
 
 void Mill_Mean_input() {
     const int n = 3; 
-    double Means1a[3] =  {0.817, 1.003, 1.174};
-    double Means1b[3] =  {0.7924, 0.8013, 0.8407};
-    double Means5a[3] =  {0.7667, 0.9875, 1.24};
-    double Means5b[3] =  {0.859, 0.928, 0.984};
-    double Means10a[3] =  {0.7643, 0.9942, 1.236};
-    double Means10b[3] =  {0.8883, 0.9477, 1.004};
-    double Means100a[3] =  {0.7517, 1.004, 1.252};
-    double Means100b[3] =  {0.7798, 0.9851, 1.233};
+    double Means1a[3] =  {0.8456, 0.9856, 1.091};
+    double Means1b[3] =  {0.8735, 1.025, 1.152};
+    double Means5a[3] =  {0.8416, 0.9987, 1.079};
+    double Means5b[3] =  {0.8661, 1.028, 1.217};
+    double Means10a[3] =  {0.84, 0.9973, 1.083};
+    double Means10b[3] =  {0.8697, 0.987, 1.212};
+    double Means100a[3] =  {0.8373, 1.004, 1.085};
+    double Means100b[3] =  {0.87, 0.9898, 1.209};
 
     double Input[3]  = {0.75, 1.0, 1.25};
 
-    double std_err1a[3] = {0.018, 0.016, 0.033};
-    double std_err1b[3] = {0.049, 0.046, 0.051};
-    double std_err5a[3] = {0.0095, 0.012, 0.012};
-    double std_err5b[3] = {0.021, 0.014, 0.014};
-    double std_err10a[3] = {0.0068, 0.0070, 0.0063};
-    double std_err10b[3] = {0.014, 0.0063, 0.015};
-    double std_err100a[3] = {0.0011, 0.0025, 0.0022};
-    double std_err100b[3] = {0.0069, 0.0044, 0.0058};
+    double std_err1a[3] = {0.02451/4.0, 0.04408/4.0, 0.04332/4.0};
+    double std_err1b[3] = {0.08718/4.0, 0.1812/4.0, 0.1529/4.0};
+    double std_err5a[3] = {0.01516/4.0, 0.02064/4.0, 0.02069/4.0};
+    double std_err5b[3] = {0.02853/4.0, 0.06441/4.0, 0.07561/4.0};
+    double std_err10a[3] = {0.01122/4.0, 0.009633/4.0, 0.007666/4.0};
+    double std_err10b[3] = {0.003154/4.0, 0.03499/4.0, 0.04906/4.0};
+    double std_err100a[3] = {0.00264/4.0, 0.002397/4.0, 0.0042/4.0};
+    double std_err100b[3] = {0.0009493/4.0, 0.01597/4.0, 0.05799/4.0};
 
     // Create TGraphErrors
     TGraphErrors* graph1a = new TGraphErrors(n, Input, Means1a, 0, std_err1a);
@@ -180,7 +180,7 @@ void Mill_Mean_input() {
     graph100b->SetMarkerColor(kBlue+2);
 
     // Open a new root file to store canvases and tables
-    TFile *Mean_inp = new TFile("Spectral_events_mean_inp.root", "RECREATE");
+    TFile *Mean_inp = new TFile("l3_rebin_mean_inp.root", "RECREATE");
 
     // Draw each graph on its own canvas, add legend, and write to the ROOT file along with the corresponding table
     DrawGraphOnCanvas(graph1a, "c1_1M_0_5_1_2_GeV", "1 Million Events (0.5-1.2 GeV)", "Input", "Mean", "1 million events: 0.5-1.2 GeV", Mean_inp);
